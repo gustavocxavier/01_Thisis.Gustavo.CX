@@ -86,14 +86,22 @@
   {
     "objectID": "testmonials.html",
     "href": "testmonials.html",
+<<<<<<< HEAD
     "title": "Gustavo C. X. | Data Science & Analytics",
+=======
+    "title": "gustavo.cx",
+>>>>>>> origin
     "section": "",
     "text": "Description 1\n\n\n\nImage 1\n\n\n\n\n\nImage 2\n\n\n\nGustavo has excellent methodology and is great at debugging. I have a very complicated R Shiny app with multiple parts, models and scripts and he was able to help me to debug the source. He really knows how to explain to make sure I’m not just to fix the issue but that I understand what was the issue and how to solve it.\nPilar Rius - Data Analyst at EUFMD/FAO/UN"
   },
   {
     "objectID": "testmonials.html#quarto-blog---data-visualizations---animation-and-interactivity",
     "href": "testmonials.html#quarto-blog---data-visualizations---animation-and-interactivity",
+<<<<<<< HEAD
     "title": "Gustavo C. X. | Data Science & Analytics",
+=======
+    "title": "gustavo.cx",
+>>>>>>> origin
     "section": "",
     "text": "Description 1\n\n\n\nImage 1\n\n\n\n\n\nImage 2\n\n\n\nGustavo has excellent methodology and is great at debugging. I have a very complicated R Shiny app with multiple parts, models and scripts and he was able to help me to debug the source. He really knows how to explain to make sure I’m not just to fix the issue but that I understand what was the issue and how to solve it.\nPilar Rius - Data Analyst at EUFMD/FAO/UN"
   },

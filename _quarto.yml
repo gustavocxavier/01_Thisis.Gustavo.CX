@@ -26,8 +26,13 @@ website:
 format:
   html:
     theme:
+<<<<<<< HEAD
       dark: darkly
       light: flatly
+=======
+      light: flatly
+      dark: darkly
+>>>>>>> origin
       # dark: [cosmo, styles_dark.scss]
 editor: source
 
