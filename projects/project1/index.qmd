@@ -1,0 +1,26 @@
+---
+title: "Project1"
+date: "2023-06-12"
+categories: [news]
+---
+
+This is the first post in a Quarto blog. Welcome!
+
+![](thumbnail.jpg)
+
+Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+
+```{r}
+#| eval: false
+#| include: false
+
+# low-code
+# 
+# 
+# copilot
+# chat gpt fork
+# 
+# Fundamentos de Programação na Área de Dados
+# SQL - R - Python - JS
+```
+

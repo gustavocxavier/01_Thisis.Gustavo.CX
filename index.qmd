@@ -1,0 +1,67 @@
+---
+title: "Data Science & Analytics"
+image: images/gustavocx.png
+about:
+  template: jolla
+  # image-width: 15em
+  image-shape: round
+  links:
+    - icon: twitter
+      text: Twitter
+      href: https://twitter.com/gustavocxavier
+    - icon: linkedin
+      text: LinkedIn
+      href: www.linkedin.com/in/gustavocxavier
+    - icon: github
+      text: Github
+      href: https://github.com/gustavocxavier/
+    - icon: envelope
+      text: Contact me
+      href: mailto:gustavocx@outlook.com
+---
+
+```{r}
+#| include: false
+#| eval: false
+
+# TODO: ABOUT CONTENT
+# TODO: DATA PROJECTS CONTENT
+# TODO: BLOG POST CONTENT
+
+
+# Structure
+## Hello, my name is Gustavo.
+## Who am I? (about)
+## What I do? (expertise) (put services here)
+## What I'm learning? (learnwith.gustavo.cx) (put a blog here)
+### Data Blog
+### AI Prompts
+## Why me? 
+### Unique Strengths
+### Selected Projects
+### Testimonials
+
+## Let's connect
+### Give me a shot
+### Get in touch
+### 
+
+## MAKE IT SIMPLE, BUT SIGNIFICANT
+
+# https://deepshamenghani.quarto.pub/portfolio-with-quarto-workshop/#/add-media-links
+# https://www.youtube.com/watch?v=xtSFXtDf4cM&ab_channel=PositPBC
+
+## Benchmarks
+### https://www.marcosrezende.com/
+### https://www.claudiatenhoope.com/dashboard-en/
+### https://careerfoundry.com/en/blog/data-analytics/data-analytics-portfolio-examples/
+
+
+
+```
+
+Welcome to my data world!
+
+<!-- 
+I’m passionate about the purpose of helping others by sharing knowledge. I like the idea of challenging myself to find data-driven solutions, either it's a practical problem in a real business or an academic problem.
+-->
