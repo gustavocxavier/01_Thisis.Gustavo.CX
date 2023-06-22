@@ -8,14 +8,14 @@ website:
     right:
       - href: index.qmd
         text: Home
-      # - href: blog.qmd
-      #  text: Blog
-      - href: projects.qmd
-        text: Data Projects
-      - href: research.qmd
-        text: ML Research
-      - href: aiprompts.qmd
-        text: AI Prompts
+      - href: blog.qmd
+        text: Blog
+      - href: cases.qmd
+        text: Data Portfolio
+      # - href: research.qmd
+      #   text: ML Research
+      # - href: aiprompts.qmd
+      #   text: AI Prompts
       # - href: testmonials.qmd
       #   text: Testmonials
       - about.qmd
