@@ -9,6 +9,7 @@
   {
     "listing": "/cases.html",
     "items": [
+      "/cases/data-analysis/index.html",
       "/cases/data-science/index.html",
       "/cases/dashboard/index.html"
     ]

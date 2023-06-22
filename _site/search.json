@@ -18,7 +18,7 @@
     "href": "cases.html",
     "title": "Selected Projects",
     "section": "",
-    "text": "Project2\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nGustavo Xavier\n\n\nJun 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nProject1\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\nJun 12, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "DATA SCIENCE\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nGustavo Xavier\n\n\nJun 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProject2\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nGustavo Xavier\n\n\nJun 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nProject1\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\nJun 12, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -54,5 +54,103 @@
     "title": "Project2",
     "section": "",
     "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "aiprompts.html",
+    "href": "aiprompts.html",
+    "title": "Gustavo C. X. | Data Science & Analytics",
+    "section": "",
+    "text": "Description 1\n\n\n\nImage 1"
+  },
+  {
+    "objectID": "aiprompts.html#quarto-blog---data-visualizations---animation-and-interactivity",
+    "href": "aiprompts.html#quarto-blog---data-visualizations---animation-and-interactivity",
+    "title": "Gustavo C. X. | Data Science & Analytics",
+    "section": "",
+    "text": "Description 1\n\n\n\nImage 1"
+  },
+  {
+    "objectID": "aiprompts.html#shiny-flex-dashboard---sales-forecasting-and-anomaly-detection",
+    "href": "aiprompts.html#shiny-flex-dashboard---sales-forecasting-and-anomaly-detection",
+    "title": "Gustavo C. X. | Data Science & Analytics",
+    "section": "Shiny Flex Dashboard - Sales forecasting and anomaly detection",
+    "text": "Shiny Flex Dashboard - Sales forecasting and anomaly detection\n\n\nImage 2\n\n\n\nDescription 2"
+  },
+  {
+    "objectID": "blog/welcome/index.html",
+    "href": "blog/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "cases/dashboard/index.html",
+    "href": "cases/dashboard/index.html",
+    "title": "Project1",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "cases/data-analysis/index.html",
+    "href": "cases/data-analysis/index.html",
+    "title": "DATA SCIENCE",
+    "section": "",
+    "text": "Data science distinguishes itself from data analysis because it tells you what to do and what the result will be. Where data analysis gives you information about the current situation, data analytics makes predictions and tells you what the result would be by taking a certain action. In other words: data sciency focuses on the past and current situation, data analytics focuses on the future.\nThe case below is an example how to predict churn for recurring customers within an electricity company.\n:::: columns\n::: {.column width=“10%”}\n::: {.column width=“20%”}\nPROJECT DURATION\nProject duration varies between 3 weeks – 2 months. The project starts by getting an understanding of the situation and gathering the right data. After collecting the right data, I start analyzing the data and share the results. Finally, I will make the algorithm or model which you can implement in your business."
+  },
+  {
+    "objectID": "cases/data-analysis/index.html#case-which-customers-are-likely-to-churn",
+    "href": "cases/data-analysis/index.html#case-which-customers-are-likely-to-churn",
+    "title": "DATA SCIENCE",
+    "section": "CASE – WHICH CUSTOMERS ARE LIKELY TO CHURN?",
+    "text": "CASE – WHICH CUSTOMERS ARE LIKELY TO CHURN?\nThe ability to predict when a customer is at a high risk of churning is valuable for every business with returning customers. Churn is defined as the number of customers cancelling within a time period divided by the number of active customers at the start of that period. In order to apply a modeling technique to predict churn, we need to understand the customer behavior and characteristics which signal the risk of customers churn.\nIn this example, I will look into an electricity company. An electricity company is a good example because customers ‘return’ every month."
+  },
+  {
+    "objectID": "cases/data-analysis/index.html#what-characteristics-are-specific-to-churned-customers",
+    "href": "cases/data-analysis/index.html#what-characteristics-are-specific-to-churned-customers",
+    "title": "DATA SCIENCE",
+    "section": "WHAT CHARACTERISTICS ARE SPECIFIC TO CHURNED CUSTOMERS?",
+    "text": "WHAT CHARACTERISTICS ARE SPECIFIC TO CHURNED CUSTOMERS?\nFirst step of the churn analysis is to select the characteristics of customers which could predict churn. Characteristics can be categorized, for example:\nCustomer characteristics\nAge of a person Number of people in household Behavioral characteristics\nAverage amount of electricity spend per month Time since sign up Usually, you have as many characteristics as possible (for example 50) of which you can select the ones with highest prediction power.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "cases/data-science/index.html",
+    "href": "cases/data-science/index.html",
+    "title": "Project2",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Gustavo C. X. | Data Science & Analytics",
+    "section": "",
+    "text": "Description 1\n\n\n\nImage 1"
+  },
+  {
+    "objectID": "research.html#quarto-blog---data-visualizations---animation-and-interactivity",
+    "href": "research.html#quarto-blog---data-visualizations---animation-and-interactivity",
+    "title": "Gustavo C. X. | Data Science & Analytics",
+    "section": "",
+    "text": "Description 1\n\n\n\nImage 1"
+  },
+  {
+    "objectID": "research.html#shiny-flex-dashboard---sales-forecasting-and-anomaly-detection",
+    "href": "research.html#shiny-flex-dashboard---sales-forecasting-and-anomaly-detection",
+    "title": "Gustavo C. X. | Data Science & Analytics",
+    "section": "Shiny Flex Dashboard - Sales forecasting and anomaly detection",
+    "text": "Shiny Flex Dashboard - Sales forecasting and anomaly detection\n\n\nImage 2\n\n\n\nDescription 2"
+  },
+  {
+    "objectID": "testmonials.html",
+    "href": "testmonials.html",
+    "title": "Gustavo C. X. | Data Science & Analytics",
+    "section": "",
+    "text": "Description 1\n\n\n\nImage 1\n\n\n\n\n\nImage 2\n\n\n\nGustavo has excellent methodology and is great at debugging. I have a very complicated R Shiny app with multiple parts, models and scripts and he was able to help me to debug the source. He really knows how to explain to make sure I’m not just to fix the issue but that I understand what was the issue and how to solve it.\nPilar Rius - Data Analyst at EUFMD/FAO/UN"
+  },
+  {
+    "objectID": "testmonials.html#quarto-blog---data-visualizations---animation-and-interactivity",
+    "href": "testmonials.html#quarto-blog---data-visualizations---animation-and-interactivity",
+    "title": "Gustavo C. X. | Data Science & Analytics",
+    "section": "",
+    "text": "Description 1\n\n\n\nImage 1\n\n\n\n\n\nImage 2\n\n\n\nGustavo has excellent methodology and is great at debugging. I have a very complicated R Shiny app with multiple parts, models and scripts and he was able to help me to debug the source. He really knows how to explain to make sure I’m not just to fix the issue but that I understand what was the issue and how to solve it.\nPilar Rius - Data Analyst at EUFMD/FAO/UN"
   }
 ]
