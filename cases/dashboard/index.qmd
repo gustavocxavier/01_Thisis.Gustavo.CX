@@ -1,14 +1,35 @@
 ---
-title: "Project1"
-date: "2023-06-12"
-categories: [news]
+title: "DASHBOARD"
+# date: "2023-06-12"
+categories: [data analytics, business, sales, KPI]
+image: "thumbnail.jpg"
 ---
 
-This is the first post in a Quarto blog. Welcome!
+The dashboard below is an example focusing on sales, margins, volumes and conversions.
+
+There are two more views specifically focusing on the performance of the products and the regions.
+
+Usually, the first page of a dashboard contains the most important KPI's. You can navigate through the dashboard using the menu on the left. Each page shows the most important trends and figures.
+
+### GOAL
+
+The purpose of a dashboard is to view the most important KPI\'s and results at a glance. Dashboards are an interactive way to see how the company or project perform.
+
+### RESULT
+
+By using dashboards, you will discover the right insights in an easy way. You can apply filters yourself and consult different graphs. By immediately having the right information available, correct decisions can be made.
+
+### PROJECT DURATION
+
+On average, the development of a dashboard takes 2 weeks -- 2 months. The development consists of two phases:
+
+1.  selection of KPI\'s and design of the dashboard
+
+2.  collecting data and dashboard development
 
 ![](thumbnail.jpg)
 
-Since this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.
+Want to know more about dashboards? [Please get in touch with me here](../../about.html).
 
 ```{r}
 #| eval: false
@@ -23,4 +44,3 @@ Since this post doesn't specify an explicit `image`, the first image in the post
 # Fundamentos de Programação na Área de Dados
 # SQL - R - Python - JS
 ```
-

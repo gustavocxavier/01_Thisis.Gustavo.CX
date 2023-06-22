@@ -3,7 +3,7 @@ title: "Data Science & Analytics"
 image: images/gustavocx.png
 about:
   template: jolla
-  image-width: 20em
+  image-width: 15em
   image-shape: round
   links:
     - icon: twitter

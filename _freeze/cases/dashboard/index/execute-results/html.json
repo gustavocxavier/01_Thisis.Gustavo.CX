@@ -1,7 +1,7 @@
 {
-  "hash": "487a60efe6d9fc2de8d528fbca900ba9",
+  "hash": "5ee75877bf8a8efea848d2e4a9c09c5f",
   "result": {
-    "markdown": "---\ntitle: \"Project1\"\ndate: \"2023-06-12\"\ncategories: [news]\n---\n\n\nThis is the first post in a Quarto blog. Welcome!\n\n![](thumbnail.jpg)\n\nSince this post doesn't specify an explicit `image`, the first image in the post will be used in the listing page of posts.\n\n\n\n",
+    "markdown": "---\ntitle: \"DASHBOARD\"\n# date: \"2023-06-12\"\ncategories: [data analytics, business, sales, KPI]\nimage: \"thumbnail.jpg\"\n---\n\n\nThe dashboard below is an example focusing on sales, margins, volumes and conversions.\n\nThere are two more views specifically focusing on the performance of the products and the regions.\n\nUsually, the first page of a dashboard contains the most important KPI's. You can navigate through the dashboard using the menu on the left. Each page shows the most important trends and figures.\n\n### GOAL\n\nThe purpose of a dashboard is to view the most important KPI\\'s and results at a glance. Dashboards are an interactive way to see how the company or project perform.\n\n### RESULT\n\nBy using dashboards, you will discover the right insights in an easy way. You can apply filters yourself and consult different graphs. By immediately having the right information available, correct decisions can be made.\n\n### PROJECT DURATION\n\nOn average, the development of a dashboard takes 2 weeks -- 2 months. The development consists of two phases:\n\n1.  selection of KPI\\'s and design of the dashboard\n\n2.  collecting data and dashboard development\n\n![](thumbnail.jpg)\n\nWant to know more about dashboards? [Please get in touch with me here](../../about.html).\n\n\n\n",
     "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"

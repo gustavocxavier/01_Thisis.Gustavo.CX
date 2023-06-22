@@ -9,10 +9,10 @@
   {
     "listing": "/cases.html",
     "items": [
+      "/cases/dashboard/index.html",
+      "/cases/data-analysis2/index.html",
       "/cases/talk-appliedml/index.html",
-      "/cases/data-analysis/index.html",
-      "/cases/data-science/index.html",
-      "/cases/dashboard/index.html"
+      "/cases/data-science2/index.html"
     ]
   }
 ]

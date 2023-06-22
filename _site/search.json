@@ -18,7 +18,7 @@
     "href": "cases.html",
     "title": "Selected Projects",
     "section": "",
-    "text": "Talk\n\n\n\ntalks\n\n\ndata science\n\n\nmachine learning\n\n\n\n\n\n\n\nGustavo Xavier\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDATA SCIENCE\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nGustavo Xavier\n\n\nJun 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProject2\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nGustavo Xavier\n\n\nJun 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nProject1\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\nJun 12, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "DASHBOARD\n\n\n\ndata analytics\n\n\nbusiness\n\n\nsales\n\n\nKPI\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDATA ANALYSIS\n\n\n\ndata analysis\n\n\nreport\n\n\ninsights\n\n\ndecisions\n\n\ncost reduction\n\n\nincrease sales\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMACHINE LEARNING TALK\n\n\n\ntalks\n\n\ndata science\n\n\nmachine learning\n\n\n\n\n\n\n\nGustavo Xavier\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDATA SCIENCE\n\n\n\nbusiness\n\n\ndata science\n\n\nmachine learning\n\n\n\n\n\n\n\nGustavo Xavier\n\n\nJun 15, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -86,9 +86,9 @@
   {
     "objectID": "cases/dashboard/index.html",
     "href": "cases/dashboard/index.html",
-    "title": "Project1",
+    "title": "DASHBOARD",
     "section": "",
-    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+    "text": "The dashboard below is an example focusing on sales, margins, volumes and conversions.\nThere are two more views specifically focusing on the performance of the products and the regions.\nUsually, the first page of a dashboard contains the most important KPI’s. You can navigate through the dashboard using the menu on the left. Each page shows the most important trends and figures.\n\nGOAL\nThe purpose of a dashboard is to view the most important KPI's and results at a glance. Dashboards are an interactive way to see how the company or project perform.\n\n\nRESULT\nBy using dashboards, you will discover the right insights in an easy way. You can apply filters yourself and consult different graphs. By immediately having the right information available, correct decisions can be made.\n\n\nPROJECT DURATION\nOn average, the development of a dashboard takes 2 weeks – 2 months. The development consists of two phases:\n\nselection of KPI's and design of the dashboard\ncollecting data and dashboard development\n\n\nWant to know more about dashboards? Please get in touch with me here."
   },
   {
     "objectID": "cases/data-analysis/index.html",
@@ -156,8 +156,36 @@
   {
     "objectID": "cases/talk-appliedml/index.html",
     "href": "cases/talk-appliedml/index.html",
-    "title": "Talk",
+    "title": "MACHINE LEARNING TALK",
     "section": "",
     "text": "Machine Learning talks serve as an excellent avenue for expanding one’s knowledge base. By attending these talks, graduate students can gain exposure to cutting-edge research, novel methodologies, and industry best practices. Talks delivered by experts and researchers in the field provide valuable insights into the latest advancements, practical challenges, and real-world applications of data science. Such exposure not only broadens students’ horizons but also keeps them abreast of the latest trends, ensuring their skills remain relevant and up to date.\nSlides"
+  },
+  {
+    "objectID": "cases/data-analysis2/index.html",
+    "href": "cases/data-analysis2/index.html",
+    "title": "DATA ANALYSIS",
+    "section": "",
+    "text": "GOAL\nOften, companies have data that contain a lot of hidden information. Asking the right questions and analyzing the data will give you relevant insights. The goal is to answer the right questions that will help the company to make the right decisions. ` ### RESULT\nResults are presented in a report with recommendations and follow-up steps. Based on this report, clear and well-founded decisions can be made, costs can be saved and processes optimized.\n\n\nPROJECT DURATION\nProject duration varies between 2 weeks and 3 months. In order to carry out the project as quickly as possible, it is important that the relevant data is available, complete and clean.\n\n\nCASE - FUNNEL ANALYSIS"
+  },
+  {
+    "objectID": "cases/data-science2/index.html",
+    "href": "cases/data-science2/index.html",
+    "title": "DATA SCIENCE",
+    "section": "",
+    "text": "Data science distinguishes itself from data analysis because it tells you what to do and what the result will be. Where data analysis gives you information about the current situation, data analytics makes predictions and tells you what the result would be by taking a certain action. In other words: data sciency focuses on the past and current situation, data analytics focuses on the future.\n\nGOAL\nHow can we make a recommendation system? How can we categorize our customers and take actions separately for each group? How can we identify objects based on specific characteristics? All these kind of questions can be answered by using data analytics techniques.\n\n\nRESULT\nBy using statistics, programming and machine learning techniques, I can find patterns hidden in the data. With this information I can make an algorithm, probability estimation or statistical model which you can use to make the right decisions.\n\n\nPROJECT DURATION\nProject duration varies between 3 weeks – 2 months. The project starts by getting an understanding of the situation and gathering the right data. After collecting the right data, I start analyzing the data and share the results. Finally, I will make the algorithm or model which you can implement in your business.\n\n\nCASE\n\nWHICH CUSTOMERS ARE LIKELY TO CHURN?\nThe ability to predict when a customer is at a high risk of churning is valuable for every business with returning customers. Churn is defined as the number of customers cancelling within a time period divided by the number of active customers at the start of that period. In order to apply a modeling technique to predict churn, we need to understand the customer behavior and characteristics which signal the risk of customers churn.\nIn this example, I will look into an electricity company. An electricity company is a good example because customers 'return' every month.\n\n\nWHAT CHARACTERISTICS ARE SPECIFIC TO CHURNED CUSTOMERS?\nFirst step of the churn analysis is to select the characteristics of customers which could predict churn. Characteristics can be categorized, for example:\nCustomer characteristics\n\nAge of a person\nNumber of people in household\n\nBehavioral characteristics\n\nAverage amount of electricity spend per month\nTime since sign up\n\nUsually, you have as many characteristics as possible (for example 50) of which you can select the ones with highest prediction power.\n\n\n\n\n\n\n\nWHAT IS THE CUSTOMER LIFETIME VALUE FOR EACH CUSTOMER?\nAnother calculation which supports the churn prediction is to calculate the customer lifetime value (CLV or LTV). The CLV is a prediction of the total value generated by a customer in the past and in the future.\n\n\n\nData analytics case - CLV and lifetime\n\n\n \n\n\nHOW CAN WE PREDICT IF A CUSTOMER IS LIKELY TO CHURN?\nA statistical model calculates the churn probability for each customer. This model uses selected characteristics, the CLV and expected lifetime. Each element is weighted such that the accuracy of churning is maximized. After developing the model, the model is applied to all customers such that we obtain the likelihood of churning for each customer. Ranking the results gives you the top X customers who are about to churn.\n\n\n\n\n\nDo you want to know more about data analytics? Please get in touch with me here.\nThe case below is an example how to predict churn for recurring customers within an electricity company."
+  },
+  {
+    "objectID": "cases/data-science2/index.html#case-which-customers-are-likely-to-churn",
+    "href": "cases/data-science2/index.html#case-which-customers-are-likely-to-churn",
+    "title": "DATA SCIENCE",
+    "section": "CASE – WHICH CUSTOMERS ARE LIKELY TO CHURN?",
+    "text": "CASE – WHICH CUSTOMERS ARE LIKELY TO CHURN?\nThe ability to predict when a customer is at a high risk of churning is valuable for every business with returning customers. Churn is defined as the number of customers cancelling within a time period divided by the number of active customers at the start of that period. In order to apply a modeling technique to predict churn, we need to understand the customer behavior and characteristics which signal the risk of customers churn.\nIn this example, I will look into an electricity company. An electricity company is a good example because customers ‘return’ every month."
+  },
+  {
+    "objectID": "cases/data-science2/index.html#what-characteristics-are-specific-to-churned-customers",
+    "href": "cases/data-science2/index.html#what-characteristics-are-specific-to-churned-customers",
+    "title": "DATA SCIENCE",
+    "section": "WHAT CHARACTERISTICS ARE SPECIFIC TO CHURNED CUSTOMERS?",
+    "text": "WHAT CHARACTERISTICS ARE SPECIFIC TO CHURNED CUSTOMERS?\nFirst step of the churn analysis is to select the characteristics of customers which could predict churn. Characteristics can be categorized, for example:\nCustomer characteristics\nAge of a person Number of people in household Behavioral characteristics\nAverage amount of electricity spend per month Time since sign up Usually, you have as many characteristics as possible (for example 50) of which you can select the ones with highest prediction power.\n\n1 + 1\n\n[1] 2"
   }
 ]
