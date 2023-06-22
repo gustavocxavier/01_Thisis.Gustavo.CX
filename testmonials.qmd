@@ -1,0 +1,47 @@
+## Quarto blog - Data visualizations - Animation and Interactivity
+
+:::: columns
+
+::: {.column width="55%"}
+Description 1
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="40%"}
+Image 1
+:::
+
+::::
+
+<!-- ## Some title -->
+
+:::: columns
+
+::: {.column width="40%"}
+Image 2
+:::
+
+::: {.column width="5%"}
+:::
+
+::: {.column width="55%"}
+Gustavo has excellent methodology and is great at debugging. I have a very complicated R Shiny app with multiple parts, models and scripts and he was able to help me to debug the source. He really knows how to explain to make sure I'm not just to fix the issue but that I understand what was the issue and how to solve it.
+
+Pilar Rius - Data Analyst at [EUFMD/FAO/UN](https://www.eufmd.info/)
+:::
+
+::::
+
+<!-- 
+
+Andrew Grimaldi
+
+Andrew Grimaldi
+March 2022
+Gustavo was a great tutor for my R assignment.
+
+-->
+
+

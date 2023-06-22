@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Data Science & Analytics",
+    "section": "",
+    "text": "Welcome to my data world!"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Gustavo is a Data Scientist based on Brazil that work globally with innovative solutions in data."
+  },
+  {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "posts/welcome/index.html",
+    "href": "posts/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts.\nlow-code\ncopilot chat gpt fork\nFundamentos de Programação na Área de Dados SQL - R - Python - JS"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Project2\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nGustavo Xavier\n\n\nJun 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nProject1\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\nJun 12, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nJun 15, 2023\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nJun 12, 2023\n\n\nTristan O’Malley\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nFederal University of Brazil, Paraiba | João Pessoa, PB (Brazil) PhD in Finance | Sept 2017 - June 2021\nVisiting Scholar at UTK | Knoxville, TN (USA) B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\nData Analytics | Chief Analyst | Spet 2012 - April 2018\nData Science | Head Data Scientist | April 2018 - present\nApplied Machine Learning | Researcher | Spet 2012 - April 2018"
+  },
+  {
+    "objectID": "projects.html#quarto-blog---data-visualizations---animation-and-interactivity",
+    "href": "projects.html#quarto-blog---data-visualizations---animation-and-interactivity",
+    "title": "gustavo.cx",
+    "section": "",
+    "text": "Description 1\n\n\n\nImage 1"
+  },
+  {
+    "objectID": "projects.html#shiny-flex-dashboard---sales-forecasting-and-anomaly-detection",
+    "href": "projects.html#shiny-flex-dashboard---sales-forecasting-and-anomaly-detection",
+    "title": "gustavo.cx",
+    "section": "Shiny Flex Dashboard - Sales forecasting and anomaly detection",
+    "text": "Shiny Flex Dashboard - Sales forecasting and anomaly detection\n\n\nImage 2\n\n\n\nDescription 2"
+  },
+  {
+    "objectID": "blog/post-with-code/index.html",
+    "href": "blog/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "blog/welcome/index.html",
+    "href": "blog/welcome/index.html",
+    "title": "Welcome To My Blog",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "testmonials.html",
+    "href": "testmonials.html",
+    "title": "Gustavo C. X. | Data Science & Analytics",
+    "section": "",
+    "text": "Description 1\n\n\n\nImage 1\n\n\n\n\n\nImage 2\n\n\n\nGustavo has excellent methodology and is great at debugging. I have a very complicated R Shiny app with multiple parts, models and scripts and he was able to help me to debug the source. He really knows how to explain to make sure I’m not just to fix the issue but that I understand what was the issue and how to solve it.\nPilar Rius - Data Analyst at EUFMD/FAO/UN"
+  },
+  {
+    "objectID": "testmonials.html#quarto-blog---data-visualizations---animation-and-interactivity",
+    "href": "testmonials.html#quarto-blog---data-visualizations---animation-and-interactivity",
+    "title": "Gustavo C. X. | Data Science & Analytics",
+    "section": "",
+    "text": "Description 1\n\n\n\nImage 1\n\n\n\n\n\nImage 2\n\n\n\nGustavo has excellent methodology and is great at debugging. I have a very complicated R Shiny app with multiple parts, models and scripts and he was able to help me to debug the source. He really knows how to explain to make sure I’m not just to fix the issue but that I understand what was the issue and how to solve it.\nPilar Rius - Data Analyst at EUFMD/FAO/UN"
+  },
+  {
+    "objectID": "testmonials.html#shiny-flex-dashboard---sales-forecasting-and-anomaly-detection",
+    "href": "testmonials.html#shiny-flex-dashboard---sales-forecasting-and-anomaly-detection",
+    "title": "gustavo.cx",
+    "section": "Shiny Flex Dashboard - Sales forecasting and anomaly detection",
+    "text": "Shiny Flex Dashboard - Sales forecasting and anomaly detection\n\n\nImage 2\n\n\n\nGustavo has excellent methodology and is great at debugging. I have a very complicated R Shiny app with multiple parts, models and scripts and he was able to help me to debug the source. He really knows how to explain to make sure I’m not just to fix the issue but that I understand what was the issue and how to solve it.\nPilar Rius - Data Analyst at EUFMD/FAO/UN"
+  },
+  {
+    "objectID": "aiprompts.html",
+    "href": "aiprompts.html",
+    "title": "Gustavo C. X. | Data Science & Analytics",
+    "section": "",
+    "text": "Description 1\n\n\n\nImage 1"
+  },
+  {
+    "objectID": "aiprompts.html#quarto-blog---data-visualizations---animation-and-interactivity",
+    "href": "aiprompts.html#quarto-blog---data-visualizations---animation-and-interactivity",
+    "title": "Gustavo C. X. | Data Science & Analytics",
+    "section": "",
+    "text": "Description 1\n\n\n\nImage 1"
+  },
+  {
+    "objectID": "aiprompts.html#shiny-flex-dashboard---sales-forecasting-and-anomaly-detection",
+    "href": "aiprompts.html#shiny-flex-dashboard---sales-forecasting-and-anomaly-detection",
+    "title": "Gustavo C. X. | Data Science & Analytics",
+    "section": "Shiny Flex Dashboard - Sales forecasting and anomaly detection",
+    "text": "Shiny Flex Dashboard - Sales forecasting and anomaly detection\n\n\nImage 2\n\n\n\nDescription 2"
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Blog",
+    "section": "",
+    "text": "No matching items"
+  },
+  {
+    "objectID": "research.html",
+    "href": "research.html",
+    "title": "Gustavo C. X. | Data Science & Analytics",
+    "section": "",
+    "text": "Description 1\n\n\n\nImage 1"
+  },
+  {
+    "objectID": "research.html#quarto-blog---data-visualizations---animation-and-interactivity",
+    "href": "research.html#quarto-blog---data-visualizations---animation-and-interactivity",
+    "title": "Gustavo C. X. | Data Science & Analytics",
+    "section": "",
+    "text": "Description 1\n\n\n\nImage 1"
+  },
+  {
+    "objectID": "research.html#shiny-flex-dashboard---sales-forecasting-and-anomaly-detection",
+    "href": "research.html#shiny-flex-dashboard---sales-forecasting-and-anomaly-detection",
+    "title": "Gustavo C. X. | Data Science & Analytics",
+    "section": "Shiny Flex Dashboard - Sales forecasting and anomaly detection",
+    "text": "Shiny Flex Dashboard - Sales forecasting and anomaly detection\n\n\nImage 2\n\n\n\nDescription 2"
+  },
+  {
+    "objectID": "projects/project1/index.html",
+    "href": "projects/project1/index.html",
+    "title": "Project1",
+    "section": "",
+    "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
+  },
+  {
+    "objectID": "projects/project2/index.html",
+    "href": "projects/project2/index.html",
+    "title": "Project2",
+    "section": "",
+    "text": "This is a post with executable code.\n\n1 + 1\n\n[1] 2"
+  }
+]
