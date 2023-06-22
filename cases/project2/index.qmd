@@ -1,0 +1,13 @@
+---
+title: "Project2"
+author: "Gustavo Xavier"
+date: "2023-06-15"
+categories: [news, code, analysis]
+image: "image.jpg"
+---
+
+This is a post with executable code.
+
+```{r}
+1 + 1
+```
