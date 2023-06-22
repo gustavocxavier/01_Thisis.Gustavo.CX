@@ -1,0 +1,11 @@
+---
+title: "Talk"
+author: "Gustavo Xavier"
+# date: "2023-06-15"
+categories: [talks, data science, machine learning]
+image: "image.jpg"
+---
+
+Machine Learning talks serve as an excellent avenue for expanding one's knowledge base. By attending these talks, graduate students can gain exposure to cutting-edge research, novel methodologies, and industry best practices. Talks delivered by experts and researchers in the field provide valuable insights into the latest advancements, practical challenges, and real-world applications of data science. Such exposure not only broadens students' horizons but also keeps them abreast of the latest trends, ensuring their skills remain relevant and up to date.
+
+[Slides](https://gustavocxavier.github.io/appliedml/slide01.html)

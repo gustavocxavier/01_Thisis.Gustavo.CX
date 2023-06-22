@@ -1,0 +1,14 @@
+{
+  "hash": "dca97186e29ef4f796892da40755713d",
+  "result": {
+    "markdown": "---\ntitle: \"Talk\"\nauthor: \"Gustavo Xavier\"\ndate: \"2023-06-15\"\ncategories: [news, code, analysis]\nimage: \"image.jpg\"\nlinks:\n- icon: images\n  icon_pack: far\n  name: Slide\n  url: https://gustavocxavier.github.io/appliedml/slide01.html\n---\n\n\nMachine Learning talks serve as an excellent avenue for expanding one's knowledge base. By attending these talks, graduate students can gain exposure to cutting-edge research, novel methodologies, and industry best practices. Talks delivered by experts and researchers in the field provide valuable insights into the latest advancements, practical challenges, and real-world applications of data science. Such exposure not only broadens students' horizons but also keeps them abreast of the latest trends, ensuring their skills remain relevant and up to date.\n\nSee the slide\n\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n```\n[1] 2\n```\n:::\n:::\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}

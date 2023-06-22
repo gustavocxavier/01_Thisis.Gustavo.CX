@@ -18,7 +18,7 @@
     "href": "cases.html",
     "title": "Selected Projects",
     "section": "",
-    "text": "DATA SCIENCE\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nGustavo Xavier\n\n\nJun 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProject2\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nGustavo Xavier\n\n\nJun 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nProject1\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\nJun 12, 2023\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Talk\n\n\n\ntalks\n\n\ndata science\n\n\nmachine learning\n\n\n\n\n\n\n\nGustavo Xavier\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDATA SCIENCE\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nGustavo Xavier\n\n\nJun 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nProject2\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\nGustavo Xavier\n\n\nJun 15, 2023\n\n\n\n\n\n\n\n\n\n\n\n\nProject1\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\nJun 12, 2023\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -152,5 +152,12 @@
     "title": "Gustavo C. X. | Data Science & Analytics",
     "section": "",
     "text": "Description 1\n\n\n\nImage 1\n\n\n\n\n\nImage 2\n\n\n\nGustavo has excellent methodology and is great at debugging. I have a very complicated R Shiny app with multiple parts, models and scripts and he was able to help me to debug the source. He really knows how to explain to make sure I’m not just to fix the issue but that I understand what was the issue and how to solve it.\nPilar Rius - Data Analyst at EUFMD/FAO/UN"
+  },
+  {
+    "objectID": "cases/talk-appliedml/index.html",
+    "href": "cases/talk-appliedml/index.html",
+    "title": "Talk",
+    "section": "",
+    "text": "Machine Learning talks serve as an excellent avenue for expanding one’s knowledge base. By attending these talks, graduate students can gain exposure to cutting-edge research, novel methodologies, and industry best practices. Talks delivered by experts and researchers in the field provide valuable insights into the latest advancements, practical challenges, and real-world applications of data science. Such exposure not only broadens students’ horizons but also keeps them abreast of the latest trends, ensuring their skills remain relevant and up to date.\nSlides"
   }
 ]
