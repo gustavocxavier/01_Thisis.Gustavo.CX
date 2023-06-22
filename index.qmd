@@ -9,9 +9,9 @@ about:
     - icon: twitter
       text: Twitter
       href: https://twitter.com/ThisisGustavoCX
-    - icon: linkedin
-      text: LinkedIn
-      href: www.linkedin.com/in/gustavocxavier
+    # - icon: linkedin
+    #   text: LinkedIn
+    #   href: www.linkedin.com/in/gustavocxavier
     - icon: github
       text: Github
       href: https://github.com/gustavocxavier/
