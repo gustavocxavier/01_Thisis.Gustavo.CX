@@ -15,7 +15,7 @@ After training, the group gained confidence to employ their own strategies and f
 :::
 
 ::: {.column width="40%"}
-[![](images/logo.png){width="50%"}](https://www.kaggle.com/code/gustavocxavier/train-xgb-nnet-stack/notebook)
+[![](images/dataconsulting.jfif){width="100%"}](https://www.kaggle.com/code/gustavocxavier/train-xgb-nnet-stack/notebook)
 :::
 :::
 
