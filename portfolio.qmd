@@ -2,21 +2,22 @@
 
 ::: columns
 ::: {.column width="55%"}
-Consultancy for a group participating in a closed Kaggle competition. The main objective was to optimize out-of-sample prediction. The solution involved three steps:
-
-1.  Careful exploratory data analysis (EDA) to gain a deep understanding of the data;
-2.  Training a set of models by running a notebook in the background utilizing Kaggle's GPU, and;
-3.  Implementing a stacked models approach to combine the best-performing models.
-
-After training, the group gained confidence to employ their own strategies and further enhance the models, resulting in improved performance in the competition. [Check out a Kaggle notebook example](https://github.com/gustavocxavier/EIGtextRegression)
+Consultancy for a group participating in a closed Kaggle competition. The main objective was to optimize out-of-sample prediction. At the end, the group gained confidence to employ their own strategies and further enhance the models, resulting in improved performance in the competition.
 :::
 
 ::: {.column width="5%"}
 :::
 
 ::: {.column width="40%"}
-[![](images/dataconsulting.jfif){width="100%"}](https://www.kaggle.com/code/gustavocxavier/train-xgb-nnet-stack/notebook)
+[![](images/dataconsulting.jfif){width="80%"}](https://www.kaggle.com/code/gustavocxavier/train-xgb-nnet-stack/notebook)
 :::
+The solution involved three steps:
+
+1.  Careful exploratory data analysis (EDA) to gain a deep understanding of the data;
+2.  Training a set of models by running a notebook in the background utilizing Kaggle's GPU, and;
+3.  Implementing a stacked models approach to combine the best-performing models.
+
+ [Check out a Kaggle notebook example](https://github.com/gustavocxavier/EIGtextRegression)
 :::
 
 <!-- ## Shiny Flex Dashboard - Sales forecasting and anomaly detection -->
@@ -32,7 +33,8 @@ After training, the group gained confidence to employ their own strategies and f
 :::
 
 ::: {.column width="55%"}
-A long research project to develop a reliable measure measure of firm-level investment plans based on text data from MD&A (Management Discussion and Analysis) disclosure in 10-K filings, which I do by using a combination of the forecast procedure of Han et al. (2020) with the idea of time varying dictionary developed by Lima, Godeiro and Mohsin (2020). This novel measure is relevant because despite the literature provide support to the importance of investment plans in both aggregate-level and firm-level (LI; WANG; YU, 2020; HOU et al., 2020), this last one receives less attention since it is empirically challenging to measure firm-level investment plans (LIN; LIN, 2018). Then, analyze investment plans in a firm-level is not an easy task, due to the plans are not observable. So in this project I proposed to measure the firm Expected Investment Growth (EIG) based on a combination of machine learning tools and text regression.
-[Check out the github repository](https://github.com/gustavocxavier/EIGtextRegression)
+A long research project to develop a reliable measure measure of firm-level investment plans based on text data from MD&A (Management Discussion and Analysis) disclosure in 10-K filings, which I do by using a combination of the forecast procedure of Han et al. (2020) with the idea of time varying dictionary developed by Lima, Godeiro and Mohsin (2020).
 :::
+This novel measure is relevant because despite the literature provide support to the importance of investment plans in both aggregate-level and firm-level (LI; WANG; YU, 2020; HOU et al., 2020), this last one receives less attention since it is empirically challenging to measure firm-level investment plans (LIN; LIN, 2018). Then, analyze investment plans in a firm-level is not an easy task, due to the plans are not observable. So in this project I proposed to measure the firm Expected Investment Growth (EIG) based on a combination of machine learning tools and text regression.
+[Check out the github repository](https://github.com/gustavocxavier/EIGtextRegression)
 :::
