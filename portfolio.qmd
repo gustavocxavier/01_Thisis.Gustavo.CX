@@ -25,7 +25,7 @@ After training, the group gained confidence to employ their own strategies and f
 
 ::: columns
 ::: {.column width="40%"}
-[![](images/logo.png){width="50%"}](https://github.com/gustavocxavier/EIGtextRegression)
+[![](images/computer-screen-robot.jpg){width="100%"}](https://github.com/gustavocxavier/EIGtextRegression)
 :::
 
 ::: {.column width="5%"}
