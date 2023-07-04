@@ -187,5 +187,26 @@
     "title": "DATA SCIENCE",
     "section": "WHAT CHARACTERISTICS ARE SPECIFIC TO CHURNED CUSTOMERS?",
     "text": "WHAT CHARACTERISTICS ARE SPECIFIC TO CHURNED CUSTOMERS?\nFirst step of the churn analysis is to select the characteristics of customers which could predict churn. Characteristics can be categorized, for example:\nCustomer characteristics\nAge of a person Number of people in household Behavioral characteristics\nAverage amount of electricity spend per month Time since sign up Usually, you have as many characteristics as possible (for example 50) of which you can select the ones with highest prediction power.\n\n1 + 1\n\n[1] 2"
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Gustavo C. X. | Data Science & Analytics",
+    "section": "",
+    "text": "Consultancy for a group participating in a closed Kaggle competition. The main objective was to optimize out-of-sample prediction. The solution involved three steps:\n\nCareful exploratory data analysis (EDA) to gain a deep understanding of the data;\nTraining a set of models by running a notebook in the background utilizing Kaggle’s GPU, and;\nImplementing a stacked models approach to combine the best-performing models.\n\nAfter training, the group gained confidence to employ their own strategies and further enhance the models, resulting in improved performance in the competition."
+  },
+  {
+    "objectID": "portfolio.html#shiny-flex-dashboard---sales-forecasting-and-anomaly-detection",
+    "href": "portfolio.html#shiny-flex-dashboard---sales-forecasting-and-anomaly-detection",
+    "title": "Gustavo C. X. | Data Science & Analytics",
+    "section": "Shiny Flex Dashboard - Sales forecasting and anomaly detection",
+    "text": "Shiny Flex Dashboard - Sales forecasting and anomaly detection\n\n\n\n\n\n\n\n\n\n\nA long research project to develop a reliable measure measure of firm-level investment plans based on text data from MD&A (Management Discussion and Analysis) disclosure in 10-K filings, which I do by using a combination of the forecast procedure of Han et al. (2020) with the idea of time varying dictionary developed by Lima, Godeiro and Mohsin (2020). This novel measure is relevant because despite the literature provide support to the importance of investment plans in both aggregate-level and firm-level (LI; WANG; YU, 2020; HOU et al., 2020), this last one receives less attention since it is empirically challenging to measure firm-level investment plans (LIN; LIN, 2018). Then, analyze investment plans in a firm-level is not an easy task, due to the plans are not observable. So in this project I proposed to measure the firm Expected Investment Growth (EIG) based on a combination of machine learning tools and text regression."
+  },
+  {
+    "objectID": "portfolio.html#big-research-project",
+    "href": "portfolio.html#big-research-project",
+    "title": "Gustavo C. X. | Data Science & Analytics",
+    "section": "Big Research Project",
+    "text": "Big Research Project\n\n\n\n\n\n\n\n\n\n\nA long research project to develop a reliable measure measure of firm-level investment plans based on text data from MD&A (Management Discussion and Analysis) disclosure in 10-K filings, which I do by using a combination of the forecast procedure of Han et al. (2020) with the idea of time varying dictionary developed by Lima, Godeiro and Mohsin (2020). This novel measure is relevant because despite the literature provide support to the importance of investment plans in both aggregate-level and firm-level (LI; WANG; YU, 2020; HOU et al., 2020), this last one receives less attention since it is empirically challenging to measure firm-level investment plans (LIN; LIN, 2018). Then, analyze investment plans in a firm-level is not an easy task, due to the plans are not observable. So in this project I proposed to measure the firm Expected Investment Growth (EIG) based on a combination of machine learning tools and text regression."
   }
 ]
