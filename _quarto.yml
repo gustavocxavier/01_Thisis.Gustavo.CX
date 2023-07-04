@@ -11,6 +11,7 @@ website:
       # - href: cases.qmd
       - href: portfolio.qmd
         text: Data Portfolio
+      #   text: Data Portfolio
       # - href: blog.qmd
       #   text: Blog
       # - href: research.qmd
