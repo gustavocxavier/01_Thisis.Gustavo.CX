@@ -21,6 +21,8 @@ website:
       # - href: testmonials.qmd
       #   text: Testmonials
       - about.qmd
+      - href: https://calendly.com/gustavocx/30m
+        text: Book a Session
       - icon: github
         href: https://github.com/gustavocxavier
       - icon: twitter
