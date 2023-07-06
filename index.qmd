@@ -6,18 +6,21 @@ about:
   image-width: 15em
   image-shape: round
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/ThisisGustavoCX
+    - href: https://thisis.gustavo.cx/portfolio
+      icon: bi-arrow-right-square-fill
+      text: LEARN MORE
+    # - icon: twitter
+    #   text: Twitter
+    #   href: https://twitter.com/ThisisGustavoCX
     # - icon: linkedin
     #   text: LinkedIn
     #   href: www.linkedin.com/in/gustavocxavier
-    - icon: github
-      text: Github
-      href: https://github.com/gustavocxavier/
-    - icon: envelope
-      text: Contact me
-      href: mailto:gustavocx@outlook.com
+    # - icon: github
+    #   text: Github
+    #   href: https://github.com/gustavocxavier/
+    # - icon: envelope
+    #   text: Contact me
+    #   href: mailto:gustavocx@outlook.com
 ---
 
 ```{r}
