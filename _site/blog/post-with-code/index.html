@@ -176,7 +176,8 @@ following error [insert error]. What is the reason for the bug?</code></pre>
 </section>
 <section id="debugging-r-code" class="level4">
 <h4 class="anchored" data-anchor-id="debugging-r-code">Debugging R code</h4>
-<pre><code>I want you to be an R programmer, here is a piece of R code containing
+<pre><code>
+I want you to be an R programmer, here is a piece of R code containing
 [problem] --- [insert code snippet] --- I am getting the following error [insert error]. What is the reason for the bug?</code></pre>
 </section>
 <section id="debugging-sql-code" class="level4">
@@ -190,7 +191,8 @@ following error [insert error]. What is the reason for the bug?</code></pre>
 <h3 class="anchored" data-anchor-id="code-explanation-workflows">Code explanation workflows</h3>
 <section id="python-code-explanation" class="level4">
 <h4 class="anchored" data-anchor-id="python-code-explanation">Python code explanation</h4>
-<pre><code>I want you to act as a code explainer in Python. I don't understand
+<pre><code>
+I want you to act as a code explainer in Python. I don't understand
 this function. Can you please explain what it does, and provide an
 example? [Insert function]</code></pre>
 </section>
@@ -202,7 +204,8 @@ function. Can you please explain what it does, and provide an example?
 </section>
 <section id="sql-code-explanation" class="level4">
 <h4 class="anchored" data-anchor-id="sql-code-explanation">SQL code explanation</h4>
-<pre><code>I want you to act as a code explainer in SQL. I don't understand this
+<pre><code>
+I want you to act as a code explainer in SQL. I don't understand this
 snippet. Can you please explain what it does, and provide an example?
 
 [Insert SQL query]</code></pre>
@@ -244,12 +247,14 @@ Code]</code></pre>
 </section>
 <section id="r-code-simplification" class="level4">
 <h4 class="anchored" data-anchor-id="r-code-simplification">R code simplification</h4>
-<pre><code>I want you to act as a programmer in R. Please simplify this code
+<pre><code>
+I want you to act as a programmer in R. Please simplify this code
 while ensuring that it is [efficient/easy to read]? [Insert Code]</code></pre>
 </section>
 <section id="sql-code-simplification" class="level4">
 <h4 class="anchored" data-anchor-id="sql-code-simplification">SQL code simplification</h4>
-<pre><code>I want you to act as a SQL programmer. I am running [PostgreSQL
+<pre><code>
+I want you to act as a SQL programmer. I am running [PostgreSQL
 14/MySQL 8/SQLite 3.4/other versions.]. Can you please simplify this
 query [while ensuring that it is efficient/easy to read/insert any
 additional requirements]?</code></pre>
@@ -259,12 +264,14 @@ additional requirements]?</code></pre>
 <h3 class="anchored" data-anchor-id="code-translation-workflows">Code translation workflows</h3>
 <section id="from-r-to-python-code-translation" class="level4">
 <h4 class="anchored" data-anchor-id="from-r-to-python-code-translation">From R to Python code translation</h4>
-<pre><code>I want you to act as a programmer in R.&nbsp; Please translate this code
+<pre><code>
+I want you to act as a programmer in R.&nbsp; Please translate this code
 to Python. [Insert code]</code></pre>
 </section>
 <section id="from-python-to-r-code-translation" class="level4">
 <h4 class="anchored" data-anchor-id="from-python-to-r-code-translation">From Python to R code translation</h4>
-<pre><code>I want you to act as a programmer in Python. Please translate this
+<pre><code>
+I want you to act as a programmer in Python. Please translate this
 code to R. [Insert code]</code></pre>
 </section>
 </section>
@@ -272,14 +279,16 @@ code to R. [Insert code]</code></pre>
 <h3 class="anchored" data-anchor-id="code-quality-and-testing-workflows">Code quality and testing workflows</h3>
 <section id="compare-function-speeds-in-python" class="level4">
 <h4 class="anchored" data-anchor-id="compare-function-speeds-in-python">Compare function speeds in python</h4>
-<pre><code>I want you to act as a Python programmer.&nbsp; Can you write code that
+<pre><code>
+I want you to act as a Python programmer.&nbsp; Can you write code that
 compares the speed of two functions [functionname] and [functionname]?
 
 [Insert functions]</code></pre>
 </section>
 <section id="write-unit-tests-in-r" class="level4">
 <h4 class="anchored" data-anchor-id="write-unit-tests-in-r">Write unit tests in R</h4>
-<pre><code>I want you to act as a R Programmer. Can you please write unit tests
+<pre><code>
+I want you to act as a R Programmer. Can you please write unit tests
 for the function [functionname]? [Insert requirements for unit tests,
 if any] [Insert code]</code></pre>
 </section>
@@ -297,47 +306,58 @@ tests, if any] [Insert code]</code></pre>
 <h3 class="anchored" data-anchor-id="sql-data-analysis-workflows">SQL data analysis workflows</h3>
 <section id="data-generation-creating-tables" class="level4">
 <h4 class="anchored" data-anchor-id="data-generation-creating-tables">Data generation &amp; creating tables</h4>
-<pre><code>I want you to act as a data generator. Can you write SQL queries in
+<pre><code>
+I want you to act as a data generator. Can you write SQL queries in
 [database version] that create a table [table name] with the columns
 [column name]. Include relevant constraints and index.</code></pre>
 </section>
 <section id="common-table-expressions" class="level4">
 <h4 class="anchored" data-anchor-id="common-table-expressions">Common table expressions</h4>
-<pre><code>I want you to act as a SQL code programmer. I am running [database
-version]. Can you rewrite this query using CTE? [Insert query]
-</code></pre>
+<pre><code>
+I want you to act as a SQL code programmer. I am running [database
+version]. Can you rewrite this query using CTE? [Insert query]</code></pre>
 </section>
 <section id="write-sql-queries-from-natural-language" class="level4">
 <h4 class="anchored" data-anchor-id="write-sql-queries-from-natural-language">Write SQL queries from natural language</h4>
 <section id="example-data-aggregation-in-sql" class="level5">
 <h5 class="anchored" data-anchor-id="example-data-aggregation-in-sql">Example: Data aggregation in SQL</h5>
-<pre><code>I want you to act as a data scientist. [Insert description of tables].
+<pre><code>
+I want you to act as a data scientist. [Insert description of tables].
 Can you [count/sum/take average] of [value] which are [insert filters]
 </code></pre>
 </section>
 <section id="example-7-day-running-average-in-sql" class="level5">
 <h5 class="anchored" data-anchor-id="example-7-day-running-average-in-sql">Example: 7 day running average in SQL</h5>
-<pre><code>I want you to act as a data scientist.&nbsp; I am running [PostgreSQL
+<pre><code>
+I want you to act as a data scientist.&nbsp; I am running [PostgreSQL
 14/MySQL 8/SQLite 3.4/other versions.]. I have the tables [table_name]
 which are [table description]. The sales table consists of the columns
 [column names]. Can you please write a query that finds the 7-day
-running average of [quantity]?</code></pre>
+running average of [quantity]?
+
+</code></pre>
 </section>
 <section id="example-window-functions-in-sql" class="level5">
 <h5 class="anchored" data-anchor-id="example-window-functions-in-sql">Example: Window functions in SQL</h5>
-<pre><code>I want you to act as a data scientist.&nbsp; I am running [PostgreSQL
+<pre><code>
+I want you to act as a data scientist.&nbsp; I am running [PostgreSQL
 14/MySQL 8/SQLite 3.4/other versions.]. I have the tables 
 [table_name] which are [table description]. The sales table consists
 of the columns [column names]. Can you please write a query that
-finds [required window function]?</code></pre>
+finds [required window function]?
+
+</code></pre>
 </section>
 <section id="example-window-functions-in-sql-1" class="level5">
 <h5 class="anchored" data-anchor-id="example-window-functions-in-sql-1">Example: Window functions in SQL</h5>
-<pre><code>I want you to act as a data scientist.&nbsp; I am running [PostgreSQL
+<pre><code>
+I want you to act as a data scientist.&nbsp; I am running [PostgreSQL
 14/MySQL 8/SQLite 3.4/other versions.]. I have the tables 
 [table_name] which are [table description]. The sales table consists
 of the columns [column names]. Can you please write a query that
-finds [required window function]?</code></pre>
+finds [required window function]?
+
+</code></pre>
 </section>
 </section>
 </section>
@@ -347,26 +367,31 @@ finds [required window function]?</code></pre>
 <h4 class="anchored" data-anchor-id="data-generation-workflow">Data generation workflow</h4>
 <section id="example-generate-markdown" class="level5">
 <h5 class="anchored" data-anchor-id="example-generate-markdown">Example: Generate Markdown</h5>
-<pre><code>I want you to act as a data generator in Python. Can you generate a
+<pre><code>
+I want you to act as a data generator in Python. Can you generate a
 Markdown file that contains [data requirement]. Save the file to
-[filename]</code></pre>
+[filename]
+</code></pre>
 </section>
 <section id="example-generate-csv" class="level5">
 <h5 class="anchored" data-anchor-id="example-generate-csv">Example: Generate CSV</h5>
-<pre><code>I want you to act as a data generator in Python. Can you generate a
+<pre><code>
+I want you to act as a data generator in Python. Can you generate a
 CSV file that contains [data requirement]. Save the file to
 [filename]</code></pre>
 </section>
 <section id="example-generate-json" class="level5">
 <h5 class="anchored" data-anchor-id="example-generate-json">Example: Generate JSON</h5>
-<pre><code>I want you to act as a data generator in Python. Can you generate a
+<pre><code>
+I want you to act as a data generator in Python. Can you generate a
 JSON file that contains [data requirement]. Save the file to
 [filename]</code></pre>
 </section>
 </section>
 <section id="data-cleaning-workflow" class="level4">
 <h4 class="anchored" data-anchor-id="data-cleaning-workflow">Data cleaning workflow</h4>
-<pre><code>I want you to act as a data scientist programming in Python Pandas.
+<pre><code>
+I want you to act as a data scientist programming in Python Pandas.
 Given a CSV file that contains data of [dataframe name]&nbsp; with the
 columns [colum names]&nbsp; for [dataset context], write code to clean
 the data? [Insert requirements for data]</code></pre>
@@ -375,14 +400,15 @@ the data? [Insert requirements for data]</code></pre>
 <h4 class="anchored" data-anchor-id="data-analysis-workflow-in-pandas">Data analysis workflow in pandas</h4>
 <section id="example-data-aggregation" class="level5">
 <h5 class="anchored" data-anchor-id="example-data-aggregation">Example: Data Aggregation</h5>
-<pre><code>I want you to act as a data scientist programming in Python Pandas.
+<pre><code>
+I want you to act as a data scientist programming in Python Pandas.
 Given a table [table name] that consists of the columns [column
-names]&nbsp; can you please write a query that finds [requirement]?
-</code></pre>
+names]&nbsp; can you please write a query that finds [requirement]?</code></pre>
 </section>
 <section id="example-data-merging" class="level5">
 <h5 class="anchored" data-anchor-id="example-data-merging">Example: Data Merging</h5>
-<pre><code>I want you to act as a data scientist programming in Python Pandas.
+<pre><code>
+I want you to act as a data scientist programming in Python Pandas.
 Given a table [table 1 name]&nbsp; that consists of the columns [column
 names]&nbsp; and another table [table 2 name]&nbsp; with the columns [column
 names], please merge the two tables. [Insert additional requirement,
@@ -390,16 +416,20 @@ if any]</code></pre>
 </section>
 <section id="example-data-reshaping" class="level5">
 <h5 class="anchored" data-anchor-id="example-data-reshaping">Example: Data Reshaping</h5>
-<pre><code>I want you to act as a data scientist programming in Python Pandas.
+<pre><code>
+I want you to act as a data scientist programming in Python Pandas.
 Given a table [table name] that consists of the columns [column
 names]&nbsp; can you aggregate the [value]&nbsp; by [column] and convert it
-from long to wide format?</code></pre>
+from long to wide format?
+</code></pre>
 </section>
 <section id="example-generate-markdown-1" class="level5">
 <h5 class="anchored" data-anchor-id="example-generate-markdown-1">Example: Generate Markdown</h5>
-<pre><code>I want you to act as a data generator in R. Can you generate a
+<pre><code>
+I want you to act as a data generator in R. Can you generate a
 Markdown file that contains [data requirement]. Save the file to
-[filename]</code></pre>
+[filename]
+</code></pre>
 </section>
 </section>
 </section>
@@ -409,55 +439,69 @@ Markdown file that contains [data requirement]. Save the file to
 <h4 class="anchored" data-anchor-id="data-generation-workflow-1">Data generation workflow&nbsp;</h4>
 <section id="example-generate-markdown-2" class="level5">
 <h5 class="anchored" data-anchor-id="example-generate-markdown-2">Example: Generate Markdown</h5>
-<pre><code>I want you to act as a data generator in R. Can you generate a
+<pre><code>
+I want you to act as a data generator in R. Can you generate a
 Markdown file that contains [data requirement]. Save the file to
-[filename]</code></pre>
+[filename]
+</code></pre>
 </section>
 <section id="example-generate-csv-1" class="level5">
 <h5 class="anchored" data-anchor-id="example-generate-csv-1">Example: Generate CSV</h5>
-<pre><code>I want you to act as a data generator in R. Can you generate a CSV
+<pre><code>
+I want you to act as a data generator in R. Can you generate a CSV
 file that contains [data requirement]. Save the file to [filename]
 </code></pre>
 </section>
 <section id="example-generate-json-1" class="level5">
 <h5 class="anchored" data-anchor-id="example-generate-json-1">Example: Generate JSON</h5>
-<pre><code>I want you to act as a data generator in R. Can you generate a JSON
+<pre><code>
+I want you to act as a data generator in R. Can you generate a JSON
 file that contains [data requirement]. Save the file to [filename]
 </code></pre>
 </section>
 </section>
 <section id="data-cleaning-workflow-1" class="level4">
 <h4 class="anchored" data-anchor-id="data-cleaning-workflow-1">Data cleaning workflow</h4>
-<pre><code>I want you to act as a data scientist programming in R tidyr. You are
+<pre><code>
+I want you to act as a data scientist programming in R tidyr. You are
 given the [dataframe name] dataframe containing the columns [column
-name]. [Insert requirement]</code></pre>
+name]. [Insert requirement]
+</code></pre>
 </section>
 <section id="data-analysis-workflow-in-tidyr" class="level4">
 <h4 class="anchored" data-anchor-id="data-analysis-workflow-in-tidyr">Data analysis workflow in tidyr</h4>
 <section id="data-aggregation" class="level5">
 <h5 class="anchored" data-anchor-id="data-aggregation">Data Aggregation</h5>
-<pre><code>I want you to act as a data scientist programming in R tidyr. You 
+<pre><code>
+I want you to act as a data scientist programming in R tidyr. You 
 are given the [dataframe name] dataframe containing the columns
-[column name]. [Insert requirement]</code></pre>
+[column name]. [Insert requirement]
+</code></pre>
 </section>
 <section id="data-merging" class="level5">
 <h5 class="anchored" data-anchor-id="data-merging">Data Merging</h5>
-<pre><code>I want you to act as a data scientist programming in R tidyr. You are
+<pre><code>
+I want you to act as a data scientist programming in R tidyr. You are
 given the [dataframe 1 name] dataframe containing the columns
 [column name]. You also have a [dataframe 2 name] dataframe
-containing the columns [column name]. Find the [required output]&nbsp;</code></pre>
+containing the columns [column name]. Find the [required output]&nbsp;
+</code></pre>
 </section>
 <section id="example-data-reshaping-long-to-wide" class="level5">
 <h5 class="anchored" data-anchor-id="example-data-reshaping-long-to-wide">Example: Data Reshaping (Long to Wide)</h5>
-<pre><code>I want you to act as a data scientist programming in R tidyr.
+<pre><code>
+I want you to act as a data scientist programming in R tidyr.
 You are given the [dataframe name] dataframe containing the 
-columns [column name].&nbsp; Please convert the data to wide format.</code></pre>
+columns [column name].&nbsp; Please convert the data to wide format.
+</code></pre>
 </section>
 <section id="example-data-reshaping-wide-to-long" class="level5">
 <h5 class="anchored" data-anchor-id="example-data-reshaping-wide-to-long">Example: Data Reshaping (Wide to Long)</h5>
-<pre><code>I want you to act as a data scientist programming in R tidyr.
+<pre><code>
+I want you to act as a data scientist programming in R tidyr.
 You are given the [dataframe name] dataframe containing the 
-columns [column name].&nbsp; Please convert the data to long format.</code></pre>
+columns [column name].&nbsp; Please convert the data to long format.
+</code></pre>
 </section>
 </section>
 </section>
@@ -468,60 +512,76 @@ columns [column name].&nbsp; Please convert the data to long format.</code></pre
 <h3 class="anchored" data-anchor-id="r-data-visualization-workflows">R data visualization workflows</h3>
 <section id="creating-plots-in-ggplot2" class="level4">
 <h4 class="anchored" data-anchor-id="creating-plots-in-ggplot2">Creating plots in ggplot2</h4>
-<pre><code>I want you to act as a data scientist coding in R. Given a dataframe
+<pre><code>
+I want you to act as a data scientist coding in R. Given a dataframe
 [dataframe name] containing the columns [column names] Use ggplot2
-to plot a [chart type and requirement].</code></pre>
+to plot a [chart type and requirement].
+</code></pre>
 </section>
 <section id="gridplot-visualizations-in-ggplot2" class="level4">
 <h4 class="anchored" data-anchor-id="gridplot-visualizations-in-ggplot2">Gridplot visualizations in ggplot2</h4>
-<pre><code>I want you to act as a data scientist coding in R. Given a dataframe
+<pre><code>
+I want you to act as a data scientist coding in R. Given a dataframe
 [dataframe name] containing the columns [column names]. Use ggplot2
 to plot a pair plot that shows the relationship of one variable
-against another.</code></pre>
+against another.
+</code></pre>
 </section>
 <section id="annotating-and-formatting-plots" class="level4">
 <h4 class="anchored" data-anchor-id="annotating-and-formatting-plots">Annotating and formatting plots</h4>
-<pre><code>I want you to act as a data scientist coding in R. Given a dataframe
+<pre><code>
+I want you to act as a data scientist coding in R. Given a dataframe
 [dataframe name] containing the columns [column names], use ggplot2 
 to plot a [chart type] the relationship between [variables]. 
-[Insert annotation and formatting requirements]</code></pre>
+[Insert annotation and formatting requirements]
+</code></pre>
 </section>
 <section id="changing-plot-themes-in-ggplot2" class="level4">
 <h4 class="anchored" data-anchor-id="changing-plot-themes-in-ggplot2">Changing plot themes in ggplot2</h4>
-<pre><code>I want you to act as a data scientist coding in R. Given a dataframe
+<pre><code>
+I want you to act as a data scientist coding in R. Given a dataframe
 [dataframe name] containing the columns [column names], use ggplot2
 to to plot a [chart type] the relationship between [variables].
-Change the color theme to match that of [theme]</code></pre>
+Change the color theme to match that of [theme]
+</code></pre>
 </section>
 </section>
 <section id="python-data-visualization-workflows" class="level3">
 <h3 class="anchored" data-anchor-id="python-data-visualization-workflows">Python data visualization workflows</h3>
 <section id="creating-plots-with-matplotlib" class="level4">
 <h4 class="anchored" data-anchor-id="creating-plots-with-matplotlib">Creating plots with matplotlib</h4>
-<pre><code>I want you to act as a data scientist coding in Python.&nbsp; Given a
+<pre><code>
+I want you to act as a data scientist coding in Python.&nbsp; Given a
 dataframe [dataframe name] containing the columns [column names]
-Use matplotlib&nbsp; to plot a [chart type and requirement].</code></pre>
+Use matplotlib&nbsp; to plot a [chart type and requirement].
+</code></pre>
 </section>
 <section id="crating-pairplots-with-matplotlib" class="level4">
 <h4 class="anchored" data-anchor-id="crating-pairplots-with-matplotlib">Crating pairplots with matplotlib</h4>
-<pre><code>I want you to act as a data scientist coding in Python. Given a
+<pre><code>
+I want you to act as a data scientist coding in Python. Given a
 dataframe [dataframe name] containing the columns [column names].
 Use matplotlib to plot a pair plot that shows the relationship of
-one variable against another.</code></pre>
+one variable against another.
+</code></pre>
 </section>
 <section id="annotating-and-formatting-plots-in-matplotlib" class="level4">
 <h4 class="anchored" data-anchor-id="annotating-and-formatting-plots-in-matplotlib">Annotating and formatting plots in matplotlib</h4>
-<pre><code>I want you to act as a data scientist coding in Python. Given a
+<pre><code>
+I want you to act as a data scientist coding in Python. Given a
 dataframe [dataframe name] containing the columns [column names],
 use matplotlib to to plot a [chart type] the relationship between
-[variables]. [Insert annotation and formatting requirements]</code></pre>
+[variables]. [Insert annotation and formatting requirements]
+</code></pre>
 </section>
 <section id="changing-plot-themes-in-matplotlib" class="level4">
 <h4 class="anchored" data-anchor-id="changing-plot-themes-in-matplotlib">Changing plot themes in matplotlib</h4>
-<pre><code>I want you to act as a data scientist coding in Python. Given a
+<pre><code>
+I want you to act as a data scientist coding in Python. Given a
 dataframe [dataframe name] containing the columns [column names],
 use matplotlib to to plot a [chart type] the relationship between
-[variables]. Change the color theme to match that of [theme]</code></pre>
+[variables]. Change the color theme to match that of [theme]
+</code></pre>
 </section>
 </section>
 </section>
@@ -531,29 +591,34 @@ use matplotlib to to plot a [chart type] the relationship between
 <h3 class="anchored" data-anchor-id="general-machine-learning-workflow">General machine learning workflow</h3>
 <section id="feature-engineering-ideation" class="level4">
 <h4 class="anchored" data-anchor-id="feature-engineering-ideation">Feature engineering ideation</h4>
-<pre><code>I want you to act as a data scientist. Given a dataset of [dataset
+<pre><code>
+I want you to act as a data scientist. Given a dataset of [dataset
 name] that contains the [columns], you are to predict [predicted
 variable]. Suggest data that will be helpful for this problem and
-perform feature engineering for this problem.</code></pre>
+perform feature engineering for this problem.
+</code></pre>
 </section>
 </section>
 <section id="python-machine-learning-workflow" class="level3">
 <h3 class="anchored" data-anchor-id="python-machine-learning-workflow">Python machine learning workflow</h3>
 <section id="model-training-workflow" class="level4">
 <h4 class="anchored" data-anchor-id="model-training-workflow">Model training workflow</h4>
-<pre><code>I want you to act as a data scientist programming in Python. Given a
+<pre><code>
+I want you to act as a data scientist programming in Python. Given a
 dataset of [dataframe name] that contains the [column name], write
-code to predict [output variable].</code></pre>
+code to predict [output variable].
+</code></pre>
 </section>
 <section id="hyperparameter-tuning-workflow" class="level4">
 <h4 class="anchored" data-anchor-id="hyperparameter-tuning-workflow">Hyperparameter tuning workflow</h4>
-<pre><code>I want you to act as a data scientist programming in Python. Given a
-[type of model] model, write code to tune the hyperparameter.
-</code></pre>
+<pre><code>
+I want you to act as a data scientist programming in Python. Given a
+[type of model] model, write code to tune the hyperparameter.</code></pre>
 </section>
 <section id="model-explainability-workflow" class="level4">
 <h4 class="anchored" data-anchor-id="model-explainability-workflow">Model explainability workflow</h4>
-<pre><code>I want you to act as a data scientist programming in Python. Given a
+<pre><code>
+I want you to act as a data scientist programming in Python. Given a
 [type of model] that predicts the [predictor variable], write code that explains an output using Shap values.</code></pre>
 </section>
 </section>
@@ -561,18 +626,21 @@ code to predict [output variable].</code></pre>
 <h3 class="anchored" data-anchor-id="r-machine-learning-workflow">R machine learning workflow</h3>
 <section id="model-training-workflow-1" class="level4">
 <h4 class="anchored" data-anchor-id="model-training-workflow-1">Model training workflow</h4>
-<pre><code>I want you to act as a data scientist programming in R. Given a
+<pre><code>
+I want you to act as a data scientist programming in R. Given a
 dataframe of [dataframe name] that contains [column names], 
 write code to predict [output].</code></pre>
 </section>
 <section id="hyperparameter-tuning-workflow-1" class="level4">
 <h4 class="anchored" data-anchor-id="hyperparameter-tuning-workflow-1">Hyperparameter tuning workflow</h4>
-<pre><code>I want you to act as a data scientist programming in R. Given 
+<pre><code>
+I want you to act as a data scientist programming in R. Given 
 a [type of model] model, write code to tune the hyperparameter.</code></pre>
 </section>
 <section id="model-explainability-workflow-1" class="level4">
 <h4 class="anchored" data-anchor-id="model-explainability-workflow-1">Model explainability workflow</h4>
-<pre><code>I want you to act as a data scientist programming in R. Given a
+<pre><code>
+I want you to act as a data scientist programming in R. Given a
 [type of model] that predicts the [predictor variable], write code that explains an output using Shap values.</code></pre>
 </section>
 </section>
@@ -583,21 +651,24 @@ a [type of model] model, write code to tune the hyperparameter.</code></pre>
 <h3 class="anchored" data-anchor-id="python-time-series-analysis-workflows">Python time series analysis workflows</h3>
 <section id="changing-time-horizons-using-pandas" class="level4">
 <h4 class="anchored" data-anchor-id="changing-time-horizons-using-pandas">Changing time horizons using pandas</h4>
-<pre><code>I want you to act as a data scientist coding in Python. Given a
+<pre><code>
+I want you to act as a data scientist coding in Python. Given a
 time series data in a Pandas dataframe [dataframe name] with
 timestamp Index in [original frequency] frequency with one column
 [column name], convert the timestamp frequency to [desired frequency].</code></pre>
 </section>
 <section id="build-test-series-model" class="level4">
 <h4 class="anchored" data-anchor-id="build-test-series-model">Build test series model</h4>
-<pre><code>I want you to act as a data scientist coding in Python. Given a time
+<pre><code>
+I want you to act as a data scientist coding in Python. Given a time
 series data in a dataframe [dataframe name] with timestamp Index in
 [original frequency] frequency with one column [column name],&nbsp; build a
 forecasting model, assuming data is stationary.</code></pre>
 </section>
 <section id="perform-stationarity-test" class="level4">
 <h4 class="anchored" data-anchor-id="perform-stationarity-test">Perform stationarity test</h4>
-<pre><code>I want you to act as a data scientist coding in Python. Given a time
+<pre><code>
+I want you to act as a data scientist coding in Python. Given a time
 series data in a dataframe [dataframe name] with timestamp Index in
 [original frequency] frequency with one column [column name], perform
 a Dicky Fuller test.</code></pre>
@@ -607,7 +678,8 @@ a Dicky Fuller test.</code></pre>
 <h3 class="anchored" data-anchor-id="r-time-series-analysis-workflows">R time series analysis workflows</h3>
 <section id="changing-time-horizons" class="level4">
 <h4 class="anchored" data-anchor-id="changing-time-horizons">Changing time horizons&nbsp;</h4>
-<pre><code>I want you to act as a data scientist coding in R. Given a time series
+<pre><code>
+I want you to act as a data scientist coding in R. Given a time series
 data in a dataframe [dataframe name] with timestamp Index in [original
 frequency] frequency with one column [column name], convert the
 timestamp frequency to [desired frequency].</code></pre>
@@ -618,7 +690,8 @@ timestamp frequency to [desired frequency].</code></pre>
 </section>
 <section id="perform-stationarity-test-1" class="level4">
 <h4 class="anchored" data-anchor-id="perform-stationarity-test-1">Perform stationarity test</h4>
-<pre><code>I want you to act as a data scientist coding in R. Given a time series
+<pre><code>
+I want you to act as a data scientist coding in R. Given a time series
 data in a dataframe [dataframe name] with timestamp Index in [original
 frequency] frequency with one column [column name], perform a Dicky
 Fuller test.</code></pre>
@@ -629,25 +702,29 @@ Fuller test.</code></pre>
 <h2 class="anchored" data-anchor-id="prompts-for-natural-language-processing-workflows"><strong>Prompts for natural language processing workflows</strong></h2>
 <section id="classify-text-sentiment" class="level3">
 <h3 class="anchored" data-anchor-id="classify-text-sentiment">Classify text sentiment</h3>
-<pre><code>I want you to act as a sentiment classifier. Classify the following
+<pre><code>
+I want you to act as a sentiment classifier. Classify the following
 text which came from [describe text origin] as \"positive\",
 \"negative\", \"neutral\" or \"unsure\": [Insert text to be
 classifier].</code></pre>
 </section>
 <section id="create-regular-expressions" class="level3">
 <h3 class="anchored" data-anchor-id="create-regular-expressions">Create regular expressions</h3>
-<pre><code>I want you to act as a programmer coding in Python, use regular
+<pre><code>
+I want you to act as a programmer coding in Python, use regular
 expressions to test if a string [insert requirements].</code></pre>
 </section>
 <section id="text-dataset-generation" class="level3">
 <h3 class="anchored" data-anchor-id="text-dataset-generation">Text dataset generation</h3>
-<pre><code>I want you to act as a dataset generator. Please generate [number of
+<pre><code>
+I want you to act as a dataset generator. Please generate [number of
 text] texts on [required text and the context]. [Insert additional
 requirements].</code></pre>
 </section>
 <section id="machine-translation" class="level3">
 <h3 class="anchored" data-anchor-id="machine-translation">Machine translation</h3>
-<pre><code>I want you to act as a translator. Please translate [phrase]&nbsp; from
+<pre><code>
+I want you to act as a translator. Please translate [phrase]&nbsp; from
 [origin language] to [translated language].</code></pre>
 </section>
 </section>
@@ -655,19 +732,22 @@ requirements].</code></pre>
 <h2 class="anchored" data-anchor-id="conceptual-and-career-oriented-prompts"><strong>Conceptual and career oriented prompts</strong></h2>
 <section id="explain-data-concepts-for-business-executives" class="level3">
 <h3 class="anchored" data-anchor-id="explain-data-concepts-for-business-executives">Explain data concepts for business executives</h3>
-<pre><code>I want you to act as a data scientist of a corporate company.
+<pre><code>
+I want you to act as a data scientist of a corporate company.
 [Describe content in detail, if required] Please explain to a
 business executive what [concept] means.</code></pre>
 </section>
 <section id="summarize-articlepaper" class="level3">
 <h3 class="anchored" data-anchor-id="summarize-articlepaper">Summarize article/paper</h3>
-<pre><code>I want you to act as a data scientist in a research start-up. 
+<pre><code>
+I want you to act as a data scientist in a research start-up. 
 Please explain the paper [paper] to a [level of difficulty, e.g.
 software developer, five-year-old, business executive, professor].</code></pre>
 </section>
 <section id="suggest-portfolio-projects-and-ideas" class="level3">
 <h3 class="anchored" data-anchor-id="suggest-portfolio-projects-and-ideas">Suggest portfolio projects and ideas</h3>
-<pre><code>I want you to act as a data science career coach. I am a [describe
+<pre><code>
+I want you to act as a data science career coach. I am a [describe
 your background] and I would like to [describe career objective].
 Suggest portfolio projects and ideas [describe objective of portfolio]</code></pre>
 </section>
