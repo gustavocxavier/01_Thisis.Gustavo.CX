@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "Gustavo C. X. | AI, Data Science & Analytics"
+  title: "Gustavo C. X. |  AI, Data Science & Analytics"
   favicon: "favicon.ico"
   navbar:
     right:
@@ -23,6 +23,8 @@ website:
       - about.qmd
       - href: https://calendly.com/gustavocx/30m
         text: Book a Session
+      - href: mailto:gustavocx@outlook.com
+        icon: envelope
       - icon: github
         href: https://github.com/gustavocxavier
       - icon: twitter
