@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Gustavo C. X. | AI, Data Science &amp; Analytics - AI, Data Science &amp; Analytics</title>
+<title>Gustavo C. X. | AI, Data Science &amp; Analytics - Selected Projects</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,9 +31,12 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./favicon.ico" rel="icon">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="prefetch" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
@@ -60,11 +63,41 @@ ul.task-list li input[type="checkbox"] {
     "search-submit-button-title": "Submit"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-author','listing-date','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-title","listing-author","listing-date","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -81,7 +114,7 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="./index.html" aria-current="page">
+    <a class="nav-link" href="./index.html">
  <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
@@ -125,38 +158,192 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-page-left">
+      <h1 class="title">Selected Projects</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(4)</span></div><div class="category" data-category="KPI">KPI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="business">business <span class="quarto-category-count">(2)</span></div><div class="category" data-category="cost reduction">cost reduction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data analysis">data analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data analytics">data analytics <span class="quarto-category-count">(1)</span></div><div class="category" data-category="data science">data science <span class="quarto-category-count">(2)</span></div><div class="category" data-category="decisions">decisions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="increase sales">increase sales <span class="quarto-category-count">(1)</span></div><div class="category" data-category="insights">insights <span class="quarto-category-count">(1)</span></div><div class="category" data-category="machine learning">machine learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="report">report <span class="quarto-category-count">(1)</span></div><div class="category" data-category="sales">sales <span class="quarto-category-count">(1)</span></div><div class="category" data-category="talks">talks <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
-<div class="quarto-about-jolla">
-  <img src="images/gustavocx.png" class="about-image
-  round " style="height: 15em; width: 15em;">
- <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">AI, Data Science &amp; Analytics</h1>
-</div>
-<div class="quarto-title-meta">
-  </div>
-</header><main class="content" id="quarto-document-content">
-<p><em>“Simple solutions with significant results.”</em></p>
-<!-- 
-<iframe width="780" height="500" src="https://calendly.com/gustavocx/30m" title="Book a session"></iframe>
-I’m passionate about the purpose of helping others by sharing knowledge. I like the idea of challenging myself to find data-driven solutions, either it's a practical problem in a real business or an academic problem.
--->
+<main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
 
-</main> 
-  <hr class="about-sep">
-   <div class="about-links">
-  <a href="https://thisis.gustavo.cx/portfolio" class="about-link">
-    <i class="bi bi-arrow-right-square-fill"></i>
-     <span class="about-link-text">LEARN MORE</span>
-  </a>
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-listing">
+<div class="list grid quarto-listing-cols-3">
+<div class="g-col-1" data-index="0" data-categories="data analytics,business,sales,KPI" data-listing-file-modified-sort="1688484513014" data-listing-reading-time-sort="0.98">
+<a href="./cases/dashboard/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./cases/dashboard/thumbnail.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+DASHBOARD
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data analytics'); return false;">
+data analytics
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('business'); return false;">
+business
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('sales'); return false;">
+sales
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('KPI'); return false;">
+KPI
 </div>
 </div>
- <!-- /main -->
+<div class="card-text listing-description">
+The dashboard below is an example focusing on sales, margins, volumes and conversions.
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="1" data-categories="data analysis,report,insights,decisions,cost reduction,increase sales" data-listing-file-modified-sort="1688484513021" data-listing-reading-time-sort="0.54">
+<a href="./cases/data-analysis2/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./cases/data-analysis2/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+DATA ANALYSIS
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('data analysis'); return false;">
+data analysis
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('report'); return false;">
+report
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('insights'); return false;">
+insights
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('decisions'); return false;">
+decisions
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('cost reduction'); return false;">
+cost reduction
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('increase sales'); return false;">
+increase sales
+</div>
+</div>
+<div class="card-text listing-description">
+Often, companies have data that contain a lot of hidden information. Asking the right…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="2" data-categories="talks,data science,machine learning" data-listing-file-modified-sort="1688484513035" data-listing-reading-time-sort="0.4">
+<a href="./cases/talk-appliedml/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./cases/talk-appliedml/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+MACHINE LEARNING TALK
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('talks'); return false;">
+talks
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('data science'); return false;">
+data science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('machine learning'); return false;">
+machine learning
+</div>
+</div>
+<div class="card-text listing-description">
+Machine Learning talks serve as an excellent avenue for expanding one’s knowledge base. By attending these talks, graduate students can gain exposure to cutting-edge…
+</div>
+<div class="card-attribution card-text-small start">
+<div class="listing-author">
+Gustavo Xavier
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+<div class="g-col-1" data-index="3" data-categories="business,data science,machine learning" data-listing-date-sort="1686798000000" data-listing-file-modified-sort="1688484513028" data-listing-reading-time-sort="2.69">
+<a href="./cases/data-science2/index.html" class="quarto-grid-link">
+<div class="quarto-grid-item card h-100 card-left">
+<p class="card-img-top">
+<img src="./cases/data-science2/image.jpg" class="thumbnail-image card-img" style="height: 150px;">
+</p>
+<div class="card-body post-contents">
+<h5 class="no-anchor card-title listing-title">
+DATA SCIENCE
+</h5>
+<div class="listing-categories">
+<div class="listing-category" onclick="window.quartoListingCategory('business'); return false;">
+business
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('data science'); return false;">
+data science
+</div>
+<div class="listing-category" onclick="window.quartoListingCategory('machine learning'); return false;">
+machine learning
+</div>
+</div>
+<div class="card-text listing-description">
+Data science distinguishes itself from data analysis because it tells you what to do and what the result will be. Where data analysis gives you information about the current…
+</div>
+<div class="card-attribution card-text-small justify">
+<div class="listing-author">
+Gustavo Xavier
+</div>
+<div class="listing-date">
+Jun 15, 2023
+</div>
+</div>
+</div>
+</div>
+</a>
+</div>
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -292,6 +479,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   } else {
     toggleColorMode(false);
   }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
   const clipboard = new window.ClipboardJS('.code-copy-button', {
     target: function(trigger) {
       return trigger.previousElementSibling;

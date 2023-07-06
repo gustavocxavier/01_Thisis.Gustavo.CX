@@ -1,0 +1,18 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/post-with-code/index.html",
+      "/blog/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/cases.html",
+    "items": [
+      "/cases/dashboard/index.html",
+      "/cases/data-analysis2/index.html",
+      "/cases/talk-appliedml/index.html",
+      "/cases/data-science2/index.html"
+    ]
+  }
+]
