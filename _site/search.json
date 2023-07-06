@@ -5,5 +5,40 @@
     "title": "AI, Data Science & Analytics",
     "section": "",
     "text": "“Simple solutions with significant results.”"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Gustavo is a Data Scientist based on Brazil that work globally with innovative solutions in data."
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "About",
+    "section": "Education",
+    "text": "Education\nFederal University of Brazil, Paraiba | João Pessoa, PB (Brazil) PhD in Finance | Sept 2017 - June 2021\nVisiting Scholar at UTK | Knoxville, TN (USA) B.A in Economics | Sept 2007 - June 2011"
+  },
+  {
+    "objectID": "about.html#experience",
+    "href": "about.html#experience",
+    "title": "About",
+    "section": "Experience",
+    "text": "Experience\nData Analytics | Chief Analyst | Spet 2012 - April 2018\nData Science | Head Data Scientist | April 2018 - present\nApplied Machine Learning | Researcher | Spet 2012 - April 2018"
+  },
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Gustavo C. X. |  AI, Data Science & Analytics",
+    "section": "",
+    "text": "Consultancy for a group participating in a closed Kaggle competition. The main objective was to optimize out-of-sample prediction. At the end, the group gained confidence to employ their own strategies and further enhance the models, resulting in improved performance in the competition.\n\n\n\n\n\n\n\n\nThe solution involved three steps:\nCareful exploratory data analysis (EDA) to gain a deep understanding of the data;\nTraining a set of models by running a notebook in the background utilizing Kaggle’s GPU, and;\nImplementing a stacked models approach to combine the best-performing models.\nCheck out a Kaggle notebook example"
+  },
+  {
+    "objectID": "portfolio.html#big-research-project",
+    "href": "portfolio.html#big-research-project",
+    "title": "Gustavo C. X. |  AI, Data Science & Analytics",
+    "section": "Big Research Project",
+    "text": "Big Research Project\n\n\n\n\n\n\n\n\n\n\nA long research project to develop a reliable measure measure of firm-level investment plans based on text data from MD&A (Management Discussion and Analysis) disclosure in 10-K filings, which I do by using a combination of the forecast procedure of Han et al. (2020) with the idea of time varying dictionary developed by Lima, Godeiro and Mohsin (2020).\nThis novel measure is relevant because despite the literature provide support to the importance of investment plans in both aggregate-level and firm-level (LI; WANG; YU, 2020; HOU et al., 2020), this last one receives less attention since it is empirically challenging to measure firm-level investment plans (LIN; LIN, 2018). Then, analyze investment plans in a firm-level is not an easy task, due to the plans are not observable. So in this project I proposed to measure the firm Expected Investment Growth (EIG) based on a combination of machine learning tools and text regression. Check out the github repository"
   }
 ]
