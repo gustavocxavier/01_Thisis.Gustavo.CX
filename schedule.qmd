@@ -1,0 +1,8 @@
+## Book a Session
+
+Here are my available times. Please let me know your preferred time. If none of these options work for you, feel free to reach out, and we'll find a solution together.
+
+<!-- Calendly inline widget begin -->
+<div class="calendly-inline-widget" data-url="https://calendly.com/gustavocx/30m?hide_event_type_details=1" style="min-width:350px;height:800px;"></div>
+<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+<!-- Calendly inline widget end -->

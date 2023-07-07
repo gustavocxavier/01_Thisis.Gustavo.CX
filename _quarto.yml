@@ -20,19 +20,22 @@ website:
       # - href: testmonials.qmd
       #   text: Testmonials
       - about.qmd
-      - href: https://calendly.com/gustavocx/30m
+      - href: schedule.qmd
         text: Book a Session
+      # - href: https://calendly.com/gustavocx/30m
+      #   text: Book a Session
       - href: mailto:gustavocx@outlook.com
         icon: envelope
-      - icon: github
-        href: https://github.com/gustavocxavier
-      - icon: twitter
-        href: https://twitter.com/gustavocxtech
+      # - icon: github
+      #   href: https://github.com/gustavocxavier
+      # - icon: twitter
+      #   href: https://twitter.com/gustavocxtech
 format:
   html:
     theme:
-      light: flatly
-      dark: darkly
+      # dark: darkly
+      dark: [darkly, styles_dark.scss]
       # dark: [cosmo, styles_dark.scss]
+      light: flatly
 editor: source
 

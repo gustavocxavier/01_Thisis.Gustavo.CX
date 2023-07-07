@@ -208,5 +208,12 @@
     "title": "AI Prompts for Data Science",
     "section": "Conceptual and career oriented prompts",
     "text": "Conceptual and career oriented prompts\n\nExplain data concepts for business executives\n\nI want you to act as a data scientist of a corporate company.\n[Describe content in detail, if required] Please explain to a\nbusiness executive what [concept] means.\n\n\nSummarize article/paper\n\nI want you to act as a data scientist in a research start-up. \nPlease explain the paper [paper] to a [level of difficulty, e.g.\nsoftware developer, five-year-old, business executive, professor].\n\n\nSuggest portfolio projects and ideas\nI want you to act as a data science career coach. I am a [describe\nyour background] and I would like to [describe career objective].\nSuggest portfolio projects and ideas [describe objective of portfolio]\n\n\nWrite tutorials\nI want you to act as a data scientist writer. Please write the\n[number-of-words]-word introduction to a tutorial on [title]. \n[Insert relevant key points]."
+  },
+  {
+    "objectID": "schedule.html",
+    "href": "schedule.html",
+    "title": "Gustavo C. X. |  AI, Data Science & Analytics",
+    "section": "",
+    "text": "Here are my available times. Please let me know your preferred time. If none of these options work for you, feel free to reach out, and we’ll find a solution together."
   }
 ]
