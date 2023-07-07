@@ -1,0 +1,229 @@
+---
+title: "AI Prompts for data analysis workflows"
+# author: "Gustavo C.X."
+# date: "2023-07-23"
+categories: [ai prompts, code, data science]
+image: "image.jpg"
+---
+
+## SQL data analysis workflows
+
+### Data generation & creating tables
+
+``` prompt-block
+
+I want you to act as a data generator. Can you write SQL queries in
+[database version] that create a table [table name] with the columns
+[column name]. Include relevant constraints and index.
+```
+
+### Common table expressions
+
+``` prompt-block
+
+I want you to act as a SQL code programmer. I am running [database
+version]. Can you rewrite this query using CTE? [Insert query]
+```
+
+### Write SQL queries from natural language
+
+#### Example: Data aggregation in SQL
+
+``` prompt-block
+
+I want you to act as a data scientist. [Insert description of tables].
+Can you [count/sum/take average] of [value] which are [insert filters]
+```
+
+#### Example: 7 day running average in SQL
+
+``` prompt-block
+
+I want you to act as a data scientist.  I am running [PostgreSQL
+14/MySQL 8/SQLite 3.4/other versions.]. I have the tables [table_name]
+which are [table description]. The sales table consists of the columns
+[column names]. Can you please write a query that finds the 7-day
+running average of [quantity]?
+```
+
+#### Example: Window functions in SQL
+
+``` prompt-block
+
+I want you to act as a data scientist.  I am running [PostgreSQL
+14/MySQL 8/SQLite 3.4/other versions.]. I have the tables 
+[table_name] which are [table description]. The sales table consists
+of the columns [column names]. Can you please write a query that
+finds [required window function]?
+```
+
+#### Example: Window functions in SQL
+
+``` prompt-block
+
+I want you to act as a data scientist.  I am running [PostgreSQL
+14/MySQL 8/SQLite 3.4/other versions.]. I have the tables 
+[table_name] which are [table description]. The sales table consists
+of the columns [column names]. Can you please write a query that
+finds [required window function]?
+```
+
+## Python data analysis workflows
+
+### Data generation workflow
+
+#### Example: Generate Markdown
+
+``` prompt-block
+
+I want you to act as a data generator in Python. Can you generate a
+Markdown file that contains [data requirement]. Save the file to
+[filename]
+```
+
+#### Example: Generate CSV
+
+``` prompt-block
+
+I want you to act as a data generator in Python. Can you generate a
+CSV file that contains [data requirement]. Save the file to
+[filename]
+```
+
+#### Example: Generate JSON
+
+``` prompt-block
+
+I want you to act as a data generator in Python. Can you generate a
+JSON file that contains [data requirement]. Save the file to
+[filename]
+```
+
+### Data cleaning workflow
+
+``` prompt-block
+
+I want you to act as a data scientist programming in Python Pandas.
+Given a CSV file that contains data of [dataframe name]  with the
+columns [colum names]  for [dataset context], write code to clean
+the data? [Insert requirements for data]
+```
+
+### Data analysis workflow in pandas
+
+#### Example: Data Aggregation
+
+``` prompt-block
+
+I want you to act as a data scientist programming in Python Pandas.
+Given a table [table name] that consists of the columns [column
+names]  can you please write a query that finds [requirement]?
+```
+
+#### Example: Data Merging
+
+``` prompt-block
+
+I want you to act as a data scientist programming in Python Pandas.
+Given a table [table 1 name]  that consists of the columns [column
+names]  and another table [table 2 name]  with the columns [column
+names], please merge the two tables. [Insert additional requirement,
+if any]
+```
+
+#### Example: Data Reshaping
+
+``` prompt-block
+
+I want you to act as a data scientist programming in Python Pandas.
+Given a table [table name] that consists of the columns [column
+names]  can you aggregate the [value]  by [column] and convert it
+from long to wide format?
+```
+
+#### Example: Generate Markdown
+
+``` prompt-block
+
+I want you to act as a data generator in R. Can you generate a
+Markdown file that contains [data requirement]. Save the file to
+[filename]
+```
+
+## R data analysis workflows
+
+### Data generation workflow 
+
+#### Example: Generate Markdown
+
+``` prompt-block
+
+I want you to act as a data generator in R. Can you generate a
+Markdown file that contains [data requirement]. Save the file to
+[filename]
+```
+
+#### Example: Generate CSV
+
+``` prompt-block
+
+I want you to act as a data generator in R. Can you generate a CSV
+file that contains [data requirement]. Save the file to [filename]
+```
+
+#### Example: Generate JSON
+
+``` prompt-block
+
+I want you to act as a data generator in R. Can you generate a JSON
+file that contains [data requirement]. Save the file to [filename]
+```
+
+### Data cleaning workflow
+
+``` prompt-block
+
+I want you to act as a data scientist programming in R tidyr. You are
+given the [dataframe name] dataframe containing the columns [column
+name]. [Insert requirement]
+```
+
+### Data analysis workflow in tidyr
+
+#### Data Aggregation
+
+``` prompt-block
+
+I want you to act as a data scientist programming in R tidyr. You 
+are given the [dataframe name] dataframe containing the columns
+[column name]. [Insert requirement]
+```
+
+#### Data Merging
+
+``` prompt-block
+
+I want you to act as a data scientist programming in R tidyr. You are
+given the [dataframe 1 name] dataframe containing the columns
+[column name]. You also have a [dataframe 2 name] dataframe
+containing the columns [column name]. Find the [required output] 
+```
+
+#### Example: Data Reshaping (Long to Wide)
+
+``` prompt-block
+
+I want you to act as a data scientist programming in R tidyr.
+You are given the [dataframe name] dataframe containing the 
+columns [column name].  Please convert the data to wide format.
+```
+
+#### Example: Data Reshaping (Wide to Long)
+
+``` prompt-block
+
+I want you to act as a data scientist programming in R tidyr.
+You are given the [dataframe name] dataframe containing the 
+columns [column name].  Please convert the data to long format.
+```
+

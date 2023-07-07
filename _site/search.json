@@ -102,7 +102,7 @@
     "href": "blog.html",
     "title": "Some of my thoughts into words.",
     "section": "",
-    "text": "AI Prompts for Data Science\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nWhy a Data Blog?\n\n\n\n\n\n\n\n\n\n\n\n\nJun 12, 2020\n\n\nGustavo C. X.\n\n\n\n\n\n\nNo matching items"
+    "text": "AI Prompts for Data Science\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nConceptual and career oriented AI prompts\n\n\n\n\n\n\n\nai prompts\n\n\ncode\n\n\ndata science\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAI Prompts for data analysis workflows\n\n\n\n\n\n\n\nai prompts\n\n\ncode\n\n\ndata science\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAI Prompts for data visualization workflows\n\n\n\n\n\n\n\nai prompts\n\n\ncode\n\n\ndata science\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAI Prompts for general coding workflows\n\n\n\n\n\n\n\nai prompts\n\n\ncode\n\n\ndata science\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAI Prompts for machine learning workflows\n\n\n\n\n\n\n\nai prompts\n\n\ncode\n\n\ndata science\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAI Prompts for natural language processing workflows\n\n\n\n\n\n\n\nai prompts\n\n\ncode\n\n\ndata science\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nAI Prompts for time series analysis workflows\n\n\n\n\n\n\n\nai prompts\n\n\ncode\n\n\ndata science\n\n\n\n\n\n\n\n\n\n \n\n\n\n\n  \n\n\n\n\nWhy a Data Blog?\n\n\n\n\n\n\n\n\n\n\n\n\nJun 12, 2020\n\n\nGustavo C. X.\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "cases/dashboard/index.html",
@@ -215,5 +215,173 @@
     "title": "Gustavo C. X. |  AI, Data Science & Analytics",
     "section": "",
     "text": "Here are my available times. Please let me know your preferred time. If none of these options work for you, feel free to reach out, and we’ll find a solution together."
+  },
+  {
+    "objectID": "blog/ai-prompts-for-career-and-business/index.html",
+    "href": "blog/ai-prompts-for-career-and-business/index.html",
+    "title": "Conceptual and career oriented AI prompts",
+    "section": "",
+    "text": "I want you to act as a data scientist of a corporate company.\n[Describe content in detail, if required] Please explain to a\nbusiness executive what [concept] means."
+  },
+  {
+    "objectID": "blog/ai-prompts-for-career-and-business/index.html#summarize-articlepaper",
+    "href": "blog/ai-prompts-for-career-and-business/index.html#summarize-articlepaper",
+    "title": "Conceptual and career oriented AI prompts",
+    "section": "Summarize article/paper",
+    "text": "Summarize article/paper\n\nI want you to act as a data scientist in a research start-up. \nPlease explain the paper [paper] to a [level of difficulty, e.g.\nsoftware developer, five-year-old, business executive, professor]."
+  },
+  {
+    "objectID": "blog/ai-prompts-for-career-and-business/index.html#suggest-portfolio-projects-and-ideas",
+    "href": "blog/ai-prompts-for-career-and-business/index.html#suggest-portfolio-projects-and-ideas",
+    "title": "Conceptual and career oriented AI prompts",
+    "section": "Suggest portfolio projects and ideas",
+    "text": "Suggest portfolio projects and ideas\nI want you to act as a data science career coach. I am a [describe\nyour background] and I would like to [describe career objective].\nSuggest portfolio projects and ideas [describe objective of portfolio]"
+  },
+  {
+    "objectID": "blog/ai-prompts-for-career-and-business/index.html#write-tutorials",
+    "href": "blog/ai-prompts-for-career-and-business/index.html#write-tutorials",
+    "title": "Conceptual and career oriented AI prompts",
+    "section": "Write tutorials",
+    "text": "Write tutorials\nI want you to act as a data scientist writer. Please write the\n[number-of-words]-word introduction to a tutorial on [title]. \n[Insert relevant key points]."
+  },
+  {
+    "objectID": "blog/ai-prompts-for-da/index.html",
+    "href": "blog/ai-prompts-for-da/index.html",
+    "title": "AI Prompts for data analysis workflows",
+    "section": "",
+    "text": "I want you to act as a data generator. Can you write SQL queries in\n[database version] that create a table [table name] with the columns\n[column name]. Include relevant constraints and index.\n\n\n\n\nI want you to act as a SQL code programmer. I am running [database\nversion]. Can you rewrite this query using CTE? [Insert query]\n\n\n\n\n\n\nI want you to act as a data scientist. [Insert description of tables].\nCan you [count/sum/take average] of [value] which are [insert filters]\n\n\n\n\nI want you to act as a data scientist.  I am running [PostgreSQL\n14/MySQL 8/SQLite 3.4/other versions.]. I have the tables [table_name]\nwhich are [table description]. The sales table consists of the columns\n[column names]. Can you please write a query that finds the 7-day\nrunning average of [quantity]?\n\n\n\n\nI want you to act as a data scientist.  I am running [PostgreSQL\n14/MySQL 8/SQLite 3.4/other versions.]. I have the tables \n[table_name] which are [table description]. The sales table consists\nof the columns [column names]. Can you please write a query that\nfinds [required window function]?\n\n\n\n\nI want you to act as a data scientist.  I am running [PostgreSQL\n14/MySQL 8/SQLite 3.4/other versions.]. I have the tables \n[table_name] which are [table description]. The sales table consists\nof the columns [column names]. Can you please write a query that\nfinds [required window function]?"
+  },
+  {
+    "objectID": "blog/ai-prompts-for-da/index.html#python-data-analysis-workflows",
+    "href": "blog/ai-prompts-for-da/index.html#python-data-analysis-workflows",
+    "title": "AI Prompts for data analysis workflows",
+    "section": "Python data analysis workflows",
+    "text": "Python data analysis workflows\n\nData generation workflow\n\nExample: Generate Markdown\n\nI want you to act as a data generator in Python. Can you generate a\nMarkdown file that contains [data requirement]. Save the file to\n[filename]\n\n\nExample: Generate CSV\n\nI want you to act as a data generator in Python. Can you generate a\nCSV file that contains [data requirement]. Save the file to\n[filename]\n\n\nExample: Generate JSON\n\nI want you to act as a data generator in Python. Can you generate a\nJSON file that contains [data requirement]. Save the file to\n[filename]\n\n\n\nData cleaning workflow\n\nI want you to act as a data scientist programming in Python Pandas.\nGiven a CSV file that contains data of [dataframe name]  with the\ncolumns [colum names]  for [dataset context], write code to clean\nthe data? [Insert requirements for data]\n\n\nData analysis workflow in pandas\n\nExample: Data Aggregation\n\nI want you to act as a data scientist programming in Python Pandas.\nGiven a table [table name] that consists of the columns [column\nnames]  can you please write a query that finds [requirement]?\n\n\nExample: Data Merging\n\nI want you to act as a data scientist programming in Python Pandas.\nGiven a table [table 1 name]  that consists of the columns [column\nnames]  and another table [table 2 name]  with the columns [column\nnames], please merge the two tables. [Insert additional requirement,\nif any]\n\n\nExample: Data Reshaping\n\nI want you to act as a data scientist programming in Python Pandas.\nGiven a table [table name] that consists of the columns [column\nnames]  can you aggregate the [value]  by [column] and convert it\nfrom long to wide format?\n\n\nExample: Generate Markdown\n\nI want you to act as a data generator in R. Can you generate a\nMarkdown file that contains [data requirement]. Save the file to\n[filename]"
+  },
+  {
+    "objectID": "blog/ai-prompts-for-da/index.html#r-data-analysis-workflows",
+    "href": "blog/ai-prompts-for-da/index.html#r-data-analysis-workflows",
+    "title": "AI Prompts for data analysis workflows",
+    "section": "R data analysis workflows",
+    "text": "R data analysis workflows\n\nData generation workflow \n\nExample: Generate Markdown\n\nI want you to act as a data generator in R. Can you generate a\nMarkdown file that contains [data requirement]. Save the file to\n[filename]\n\n\nExample: Generate CSV\n\nI want you to act as a data generator in R. Can you generate a CSV\nfile that contains [data requirement]. Save the file to [filename]\n\n\nExample: Generate JSON\n\nI want you to act as a data generator in R. Can you generate a JSON\nfile that contains [data requirement]. Save the file to [filename]\n\n\n\nData cleaning workflow\n\nI want you to act as a data scientist programming in R tidyr. You are\ngiven the [dataframe name] dataframe containing the columns [column\nname]. [Insert requirement]\n\n\nData analysis workflow in tidyr\n\nData Aggregation\n\nI want you to act as a data scientist programming in R tidyr. You \nare given the [dataframe name] dataframe containing the columns\n[column name]. [Insert requirement]\n\n\nData Merging\n\nI want you to act as a data scientist programming in R tidyr. You are\ngiven the [dataframe 1 name] dataframe containing the columns\n[column name]. You also have a [dataframe 2 name] dataframe\ncontaining the columns [column name]. Find the [required output] \n\n\nExample: Data Reshaping (Long to Wide)\n\nI want you to act as a data scientist programming in R tidyr.\nYou are given the [dataframe name] dataframe containing the \ncolumns [column name].  Please convert the data to wide format.\n\n\nExample: Data Reshaping (Wide to Long)\n\nI want you to act as a data scientist programming in R tidyr.\nYou are given the [dataframe name] dataframe containing the \ncolumns [column name].  Please convert the data to long format."
+  },
+  {
+    "objectID": "blog/ai-prompts-for-data-vis/index.html",
+    "href": "blog/ai-prompts-for-data-vis/index.html",
+    "title": "AI Prompts for data visualization workflows",
+    "section": "",
+    "text": "I want you to act as a data scientist coding in R. Given a dataframe\n[dataframe name] containing the columns [column names] Use ggplot2\nto plot a [chart type and requirement].\n\n\n\n\nI want you to act as a data scientist coding in R. Given a dataframe\n[dataframe name] containing the columns [column names]. Use ggplot2\nto plot a pair plot that shows the relationship of one variable\nagainst another.\n\n\n\n\nI want you to act as a data scientist coding in R. Given a dataframe\n[dataframe name] containing the columns [column names], use ggplot2 \nto plot a [chart type] the relationship between [variables]. \n[Insert annotation and formatting requirements]\n\n\n\n\nI want you to act as a data scientist coding in R. Given a dataframe\n[dataframe name] containing the columns [column names], use ggplot2\nto to plot a [chart type] the relationship between [variables].\nChange the color theme to match that of [theme]"
+  },
+  {
+    "objectID": "blog/ai-prompts-for-data-vis/index.html#python-data-visualization-workflows",
+    "href": "blog/ai-prompts-for-data-vis/index.html#python-data-visualization-workflows",
+    "title": "AI Prompts for data visualization workflows",
+    "section": "Python data visualization workflows",
+    "text": "Python data visualization workflows\n\nCreating plots with matplotlib\n\nI want you to act as a data scientist coding in Python.  Given a\ndataframe [dataframe name] containing the columns [column names]\nUse matplotlib  to plot a [chart type and requirement].\n\n\nCrating pairplots with matplotlib\n\nI want you to act as a data scientist coding in Python. Given a\ndataframe [dataframe name] containing the columns [column names].\nUse matplotlib to plot a pair plot that shows the relationship of\none variable against another.\n\n\nAnnotating and formatting plots in matplotlib\n\nI want you to act as a data scientist coding in Python. Given a\ndataframe [dataframe name] containing the columns [column names],\nuse matplotlib to to plot a [chart type] the relationship between\n[variables]. [Insert annotation and formatting requirements]\n\n\nChanging plot themes in matplotlib\n\nI want you to act as a data scientist coding in Python. Given a\ndataframe [dataframe name] containing the columns [column names],\nuse matplotlib to to plot a [chart type] the relationship between\n[variables]. Change the color theme to match that of [theme]"
+  },
+  {
+    "objectID": "blog/ai-prompts-for-general-coding/index.html",
+    "href": "blog/ai-prompts-for-general-coding/index.html",
+    "title": "AI Prompts for general coding workflows",
+    "section": "",
+    "text": "I want you to be a Python programmer, here is a piece of Python code containing \n[problem] --- \\[insert code snippet] --- I am getting the following error \n[insert error]. What is the reason for the bug?\n\n\n\nI want you to be an R programmer, here is a piece of R code containing\n[problem] --- [insert code snippet] --- I am getting the following error \n[insert error]. What is the reason for the bug?\n\n\n\nI want you to be a SQL programmer, here is a piece of SQL code\ncontaining [problem] --- [insert code snippet] --- I am getting the\nfollowing error [insert error]. What is the reason for the bug?"
+  },
+  {
+    "objectID": "blog/ai-prompts-for-general-coding/index.html#code-explanation-workflows",
+    "href": "blog/ai-prompts-for-general-coding/index.html#code-explanation-workflows",
+    "title": "AI Prompts for general coding workflows",
+    "section": "Code explanation workflows",
+    "text": "Code explanation workflows\n\nPython code explanation\nI want you to act as a code explainer in Python. I don't understand\nthis function. Can you please explain what it does, and provide an\nexample? [Insert function]\n\n\nR code explanation\nI want you to act as a code explainer in R. I don't understand this\nfunction. Can you please explain what it does, and provide an example?\n[Insert function]\n\n\nSQL code explanation\nI want you to act as a code explainer in SQL. I don't understand this\nsnippet. Can you please explain what it does, and provide an example?\n\n[Insert SQL query]"
+  },
+  {
+    "objectID": "blog/ai-prompts-for-general-coding/index.html#code-optimization-workflows",
+    "href": "blog/ai-prompts-for-general-coding/index.html#code-optimization-workflows",
+    "title": "AI Prompts for general coding workflows",
+    "section": "Code optimization workflows",
+    "text": "Code optimization workflows\n\nPython code optimization\nI want you to act as a code optimizer in Python.\n\n[Describe problem with current code, if possible].\n\nCan you make the code [more Pythonic/more efficient/run faster/\ncleaner/more readable]? \n\n[Insert Code]\n\n\nR code optimization\nI want you to act as a code optimizer in R. [Describe problem with\ncurrent code, if possible]. Can you make the code \n[cleaner/more efficient/run faster/more readable]? [Insert Code]\n\n\nSQL code optimization\nI want you to act as a query optimizer in SQL. [Describe problem with\ncurrent code, if possible]. Can you suggest ways to make the query\n[run faster/more readable/simpler]? [Insert Code]"
+  },
+  {
+    "objectID": "blog/ai-prompts-for-general-coding/index.html#code-simplification-workflows",
+    "href": "blog/ai-prompts-for-general-coding/index.html#code-simplification-workflows",
+    "title": "AI Prompts for general coding workflows",
+    "section": "Code simplification workflows",
+    "text": "Code simplification workflows\n\nPython code simplification\nI want you to act as a programmer in Python. Please simplify this code\nwhile ensuring that it is [efficient/easy to read/Pythonic]? [Insert\nCode]\n\n\nR code simplification\n\nI want you to act as a programmer in R. Please simplify this code\nwhile ensuring that it is [efficient/easy to read]? [Insert Code]\n\n\nSQL code simplification\n\nI want you to act as a SQL programmer. I am running [PostgreSQL\n14/MySQL 8/SQLite 3.4/other versions.]. Can you please simplify this\nquery [while ensuring that it is efficient/easy to read/insert any\nadditional requirements]?"
+  },
+  {
+    "objectID": "blog/ai-prompts-for-general-coding/index.html#code-translation-workflows",
+    "href": "blog/ai-prompts-for-general-coding/index.html#code-translation-workflows",
+    "title": "AI Prompts for general coding workflows",
+    "section": "Code translation workflows",
+    "text": "Code translation workflows\n\nFrom R to Python code translation\n\nI want you to act as a programmer in R.  Please translate this code\nto Python. [Insert code]\n\n\nFrom Python to R code translation\n\nI want you to act as a programmer in Python. Please translate this\ncode to R. [Insert code]"
+  },
+  {
+    "objectID": "blog/ai-prompts-for-general-coding/index.html#code-quality-and-testing-workflows",
+    "href": "blog/ai-prompts-for-general-coding/index.html#code-quality-and-testing-workflows",
+    "title": "AI Prompts for general coding workflows",
+    "section": "Code quality and testing workflows",
+    "text": "Code quality and testing workflows\n\nCompare function speeds in python\n\nI want you to act as a Python programmer.  Can you write code that\ncompares the speed of two functions [functionname] and [functionname]?\n\n[Insert functions]\n\n\nWrite unit tests in R\n\nI want you to act as a R Programmer. Can you please write unit tests\nfor the function [functionname]? [Insert requirements for unit tests,\nif any] [Insert code]\n\n\nWrite unit tests in Python\nI want you to act as a Python Programmer. Can you please write unit\ntests for the function [functionname]? [Insert requirements for unit\ntests, if any] [Insert code]"
+  },
+  {
+    "objectID": "blog/ai-prompts-for-ml/index.html",
+    "href": "blog/ai-prompts-for-ml/index.html",
+    "title": "AI Prompts for machine learning workflows",
+    "section": "",
+    "text": "I want you to act as a data scientist. Given a dataset of [dataset\nname] that contains the [columns], you are to predict [predicted\nvariable]. Suggest data that will be helpful for this problem and\nperform feature engineering for this problem."
+  },
+  {
+    "objectID": "blog/ai-prompts-for-ml/index.html#python-machine-learning-workflow",
+    "href": "blog/ai-prompts-for-ml/index.html#python-machine-learning-workflow",
+    "title": "AI Prompts for machine learning workflows",
+    "section": "Python machine learning workflow",
+    "text": "Python machine learning workflow\n\nModel training workflow\n\nI want you to act as a data scientist programming in Python. Given a\ndataset of [dataframe name] that contains the [column name], write\ncode to predict [output variable].\n\n\nHyperparameter tuning workflow\n\nI want you to act as a data scientist programming in Python. Given a\n[type of model] model, write code to tune the hyperparameter.\n\n\nModel explainability workflow\n\nI want you to act as a data scientist programming in Python. Given a\n[type of model] that predicts the [predictor variable], write code that \nexplains an output using Shap values."
+  },
+  {
+    "objectID": "blog/ai-prompts-for-ml/index.html#r-machine-learning-workflow",
+    "href": "blog/ai-prompts-for-ml/index.html#r-machine-learning-workflow",
+    "title": "AI Prompts for machine learning workflows",
+    "section": "R machine learning workflow",
+    "text": "R machine learning workflow\n\nModel training workflow\n\nI want you to act as a data scientist programming in R. Given a\ndataframe of [dataframe name] that contains [column names], \nwrite code to predict [output].\n\n\nHyperparameter tuning workflow\n\nI want you to act as a data scientist programming in R. Given \na [type of model] model, write code to tune the hyperparameter.\n\n\nModel explainability workflow\n\nI want you to act as a data scientist programming in R. Given a\n[type of model] that predicts the [predictor variable], write code that explains\nan output using Shap values."
+  },
+  {
+    "objectID": "blog/ai-prompts-for-nlp/index.html",
+    "href": "blog/ai-prompts-for-nlp/index.html",
+    "title": "AI Prompts for natural language processing workflows",
+    "section": "",
+    "text": "I want you to act as a sentiment classifier. Classify the following\ntext which came from [describe text origin] as \\\"positive\\\",\n\\\"negative\\\", \\\"neutral\\\" or \\\"unsure\\\": [Insert text to be\nclassifier]."
+  },
+  {
+    "objectID": "blog/ai-prompts-for-nlp/index.html#create-regular-expressions",
+    "href": "blog/ai-prompts-for-nlp/index.html#create-regular-expressions",
+    "title": "AI Prompts for natural language processing workflows",
+    "section": "Create regular expressions",
+    "text": "Create regular expressions\n\nI want you to act as a programmer coding in Python, use regular\nexpressions to test if a string [insert requirements]."
+  },
+  {
+    "objectID": "blog/ai-prompts-for-nlp/index.html#text-dataset-generation",
+    "href": "blog/ai-prompts-for-nlp/index.html#text-dataset-generation",
+    "title": "AI Prompts for natural language processing workflows",
+    "section": "Text dataset generation",
+    "text": "Text dataset generation\n\nI want you to act as a dataset generator. Please generate [number of\ntext] texts on [required text and the context]. [Insert additional\nrequirements]."
+  },
+  {
+    "objectID": "blog/ai-prompts-for-nlp/index.html#machine-translation",
+    "href": "blog/ai-prompts-for-nlp/index.html#machine-translation",
+    "title": "AI Prompts for natural language processing workflows",
+    "section": "Machine translation",
+    "text": "Machine translation\n\nI want you to act as a translator. Please translate [phrase]  from\n[origin language] to [translated language]."
+  },
+  {
+    "objectID": "blog/ai-prompts-for-ts-analysis/index.html",
+    "href": "blog/ai-prompts-for-ts-analysis/index.html",
+    "title": "AI Prompts for time series analysis workflows",
+    "section": "",
+    "text": "I want you to act as a data scientist coding in Python. Given a\ntime series data in a Pandas dataframe [dataframe name] with\ntimestamp Index in [original frequency] frequency with one column\n[column name], convert the timestamp frequency to [desired frequency].\n\n\n\n\nI want you to act as a data scientist coding in Python. Given a time\nseries data in a dataframe [dataframe name] with timestamp Index in\n[original frequency] frequency with one column [column name],  build a\nforecasting model, assuming data is stationary.\n\n\n\n\nI want you to act as a data scientist coding in Python. Given a time\nseries data in a dataframe [dataframe name] with timestamp Index in\n[original frequency] frequency with one column [column name], perform\na Dicky Fuller test."
+  },
+  {
+    "objectID": "blog/ai-prompts-for-ts-analysis/index.html#r-time-series-analysis-workflows",
+    "href": "blog/ai-prompts-for-ts-analysis/index.html#r-time-series-analysis-workflows",
+    "title": "AI Prompts for time series analysis workflows",
+    "section": "R time series analysis workflows",
+    "text": "R time series analysis workflows\n\nChanging time horizons \n\nI want you to act as a data scientist coding in R. Given a time series\ndata in a dataframe [dataframe name] with timestamp Index in [original\nfrequency] frequency with one column [column name], convert the\ntimestamp frequency to [desired frequency].\n\n\nChanging time horizons \nI want you to act as a data scientist coding in R. Given a time series data \nin a dataframe [dataframe name] with timestamp Index in [original frequency]\nfrequency with one column [column name], convert the timestamp frequency to\n[desired frequency]\n\n\nPerform stationarity test\n\nI want you to act as a data scientist coding in R. Given a time series\ndata in a dataframe [dataframe name] with timestamp Index in [original\nfrequency] frequency with one column [column name], perform a Dicky\nFuller test."
   }
 ]

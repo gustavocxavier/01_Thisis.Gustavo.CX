@@ -1,0 +1,43 @@
+---
+title: "AI Prompts for natural language processing workflows"
+# author: "Gustavo C.X."
+# date: "2023-07-23"
+categories: [ai prompts, code, data science]
+image: "image.jpg"
+---
+
+## Classify text sentiment
+
+``` prompt-block
+
+I want you to act as a sentiment classifier. Classify the following
+text which came from [describe text origin] as \"positive\",
+\"negative\", \"neutral\" or \"unsure\": [Insert text to be
+classifier].
+```
+
+## Create regular expressions
+
+``` prompt-block
+
+I want you to act as a programmer coding in Python, use regular
+expressions to test if a string [insert requirements].
+```
+
+## Text dataset generation
+
+``` prompt-block
+
+I want you to act as a dataset generator. Please generate [number of
+text] texts on [required text and the context]. [Insert additional
+requirements].
+```
+
+## Machine translation
+
+``` prompt-block
+
+I want you to act as a translator. Please translate [phrase]  from
+[origin language] to [translated language].
+```
+

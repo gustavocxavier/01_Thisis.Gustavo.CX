@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Gustavo C. X.">
-<meta name="dcterms.date" content="2020-06-12">
 
-<title>Gustavo C. X. | AI, Data Science &amp; Analytics - Why a Data Blog?</title>
+<title>Gustavo C. X. | AI, Data Science &amp; Analytics - AI Prompts for general coding workflows</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -122,33 +120,66 @@ ul.task-list li input[type="checkbox"] {
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#code-debugging-workflows" id="toc-code-debugging-workflows" class="nav-link active" data-scroll-target="#code-debugging-workflows">Code debugging workflows</a>
+  <ul class="collapse">
+  <li><a href="#debugging-python-code" id="toc-debugging-python-code" class="nav-link" data-scroll-target="#debugging-python-code">Debugging Python code</a></li>
+  <li><a href="#debugging-r-code" id="toc-debugging-r-code" class="nav-link" data-scroll-target="#debugging-r-code">Debugging R code</a></li>
+  <li><a href="#debugging-sql-code" id="toc-debugging-sql-code" class="nav-link" data-scroll-target="#debugging-sql-code">Debugging SQL code</a></li>
+  </ul></li>
+  <li><a href="#code-explanation-workflows" id="toc-code-explanation-workflows" class="nav-link" data-scroll-target="#code-explanation-workflows">Code explanation workflows</a>
+  <ul class="collapse">
+  <li><a href="#python-code-explanation" id="toc-python-code-explanation" class="nav-link" data-scroll-target="#python-code-explanation">Python code explanation</a></li>
+  <li><a href="#r-code-explanation" id="toc-r-code-explanation" class="nav-link" data-scroll-target="#r-code-explanation">R code explanation</a></li>
+  <li><a href="#sql-code-explanation" id="toc-sql-code-explanation" class="nav-link" data-scroll-target="#sql-code-explanation">SQL code explanation</a></li>
+  </ul></li>
+  <li><a href="#code-optimization-workflows" id="toc-code-optimization-workflows" class="nav-link" data-scroll-target="#code-optimization-workflows">Code optimization workflows</a>
+  <ul class="collapse">
+  <li><a href="#python-code-optimization" id="toc-python-code-optimization" class="nav-link" data-scroll-target="#python-code-optimization">Python code optimization</a></li>
+  <li><a href="#r-code-optimization" id="toc-r-code-optimization" class="nav-link" data-scroll-target="#r-code-optimization">R code optimization</a></li>
+  <li><a href="#sql-code-optimization" id="toc-sql-code-optimization" class="nav-link" data-scroll-target="#sql-code-optimization">SQL code optimization</a></li>
+  </ul></li>
+  <li><a href="#code-simplification-workflows" id="toc-code-simplification-workflows" class="nav-link" data-scroll-target="#code-simplification-workflows">Code simplification workflows</a>
+  <ul class="collapse">
+  <li><a href="#python-code-simplification" id="toc-python-code-simplification" class="nav-link" data-scroll-target="#python-code-simplification">Python code simplification</a></li>
+  <li><a href="#r-code-simplification" id="toc-r-code-simplification" class="nav-link" data-scroll-target="#r-code-simplification">R code simplification</a></li>
+  <li><a href="#sql-code-simplification" id="toc-sql-code-simplification" class="nav-link" data-scroll-target="#sql-code-simplification">SQL code simplification</a></li>
+  </ul></li>
+  <li><a href="#code-translation-workflows" id="toc-code-translation-workflows" class="nav-link" data-scroll-target="#code-translation-workflows">Code translation workflows</a>
+  <ul class="collapse">
+  <li><a href="#from-r-to-python-code-translation" id="toc-from-r-to-python-code-translation" class="nav-link" data-scroll-target="#from-r-to-python-code-translation">From R to Python code translation</a></li>
+  <li><a href="#from-python-to-r-code-translation" id="toc-from-python-to-r-code-translation" class="nav-link" data-scroll-target="#from-python-to-r-code-translation">From Python to R code translation</a></li>
+  </ul></li>
+  <li><a href="#code-quality-and-testing-workflows" id="toc-code-quality-and-testing-workflows" class="nav-link" data-scroll-target="#code-quality-and-testing-workflows">Code quality and testing workflows</a>
+  <ul class="collapse">
+  <li><a href="#compare-function-speeds-in-python" id="toc-compare-function-speeds-in-python" class="nav-link" data-scroll-target="#compare-function-speeds-in-python">Compare function speeds in python</a></li>
+  <li><a href="#write-unit-tests-in-r" id="toc-write-unit-tests-in-r" class="nav-link" data-scroll-target="#write-unit-tests-in-r">Write unit tests in R</a></li>
+  <li><a href="#write-unit-tests-in-python" id="toc-write-unit-tests-in-python" class="nav-link" data-scroll-target="#write-unit-tests-in-python">Write unit tests in Python</a></li>
+  </ul></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Why blog?</h1>
-</div>
+<h1 class="title">AI Prompts for general coding workflows</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">ai prompts</div>
+    <div class="quarto-category">code</div>
+    <div class="quarto-category">data science</div>
+  </div>
+  </div>
 
 
 
 <div class="quarto-title-meta">
 
-    <div>
-    <div class="quarto-title-meta-heading">Author</div>
-    <div class="quarto-title-meta-contents">
-             <p>Gustavo C. X. </p>
-          </div>
-  </div>
     
-    <div>
-    <div class="quarto-title-meta-heading">Published</div>
-    <div class="quarto-title-meta-contents">
-      <p class="date">June 12, 2020</p>
-    </div>
-  </div>
   
     
   </div>
@@ -156,32 +187,141 @@ ul.task-list li input[type="checkbox"] {
 
 </header>
 
-<div class="quarto-figure quarto-figure-left">
-<figure class="figure">
-<p><img src="../../images/blog_writing.jpg" class="img-fluid figure-img" style="width:50.0%"></p>
-</figure>
-</div>
-<p>Data science blogging has become pretty darn popular in recent years, and for good reason. It can help you to build your online professional profile, enhance your communication skills, stay atop the latest and greatest trends and tools, connect with other data scientists, and even solicit feedback from those in the community.</p>
-<p>But arguably one of the most valuable reasons to blog is to get a whole lot better at doing whatever it is you want to write about. You’ve probably heard some version of the saying, <em>“The best way to learn something is to teach it to others”</em> – not only do I find this to be true of myself, but there’s also science<a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a> to back this up!</p>
-<p>Still, getting started can be a bit intimidating (I’m only doing this for the first time now myself). It an attempt to make it a little less so for the next blogger-to-be, I have tried to gather some ideas, instructions, and inspiration to get things going. If nothing else, I think heeding the advice of this tweet<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> is a pretty good place to start:</p>
-<blockquote class="twitter-tweet blockquote">
-<p lang="en" dir="ltr">
-</p><p>When you’ve written the same code 3 times, write a function<br><br>When you’ve given the same in-person advice 3 times, write a blog post</p>
-<p></p>
-<p>— David Robinson (<span class="citation" data-cites="drob">@drob</span>) <a href="https://twitter.com/drob/status/928447584712253440?ref_src=twsrc%5Etfw">November 9, 2017</a></p>
-</blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<section id="code-debugging-workflows" class="level2">
+<h2 class="anchored" data-anchor-id="code-debugging-workflows">Code debugging workflows</h2>
+<section id="debugging-python-code" class="level3">
+<h3 class="anchored" data-anchor-id="debugging-python-code">Debugging Python code</h3>
+<pre class="prompt-block"><code>I want you to be a Python programmer, here is a piece of Python code containing 
+[problem] --- \[insert code snippet] --- I am getting the following error 
+[insert error]. What is the reason for the bug?</code></pre>
+</section>
+<section id="debugging-r-code" class="level3">
+<h3 class="anchored" data-anchor-id="debugging-r-code">Debugging R code</h3>
+<pre class="prompt-block"><code>I want you to be an R programmer, here is a piece of R code containing
+[problem] --- [insert code snippet] --- I am getting the following error 
+[insert error]. What is the reason for the bug?</code></pre>
+</section>
+<section id="debugging-sql-code" class="level3">
+<h3 class="anchored" data-anchor-id="debugging-sql-code">Debugging SQL code</h3>
+<pre class="prompt-block"><code>I want you to be a SQL programmer, here is a piece of SQL code
+containing [problem] --- [insert code snippet] --- I am getting the
+following error [insert error]. What is the reason for the bug?</code></pre>
+</section>
+</section>
+<section id="code-explanation-workflows" class="level2">
+<h2 class="anchored" data-anchor-id="code-explanation-workflows">Code explanation workflows</h2>
+<section id="python-code-explanation" class="level3">
+<h3 class="anchored" data-anchor-id="python-code-explanation">Python code explanation</h3>
+<pre class="prompt-block"><code>I want you to act as a code explainer in Python. I don't understand
+this function. Can you please explain what it does, and provide an
+example? [Insert function]</code></pre>
+</section>
+<section id="r-code-explanation" class="level3">
+<h3 class="anchored" data-anchor-id="r-code-explanation">R code explanation</h3>
+<pre class="prompt-block"><code>I want you to act as a code explainer in R. I don't understand this
+function. Can you please explain what it does, and provide an example?
+[Insert function]</code></pre>
+</section>
+<section id="sql-code-explanation" class="level3">
+<h3 class="anchored" data-anchor-id="sql-code-explanation">SQL code explanation</h3>
+<pre class="prompt-block"><code>I want you to act as a code explainer in SQL. I don't understand this
+snippet. Can you please explain what it does, and provide an example?
+
+[Insert SQL query]</code></pre>
+</section>
+</section>
+<section id="code-optimization-workflows" class="level2">
+<h2 class="anchored" data-anchor-id="code-optimization-workflows">Code optimization workflows</h2>
+<section id="python-code-optimization" class="level3">
+<h3 class="anchored" data-anchor-id="python-code-optimization">Python code optimization</h3>
+<pre class="prompt-block"><code>I want you to act as a code optimizer in Python.
+
+[Describe problem with current code, if possible].
+
+Can you make the code [more Pythonic/more efficient/run faster/
+cleaner/more readable]? 
+
+[Insert Code]</code></pre>
+</section>
+<section id="r-code-optimization" class="level3">
+<h3 class="anchored" data-anchor-id="r-code-optimization">R code optimization</h3>
+<pre class="prompt-block"><code>I want you to act as a code optimizer in R. [Describe problem with
+current code, if possible]. Can you make the code 
+[cleaner/more efficient/run faster/more readable]? [Insert Code]</code></pre>
+</section>
+<section id="sql-code-optimization" class="level3">
+<h3 class="anchored" data-anchor-id="sql-code-optimization">SQL code optimization</h3>
+<pre class="prompt-block"><code>I want you to act as a query optimizer in SQL. [Describe problem with
+current code, if possible]. Can you suggest ways to make the query
+[run faster/more readable/simpler]? [Insert Code]</code></pre>
+</section>
+</section>
+<section id="code-simplification-workflows" class="level2">
+<h2 class="anchored" data-anchor-id="code-simplification-workflows">Code simplification workflows</h2>
+<section id="python-code-simplification" class="level3">
+<h3 class="anchored" data-anchor-id="python-code-simplification">Python code simplification</h3>
+<pre class="prompt-block"><code>I want you to act as a programmer in Python. Please simplify this code
+while ensuring that it is [efficient/easy to read/Pythonic]? [Insert
+Code]</code></pre>
+</section>
+<section id="r-code-simplification" class="level3">
+<h3 class="anchored" data-anchor-id="r-code-simplification">R code simplification</h3>
+<pre class="prompt-block"><code>
+I want you to act as a programmer in R. Please simplify this code
+while ensuring that it is [efficient/easy to read]? [Insert Code]</code></pre>
+</section>
+<section id="sql-code-simplification" class="level3">
+<h3 class="anchored" data-anchor-id="sql-code-simplification">SQL code simplification</h3>
+<pre class="prompt-block"><code>
+I want you to act as a SQL programmer. I am running [PostgreSQL
+14/MySQL 8/SQLite 3.4/other versions.]. Can you please simplify this
+query [while ensuring that it is efficient/easy to read/insert any
+additional requirements]?</code></pre>
+</section>
+</section>
+<section id="code-translation-workflows" class="level2">
+<h2 class="anchored" data-anchor-id="code-translation-workflows">Code translation workflows</h2>
+<section id="from-r-to-python-code-translation" class="level3">
+<h3 class="anchored" data-anchor-id="from-r-to-python-code-translation">From R to Python code translation</h3>
+<pre class="prompt-block"><code>
+I want you to act as a programmer in R.&nbsp; Please translate this code
+to Python. [Insert code]</code></pre>
+</section>
+<section id="from-python-to-r-code-translation" class="level3">
+<h3 class="anchored" data-anchor-id="from-python-to-r-code-translation">From Python to R code translation</h3>
+<pre class="prompt-block"><code>
+I want you to act as a programmer in Python. Please translate this
+code to R. [Insert code]</code></pre>
+</section>
+</section>
+<section id="code-quality-and-testing-workflows" class="level2">
+<h2 class="anchored" data-anchor-id="code-quality-and-testing-workflows">Code quality and testing workflows</h2>
+<section id="compare-function-speeds-in-python" class="level3">
+<h3 class="anchored" data-anchor-id="compare-function-speeds-in-python">Compare function speeds in python</h3>
+<pre class="prompt-block"><code>
+I want you to act as a Python programmer.&nbsp; Can you write code that
+compares the speed of two functions [functionname] and [functionname]?
+
+[Insert functions]</code></pre>
+</section>
+<section id="write-unit-tests-in-r" class="level3">
+<h3 class="anchored" data-anchor-id="write-unit-tests-in-r">Write unit tests in R</h3>
+<pre class="prompt-block"><code>
+I want you to act as a R Programmer. Can you please write unit tests
+for the function [functionname]? [Insert requirements for unit tests,
+if any] [Insert code]</code></pre>
+</section>
+<section id="write-unit-tests-in-python" class="level3">
+<h3 class="anchored" data-anchor-id="write-unit-tests-in-python">Write unit tests in Python</h3>
+<pre class="prompt-block"><code>I want you to act as a Python Programmer. Can you please write unit
+tests for the function [functionname]? [Insert requirements for unit
+tests, if any] [Insert code]</code></pre>
 
 
+</section>
+</section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>This is sometimes referred to as the Protégé Effect or the Feynman Learning Technique. You can learn a bit more from <span class="citation" data-cites="Nestojko2014protege">[@Nestojko2014protege]</span> and <span class="citation" data-cites="Ambio2020Feynman">[@Ambio2020Feynman]</span><a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>I might also add that having to look up something 3x <em>for yourself</em> might be a good reason to blog about it. Read David Robinson’s full post about starting a data science blog <a href="http://varianceexplained.org/r/start-blog/">here</a>.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

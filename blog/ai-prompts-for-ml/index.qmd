@@ -1,0 +1,75 @@
+---
+title: "AI Prompts for machine learning workflows"
+# author: "Gustavo C.X."
+# date: "2023-07-23"
+categories: [ai prompts, code, data science]
+image: "image.jpg"
+---
+
+## General machine learning workflow
+
+### Feature engineering ideation
+
+``` prompt-block
+
+I want you to act as a data scientist. Given a dataset of [dataset
+name] that contains the [columns], you are to predict [predicted
+variable]. Suggest data that will be helpful for this problem and
+perform feature engineering for this problem.
+```
+
+## Python machine learning workflow
+
+### Model training workflow
+
+``` prompt-block
+
+I want you to act as a data scientist programming in Python. Given a
+dataset of [dataframe name] that contains the [column name], write
+code to predict [output variable].
+```
+
+### Hyperparameter tuning workflow
+
+``` prompt-block
+
+I want you to act as a data scientist programming in Python. Given a
+[type of model] model, write code to tune the hyperparameter.
+```
+
+### Model explainability workflow
+
+``` prompt-block
+
+I want you to act as a data scientist programming in Python. Given a
+[type of model] that predicts the [predictor variable], write code that 
+explains an output using Shap values.
+```
+
+## R machine learning workflow
+
+### Model training workflow
+
+``` prompt-block
+
+I want you to act as a data scientist programming in R. Given a
+dataframe of [dataframe name] that contains [column names], 
+write code to predict [output].
+```
+
+### Hyperparameter tuning workflow
+
+``` prompt-block
+
+I want you to act as a data scientist programming in R. Given 
+a [type of model] model, write code to tune the hyperparameter.
+```
+
+### Model explainability workflow
+
+``` prompt-block
+
+I want you to act as a data scientist programming in R. Given a
+[type of model] that predicts the [predictor variable], write code that explains
+an output using Shap values.
+```

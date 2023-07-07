@@ -1,0 +1,166 @@
+---
+title: "AI Prompts for general coding workflows"
+# author: "Gustavo C.X."
+# date: "2023-07-23"
+categories: [ai prompts, code, data science]
+image: "image.jpg"
+---
+
+## Code debugging workflows
+
+### Debugging Python code
+
+``` prompt-block
+I want you to be a Python programmer, here is a piece of Python code containing 
+[problem] --- \[insert code snippet] --- I am getting the following error 
+[insert error]. What is the reason for the bug?
+```
+
+### Debugging R code
+
+``` prompt-block
+I want you to be an R programmer, here is a piece of R code containing
+[problem] --- [insert code snippet] --- I am getting the following error 
+[insert error]. What is the reason for the bug?
+```
+
+### Debugging SQL code
+
+``` prompt-block
+I want you to be a SQL programmer, here is a piece of SQL code
+containing [problem] --- [insert code snippet] --- I am getting the
+following error [insert error]. What is the reason for the bug?
+```
+
+## Code explanation workflows
+
+### Python code explanation
+
+``` prompt-block
+I want you to act as a code explainer in Python. I don't understand
+this function. Can you please explain what it does, and provide an
+example? [Insert function]
+```
+
+### R code explanation
+
+``` prompt-block
+I want you to act as a code explainer in R. I don't understand this
+function. Can you please explain what it does, and provide an example?
+[Insert function]
+```
+
+### SQL code explanation
+
+``` prompt-block
+I want you to act as a code explainer in SQL. I don't understand this
+snippet. Can you please explain what it does, and provide an example?
+
+[Insert SQL query]
+```
+
+## Code optimization workflows
+
+### Python code optimization
+
+``` prompt-block
+I want you to act as a code optimizer in Python.
+
+[Describe problem with current code, if possible].
+
+Can you make the code [more Pythonic/more efficient/run faster/
+cleaner/more readable]? 
+
+[Insert Code]
+```
+
+### R code optimization
+
+``` prompt-block
+I want you to act as a code optimizer in R. [Describe problem with
+current code, if possible]. Can you make the code 
+[cleaner/more efficient/run faster/more readable]? [Insert Code]
+```
+
+### SQL code optimization
+
+``` prompt-block
+I want you to act as a query optimizer in SQL. [Describe problem with
+current code, if possible]. Can you suggest ways to make the query
+[run faster/more readable/simpler]? [Insert Code]
+```
+
+## Code simplification workflows
+
+### Python code simplification
+
+``` prompt-block
+I want you to act as a programmer in Python. Please simplify this code
+while ensuring that it is [efficient/easy to read/Pythonic]? [Insert
+Code]
+```
+
+### R code simplification
+
+``` prompt-block
+
+I want you to act as a programmer in R. Please simplify this code
+while ensuring that it is [efficient/easy to read]? [Insert Code]
+```
+
+### SQL code simplification
+
+``` prompt-block
+
+I want you to act as a SQL programmer. I am running [PostgreSQL
+14/MySQL 8/SQLite 3.4/other versions.]. Can you please simplify this
+query [while ensuring that it is efficient/easy to read/insert any
+additional requirements]?
+```
+
+## Code translation workflows
+
+### From R to Python code translation
+
+``` prompt-block
+
+I want you to act as a programmer in R.  Please translate this code
+to Python. [Insert code]
+```
+
+### From Python to R code translation
+
+``` prompt-block
+
+I want you to act as a programmer in Python. Please translate this
+code to R. [Insert code]
+```
+
+## Code quality and testing workflows
+
+### Compare function speeds in python
+
+``` prompt-block
+
+I want you to act as a Python programmer.  Can you write code that
+compares the speed of two functions [functionname] and [functionname]?
+
+[Insert functions]
+```
+
+### Write unit tests in R
+
+``` prompt-block
+
+I want you to act as a R Programmer. Can you please write unit tests
+for the function [functionname]? [Insert requirements for unit tests,
+if any] [Insert code]
+```
+
+### Write unit tests in Python
+
+``` prompt-block
+I want you to act as a Python Programmer. Can you please write unit
+tests for the function [functionname]? [Insert requirements for unit
+tests, if any] [Insert code]
+```

@@ -1,0 +1,41 @@
+---
+title: "Conceptual and career oriented AI prompts"
+# author: "Gustavo C.X."
+# date: "2023-07-23"
+categories: [ai prompts, code, data science]
+image: "image.jpg"
+---
+
+## Explain data concepts for business executives
+
+``` prompt-block
+
+I want you to act as a data scientist of a corporate company.
+[Describe content in detail, if required] Please explain to a
+business executive what [concept] means.
+```
+
+## Summarize article/paper
+
+``` prompt-block
+
+I want you to act as a data scientist in a research start-up. 
+Please explain the paper [paper] to a [level of difficulty, e.g.
+software developer, five-year-old, business executive, professor].
+```
+
+## Suggest portfolio projects and ideas
+
+``` prompt-block
+I want you to act as a data science career coach. I am a [describe
+your background] and I would like to [describe career objective].
+Suggest portfolio projects and ideas [describe objective of portfolio]
+```
+
+## Write tutorials
+
+``` prompt-block
+I want you to act as a data scientist writer. Please write the
+[number-of-words]-word introduction to a tutorial on [title]. 
+[Insert relevant key points].
+```

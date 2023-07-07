@@ -1,0 +1,71 @@
+---
+title: "AI Prompts for time series analysis workflows"
+# author: "Gustavo C.X."
+# date: "2023-07-23"
+categories: [ai prompts, code, data science]
+image: "image.jpg"
+---
+
+## Python time series analysis workflows
+
+### Changing time horizons using pandas
+
+``` prompt-block
+
+I want you to act as a data scientist coding in Python. Given a
+time series data in a Pandas dataframe [dataframe name] with
+timestamp Index in [original frequency] frequency with one column
+[column name], convert the timestamp frequency to [desired frequency].
+```
+
+### Build test series model
+
+``` prompt-block
+
+I want you to act as a data scientist coding in Python. Given a time
+series data in a dataframe [dataframe name] with timestamp Index in
+[original frequency] frequency with one column [column name],  build a
+forecasting model, assuming data is stationary.
+```
+
+### Perform stationarity test
+
+``` prompt-block
+
+I want you to act as a data scientist coding in Python. Given a time
+series data in a dataframe [dataframe name] with timestamp Index in
+[original frequency] frequency with one column [column name], perform
+a Dicky Fuller test.
+```
+
+## R time series analysis workflows
+
+### Changing time horizons 
+
+``` prompt-block
+
+I want you to act as a data scientist coding in R. Given a time series
+data in a dataframe [dataframe name] with timestamp Index in [original
+frequency] frequency with one column [column name], convert the
+timestamp frequency to [desired frequency].
+```
+
+### Changing time horizons 
+
+``` prompt-block
+I want you to act as a data scientist coding in R. Given a time series data 
+in a dataframe [dataframe name] with timestamp Index in [original frequency]
+frequency with one column [column name], convert the timestamp frequency to
+[desired frequency]
+```
+
+### Perform stationarity test
+
+``` prompt-block
+
+I want you to act as a data scientist coding in R. Given a time series
+data in a dataframe [dataframe name] with timestamp Index in [original
+frequency] frequency with one column [column name], perform a Dicky
+Fuller test.
+```
+

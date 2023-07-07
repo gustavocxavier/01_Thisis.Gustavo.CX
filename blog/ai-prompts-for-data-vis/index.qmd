@@ -1,0 +1,89 @@
+---
+title: "AI Prompts for data visualization workflows"
+# author: "Gustavo C.X."
+# date: "2023-07-23"
+categories: [ai prompts, code, data science]
+image: "image.jpg"
+---
+
+## R data visualization workflows
+
+### Creating plots in ggplot2
+
+``` prompt-block
+
+I want you to act as a data scientist coding in R. Given a dataframe
+[dataframe name] containing the columns [column names] Use ggplot2
+to plot a [chart type and requirement].
+```
+
+### Gridplot visualizations in ggplot2
+
+``` prompt-block
+
+I want you to act as a data scientist coding in R. Given a dataframe
+[dataframe name] containing the columns [column names]. Use ggplot2
+to plot a pair plot that shows the relationship of one variable
+against another.
+```
+
+### Annotating and formatting plots
+
+``` prompt-block
+
+I want you to act as a data scientist coding in R. Given a dataframe
+[dataframe name] containing the columns [column names], use ggplot2 
+to plot a [chart type] the relationship between [variables]. 
+[Insert annotation and formatting requirements]
+```
+
+### Changing plot themes in ggplot2
+
+``` prompt-block
+
+I want you to act as a data scientist coding in R. Given a dataframe
+[dataframe name] containing the columns [column names], use ggplot2
+to to plot a [chart type] the relationship between [variables].
+Change the color theme to match that of [theme]
+```
+
+## Python data visualization workflows
+
+### Creating plots with matplotlib
+
+``` prompt-block
+
+I want you to act as a data scientist coding in Python.  Given a
+dataframe [dataframe name] containing the columns [column names]
+Use matplotlib  to plot a [chart type and requirement].
+```
+
+### Crating pairplots with matplotlib
+
+``` prompt-block
+
+I want you to act as a data scientist coding in Python. Given a
+dataframe [dataframe name] containing the columns [column names].
+Use matplotlib to plot a pair plot that shows the relationship of
+one variable against another.
+```
+
+### Annotating and formatting plots in matplotlib
+
+``` prompt-block
+
+I want you to act as a data scientist coding in Python. Given a
+dataframe [dataframe name] containing the columns [column names],
+use matplotlib to to plot a [chart type] the relationship between
+[variables]. [Insert annotation and formatting requirements]
+```
+
+### Changing plot themes in matplotlib
+
+``` prompt-block
+
+I want you to act as a data scientist coding in Python. Given a
+dataframe [dataframe name] containing the columns [column names],
+use matplotlib to to plot a [chart type] the relationship between
+[variables]. Change the color theme to match that of [theme]
+```
