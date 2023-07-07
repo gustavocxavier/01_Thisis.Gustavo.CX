@@ -1,7 +1,7 @@
 ---
 title: "AI Prompts for Data Science"
 # author: "Gustavo C.X."
-date: "2023-06-15"
+# date: "2023-07-23"
 categories: [news, code, analysis]
 image: "image.jpg"
 ---
@@ -19,7 +19,7 @@ image: "image.jpg"
 
 #### Debugging Python code
 
-```
+``` prompt-block
 I want you to be a Python programmer, here is a piece of Python code containing 
 [problem] --- \[insert code snippet] --- I am getting the following error 
 [insert error]. What is the reason for the bug?
@@ -27,7 +27,7 @@ I want you to be a Python programmer, here is a piece of Python code containing
 
 #### Debugging R code
 
-```         
+``` prompt-block
 I want you to be an R programmer, here is a piece of R code containing
 [problem] --- [insert code snippet] --- I am getting the following error 
 [insert error]. What is the reason for the bug?
@@ -35,7 +35,7 @@ I want you to be an R programmer, here is a piece of R code containing
 
 #### Debugging SQL code
 
-```         
+``` prompt-block
 I want you to be a SQL programmer, here is a piece of SQL code
 containing [problem] --- [insert code snippet] --- I am getting the
 following error [insert error]. What is the reason for the bug?
@@ -45,8 +45,7 @@ following error [insert error]. What is the reason for the bug?
 
 #### Python code explanation
 
-```         
-
+``` prompt-block
 I want you to act as a code explainer in Python. I don't understand
 this function. Can you please explain what it does, and provide an
 example? [Insert function]
@@ -54,7 +53,7 @@ example? [Insert function]
 
 #### R code explanation
 
-```         
+``` prompt-block
 I want you to act as a code explainer in R. I don't understand this
 function. Can you please explain what it does, and provide an example?
 [Insert function]
@@ -62,7 +61,7 @@ function. Can you please explain what it does, and provide an example?
 
 #### SQL code explanation
 
-```         
+``` prompt-block
 I want you to act as a code explainer in SQL. I don't understand this
 snippet. Can you please explain what it does, and provide an example?
 
@@ -73,7 +72,7 @@ snippet. Can you please explain what it does, and provide an example?
 
 #### Python code optimization
 
-```         
+``` prompt-block
 I want you to act as a code optimizer in Python.
 
 [Describe problem with current code, if possible].
@@ -86,7 +85,7 @@ cleaner/more readable]?
 
 #### R code optimization
 
-```         
+``` prompt-block
 I want you to act as a code optimizer in R. [Describe problem with
 current code, if possible]. Can you make the code 
 [cleaner/more efficient/run faster/more readable]? [Insert Code]
@@ -94,7 +93,7 @@ current code, if possible]. Can you make the code
 
 #### SQL code optimization
 
-```         
+``` prompt-block
 I want you to act as a query optimizer in SQL. [Describe problem with
 current code, if possible]. Can you suggest ways to make the query
 [run faster/more readable/simpler]? [Insert Code]
@@ -104,7 +103,7 @@ current code, if possible]. Can you suggest ways to make the query
 
 #### Python code simplification
 
-```         
+``` prompt-block
 I want you to act as a programmer in Python. Please simplify this code
 while ensuring that it is [efficient/easy to read/Pythonic]? [Insert
 Code]
@@ -112,7 +111,7 @@ Code]
 
 #### R code simplification
 
-```         
+``` prompt-block
 
 I want you to act as a programmer in R. Please simplify this code
 while ensuring that it is [efficient/easy to read]? [Insert Code]
@@ -120,7 +119,7 @@ while ensuring that it is [efficient/easy to read]? [Insert Code]
 
 #### SQL code simplification
 
-```         
+``` prompt-block
 
 I want you to act as a SQL programmer. I am running [PostgreSQL
 14/MySQL 8/SQLite 3.4/other versions.]. Can you please simplify this
@@ -132,7 +131,7 @@ additional requirements]?
 
 #### From R to Python code translation
 
-```         
+``` prompt-block
 
 I want you to act as a programmer in R.  Please translate this code
 to Python. [Insert code]
@@ -140,7 +139,7 @@ to Python. [Insert code]
 
 #### From Python to R code translation
 
-```         
+``` prompt-block
 
 I want you to act as a programmer in Python. Please translate this
 code to R. [Insert code]
@@ -150,7 +149,7 @@ code to R. [Insert code]
 
 #### Compare function speeds in python
 
-```         
+``` prompt-block
 
 I want you to act as a Python programmer.  Can you write code that
 compares the speed of two functions [functionname] and [functionname]?
@@ -160,7 +159,7 @@ compares the speed of two functions [functionname] and [functionname]?
 
 #### Write unit tests in R
 
-```         
+``` prompt-block
 
 I want you to act as a R Programmer. Can you please write unit tests
 for the function [functionname]? [Insert requirements for unit tests,
@@ -169,7 +168,7 @@ if any] [Insert code]
 
 #### Write unit tests in Python
 
-```         
+``` prompt-block
 I want you to act as a Python Programmer. Can you please write unit
 tests for the function [functionname]? [Insert requirements for unit
 tests, if any] [Insert code]
@@ -181,7 +180,7 @@ tests, if any] [Insert code]
 
 #### Data generation & creating tables
 
-```         
+``` prompt-block
 
 I want you to act as a data generator. Can you write SQL queries in
 [database version] that create a table [table name] with the columns
@@ -190,7 +189,7 @@ I want you to act as a data generator. Can you write SQL queries in
 
 #### Common table expressions
 
-```         
+``` prompt-block
 
 I want you to act as a SQL code programmer. I am running [database
 version]. Can you rewrite this query using CTE? [Insert query]
@@ -200,7 +199,7 @@ version]. Can you rewrite this query using CTE? [Insert query]
 
 ##### Example: Data aggregation in SQL
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist. [Insert description of tables].
 Can you [count/sum/take average] of [value] which are [insert filters]
@@ -208,7 +207,7 @@ Can you [count/sum/take average] of [value] which are [insert filters]
 
 ##### Example: 7 day running average in SQL
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist.  I am running [PostgreSQL
 14/MySQL 8/SQLite 3.4/other versions.]. I have the tables [table_name]
@@ -219,7 +218,7 @@ running average of [quantity]?
 
 ##### Example: Window functions in SQL
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist.  I am running [PostgreSQL
 14/MySQL 8/SQLite 3.4/other versions.]. I have the tables 
@@ -230,7 +229,7 @@ finds [required window function]?
 
 ##### Example: Window functions in SQL
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist.  I am running [PostgreSQL
 14/MySQL 8/SQLite 3.4/other versions.]. I have the tables 
@@ -245,7 +244,7 @@ finds [required window function]?
 
 ##### Example: Generate Markdown
 
-```         
+``` prompt-block
 
 I want you to act as a data generator in Python. Can you generate a
 Markdown file that contains [data requirement]. Save the file to
@@ -254,7 +253,7 @@ Markdown file that contains [data requirement]. Save the file to
 
 ##### Example: Generate CSV
 
-```         
+``` prompt-block
 
 I want you to act as a data generator in Python. Can you generate a
 CSV file that contains [data requirement]. Save the file to
@@ -263,7 +262,7 @@ CSV file that contains [data requirement]. Save the file to
 
 ##### Example: Generate JSON
 
-```         
+``` prompt-block
 
 I want you to act as a data generator in Python. Can you generate a
 JSON file that contains [data requirement]. Save the file to
@@ -272,7 +271,7 @@ JSON file that contains [data requirement]. Save the file to
 
 #### Data cleaning workflow
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist programming in Python Pandas.
 Given a CSV file that contains data of [dataframe name]  with the
@@ -284,7 +283,7 @@ the data? [Insert requirements for data]
 
 ##### Example: Data Aggregation
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist programming in Python Pandas.
 Given a table [table name] that consists of the columns [column
@@ -293,7 +292,7 @@ names]  can you please write a query that finds [requirement]?
 
 ##### Example: Data Merging
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist programming in Python Pandas.
 Given a table [table 1 name]  that consists of the columns [column
@@ -304,7 +303,7 @@ if any]
 
 ##### Example: Data Reshaping
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist programming in Python Pandas.
 Given a table [table name] that consists of the columns [column
@@ -314,7 +313,7 @@ from long to wide format?
 
 ##### Example: Generate Markdown
 
-```         
+``` prompt-block
 
 I want you to act as a data generator in R. Can you generate a
 Markdown file that contains [data requirement]. Save the file to
@@ -327,7 +326,7 @@ Markdown file that contains [data requirement]. Save the file to
 
 ##### Example: Generate Markdown
 
-```         
+``` prompt-block
 
 I want you to act as a data generator in R. Can you generate a
 Markdown file that contains [data requirement]. Save the file to
@@ -336,7 +335,7 @@ Markdown file that contains [data requirement]. Save the file to
 
 ##### Example: Generate CSV
 
-```         
+``` prompt-block
 
 I want you to act as a data generator in R. Can you generate a CSV
 file that contains [data requirement]. Save the file to [filename]
@@ -344,7 +343,7 @@ file that contains [data requirement]. Save the file to [filename]
 
 ##### Example: Generate JSON
 
-```         
+``` prompt-block
 
 I want you to act as a data generator in R. Can you generate a JSON
 file that contains [data requirement]. Save the file to [filename]
@@ -352,7 +351,7 @@ file that contains [data requirement]. Save the file to [filename]
 
 #### Data cleaning workflow
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist programming in R tidyr. You are
 given the [dataframe name] dataframe containing the columns [column
@@ -363,7 +362,7 @@ name]. [Insert requirement]
 
 ##### Data Aggregation
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist programming in R tidyr. You 
 are given the [dataframe name] dataframe containing the columns
@@ -372,7 +371,7 @@ are given the [dataframe name] dataframe containing the columns
 
 ##### Data Merging
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist programming in R tidyr. You are
 given the [dataframe 1 name] dataframe containing the columns
@@ -382,7 +381,7 @@ containing the columns [column name]. Find the [required output] 
 
 ##### Example: Data Reshaping (Long to Wide)
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist programming in R tidyr.
 You are given the [dataframe name] dataframe containing the 
@@ -391,7 +390,7 @@ columns [column name].  Please convert the data to wide format.
 
 ##### Example: Data Reshaping (Wide to Long)
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist programming in R tidyr.
 You are given the [dataframe name] dataframe containing the 
@@ -404,7 +403,7 @@ columns [column name].  Please convert the data to long format.
 
 #### Creating plots in ggplot2
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist coding in R. Given a dataframe
 [dataframe name] containing the columns [column names] Use ggplot2
@@ -413,7 +412,7 @@ to plot a [chart type and requirement].
 
 #### Gridplot visualizations in ggplot2
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist coding in R. Given a dataframe
 [dataframe name] containing the columns [column names]. Use ggplot2
@@ -423,7 +422,7 @@ against another.
 
 #### Annotating and formatting plots
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist coding in R. Given a dataframe
 [dataframe name] containing the columns [column names], use ggplot2 
@@ -433,7 +432,7 @@ to plot a [chart type] the relationship between [variables].
 
 #### Changing plot themes in ggplot2
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist coding in R. Given a dataframe
 [dataframe name] containing the columns [column names], use ggplot2
@@ -445,7 +444,7 @@ Change the color theme to match that of [theme]
 
 #### Creating plots with matplotlib
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist coding in Python.  Given a
 dataframe [dataframe name] containing the columns [column names]
@@ -454,7 +453,7 @@ Use matplotlib  to plot a [chart type and requirement].
 
 #### Crating pairplots with matplotlib
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist coding in Python. Given a
 dataframe [dataframe name] containing the columns [column names].
@@ -464,7 +463,7 @@ one variable against another.
 
 #### Annotating and formatting plots in matplotlib
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist coding in Python. Given a
 dataframe [dataframe name] containing the columns [column names],
@@ -474,7 +473,7 @@ use matplotlib to to plot a [chart type] the relationship between
 
 #### Changing plot themes in matplotlib
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist coding in Python. Given a
 dataframe [dataframe name] containing the columns [column names],
@@ -488,7 +487,7 @@ use matplotlib to to plot a [chart type] the relationship between
 
 #### Feature engineering ideation
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist. Given a dataset of [dataset
 name] that contains the [columns], you are to predict [predicted
@@ -500,7 +499,7 @@ perform feature engineering for this problem.
 
 #### Model training workflow
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist programming in Python. Given a
 dataset of [dataframe name] that contains the [column name], write
@@ -509,7 +508,7 @@ code to predict [output variable].
 
 #### Hyperparameter tuning workflow
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist programming in Python. Given a
 [type of model] model, write code to tune the hyperparameter.
@@ -517,7 +516,7 @@ I want you to act as a data scientist programming in Python. Given a
 
 #### Model explainability workflow
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist programming in Python. Given a
 [type of model] that predicts the [predictor variable], write code that 
@@ -528,7 +527,7 @@ explains an output using Shap values.
 
 #### Model training workflow
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist programming in R. Given a
 dataframe of [dataframe name] that contains [column names], 
@@ -537,7 +536,7 @@ write code to predict [output].
 
 #### Hyperparameter tuning workflow
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist programming in R. Given 
 a [type of model] model, write code to tune the hyperparameter.
@@ -545,7 +544,7 @@ a [type of model] model, write code to tune the hyperparameter.
 
 #### Model explainability workflow
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist programming in R. Given a
 [type of model] that predicts the [predictor variable], write code that explains
@@ -558,7 +557,7 @@ an output using Shap values.
 
 #### Changing time horizons using pandas
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist coding in Python. Given a
 time series data in a Pandas dataframe [dataframe name] with
@@ -568,7 +567,7 @@ timestamp Index in [original frequency] frequency with one column
 
 #### Build test series model
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist coding in Python. Given a time
 series data in a dataframe [dataframe name] with timestamp Index in
@@ -578,7 +577,7 @@ forecasting model, assuming data is stationary.
 
 #### Perform stationarity test
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist coding in Python. Given a time
 series data in a dataframe [dataframe name] with timestamp Index in
@@ -590,7 +589,7 @@ a Dicky Fuller test.
 
 #### Changing time horizons 
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist coding in R. Given a time series
 data in a dataframe [dataframe name] with timestamp Index in [original
@@ -600,7 +599,7 @@ timestamp frequency to [desired frequency].
 
 #### Changing time horizons 
 
-```         
+``` prompt-block
 I want you to act as a data scientist coding in R. Given a time series data 
 in a dataframe [dataframe name] with timestamp Index in [original frequency]
 frequency with one column [column name], convert the timestamp frequency to
@@ -609,7 +608,7 @@ frequency with one column [column name], convert the timestamp frequency to
 
 #### Perform stationarity test
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist coding in R. Given a time series
 data in a dataframe [dataframe name] with timestamp Index in [original
@@ -621,7 +620,7 @@ Fuller test.
 
 ### Classify text sentiment
 
-```         
+``` prompt-block
 
 I want you to act as a sentiment classifier. Classify the following
 text which came from [describe text origin] as \"positive\",
@@ -631,7 +630,7 @@ classifier].
 
 ### Create regular expressions
 
-```         
+``` prompt-block
 
 I want you to act as a programmer coding in Python, use regular
 expressions to test if a string [insert requirements].
@@ -639,7 +638,7 @@ expressions to test if a string [insert requirements].
 
 ### Text dataset generation
 
-```         
+``` prompt-block
 
 I want you to act as a dataset generator. Please generate [number of
 text] texts on [required text and the context]. [Insert additional
@@ -648,7 +647,7 @@ requirements].
 
 ### Machine translation
 
-```         
+``` prompt-block
 
 I want you to act as a translator. Please translate [phrase]  from
 [origin language] to [translated language].
@@ -658,7 +657,7 @@ I want you to act as a translator. Please translate [phrase]  from
 
 ### Explain data concepts for business executives
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist of a corporate company.
 [Describe content in detail, if required] Please explain to a
@@ -667,7 +666,7 @@ business executive what [concept] means.
 
 ### Summarize article/paper
 
-```         
+``` prompt-block
 
 I want you to act as a data scientist in a research start-up. 
 Please explain the paper [paper] to a [level of difficulty, e.g.
@@ -676,7 +675,7 @@ software developer, five-year-old, business executive, professor].
 
 ### Suggest portfolio projects and ideas
 
-```         
+``` prompt-block
 I want you to act as a data science career coach. I am a [describe
 your background] and I would like to [describe career objective].
 Suggest portfolio projects and ideas [describe objective of portfolio]
@@ -684,8 +683,7 @@ Suggest portfolio projects and ideas [describe objective of portfolio]
 
 ### Write tutorials
 
-
-```      
+``` prompt-block
 I want you to act as a data scientist writer. Please write the
 [number-of-words]-word introduction to a tutorial on [title]. 
 [Insert relevant key points].

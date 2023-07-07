@@ -6,3 +6,17 @@ $link-color: #75AADB;
 
 // Code blocks
 $code-block-bg-alpha: -.8;
+
+// $code-block-background: true;
+// $code-block-border-left: true;
+// $code-block-border-left: "#31BAE9";
+// $code-block-bg: true;
+
+.prompt-block {
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 10px;
+  font-family: Courier New, monospace;
+  font-size: 14px;
+  border-radius: 5px;
+}
