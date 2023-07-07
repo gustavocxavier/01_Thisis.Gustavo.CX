@@ -684,7 +684,8 @@ Suggest portfolio projects and ideas [describe objective of portfolio]
 
 ### Write tutorials
 
-```         
+
+```      
 I want you to act as a data scientist writer. Please write the
 [number-of-words]-word introduction to a tutorial on [title]. 
 [Insert relevant key points].
