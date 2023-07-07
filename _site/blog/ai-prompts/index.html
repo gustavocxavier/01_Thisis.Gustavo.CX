@@ -66,7 +66,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-fixed fullcontent">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -127,42 +127,92 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">AI Prompts for Data Science</h1>
-                                <div class="quarto-categories">
-                <div class="quarto-category">news</div>
-                <div class="quarto-category">code</div>
-                <div class="quarto-category">analysis</div>
-              </div>
-                  </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta">
-
-      
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">June 15, 2023</p>
-      </div>
-    </div>
-    
-      
-    </div>
-    
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#prompts-for-general-coding-workflows" id="toc-prompts-for-general-coding-workflows" class="nav-link active" data-scroll-target="#prompts-for-general-coding-workflows"><strong>Prompts for general coding workflows</strong></a>
+  <ul class="collapse">
+  <li><a href="#code-debugging-workflows" id="toc-code-debugging-workflows" class="nav-link" data-scroll-target="#code-debugging-workflows">Code debugging workflows</a></li>
+  <li><a href="#code-explanation-workflows" id="toc-code-explanation-workflows" class="nav-link" data-scroll-target="#code-explanation-workflows">Code explanation workflows</a></li>
+  <li><a href="#code-optimization-workflows" id="toc-code-optimization-workflows" class="nav-link" data-scroll-target="#code-optimization-workflows">Code optimization workflows</a></li>
+  <li><a href="#code-simplification-workflows" id="toc-code-simplification-workflows" class="nav-link" data-scroll-target="#code-simplification-workflows">Code simplification workflows</a></li>
+  <li><a href="#code-translation-workflows" id="toc-code-translation-workflows" class="nav-link" data-scroll-target="#code-translation-workflows">Code translation workflows</a></li>
+  <li><a href="#code-quality-and-testing-workflows" id="toc-code-quality-and-testing-workflows" class="nav-link" data-scroll-target="#code-quality-and-testing-workflows">Code quality and testing workflows</a></li>
+  </ul></li>
+  <li><a href="#prompts-for-data-analysis-workflows" id="toc-prompts-for-data-analysis-workflows" class="nav-link" data-scroll-target="#prompts-for-data-analysis-workflows"><strong>Prompts for data analysis workflows</strong></a>
+  <ul class="collapse">
+  <li><a href="#sql-data-analysis-workflows" id="toc-sql-data-analysis-workflows" class="nav-link" data-scroll-target="#sql-data-analysis-workflows">SQL data analysis workflows</a></li>
+  <li><a href="#python-data-analysis-workflows" id="toc-python-data-analysis-workflows" class="nav-link" data-scroll-target="#python-data-analysis-workflows">Python data analysis workflows</a></li>
+  <li><a href="#r-data-analysis-workflows" id="toc-r-data-analysis-workflows" class="nav-link" data-scroll-target="#r-data-analysis-workflows">R data analysis workflows</a></li>
+  </ul></li>
+  <li><a href="#prompts-for-data-visualization-workflows" id="toc-prompts-for-data-visualization-workflows" class="nav-link" data-scroll-target="#prompts-for-data-visualization-workflows"><strong>Prompts for data visualization workflows</strong></a>
+  <ul class="collapse">
+  <li><a href="#r-data-visualization-workflows" id="toc-r-data-visualization-workflows" class="nav-link" data-scroll-target="#r-data-visualization-workflows">R data visualization workflows</a></li>
+  <li><a href="#python-data-visualization-workflows" id="toc-python-data-visualization-workflows" class="nav-link" data-scroll-target="#python-data-visualization-workflows">Python data visualization workflows</a></li>
+  </ul></li>
+  <li><a href="#prompts-for-machine-learning-workflows" id="toc-prompts-for-machine-learning-workflows" class="nav-link" data-scroll-target="#prompts-for-machine-learning-workflows"><strong>Prompts for machine learning workflows</strong></a>
+  <ul class="collapse">
+  <li><a href="#general-machine-learning-workflow" id="toc-general-machine-learning-workflow" class="nav-link" data-scroll-target="#general-machine-learning-workflow">General machine learning workflow</a></li>
+  <li><a href="#python-machine-learning-workflow" id="toc-python-machine-learning-workflow" class="nav-link" data-scroll-target="#python-machine-learning-workflow">Python machine learning workflow</a></li>
+  <li><a href="#r-machine-learning-workflow" id="toc-r-machine-learning-workflow" class="nav-link" data-scroll-target="#r-machine-learning-workflow">R machine learning workflow</a></li>
+  </ul></li>
+  <li><a href="#prompts-for-time-series-analysis-workflows" id="toc-prompts-for-time-series-analysis-workflows" class="nav-link" data-scroll-target="#prompts-for-time-series-analysis-workflows"><strong>Prompts for time series analysis workflows</strong></a>
+  <ul class="collapse">
+  <li><a href="#python-time-series-analysis-workflows" id="toc-python-time-series-analysis-workflows" class="nav-link" data-scroll-target="#python-time-series-analysis-workflows">Python time series analysis workflows</a></li>
+  <li><a href="#r-time-series-analysis-workflows" id="toc-r-time-series-analysis-workflows" class="nav-link" data-scroll-target="#r-time-series-analysis-workflows">R time series analysis workflows</a></li>
+  </ul></li>
+  <li><a href="#prompts-for-natural-language-processing-workflows" id="toc-prompts-for-natural-language-processing-workflows" class="nav-link" data-scroll-target="#prompts-for-natural-language-processing-workflows"><strong>Prompts for natural language processing workflows</strong></a>
+  <ul class="collapse">
+  <li><a href="#classify-text-sentiment" id="toc-classify-text-sentiment" class="nav-link" data-scroll-target="#classify-text-sentiment">Classify text sentiment</a></li>
+  <li><a href="#create-regular-expressions" id="toc-create-regular-expressions" class="nav-link" data-scroll-target="#create-regular-expressions">Create regular expressions</a></li>
+  <li><a href="#text-dataset-generation" id="toc-text-dataset-generation" class="nav-link" data-scroll-target="#text-dataset-generation">Text dataset generation</a></li>
+  <li><a href="#machine-translation" id="toc-machine-translation" class="nav-link" data-scroll-target="#machine-translation">Machine translation</a></li>
+  </ul></li>
+  <li><a href="#conceptual-and-career-oriented-prompts" id="toc-conceptual-and-career-oriented-prompts" class="nav-link" data-scroll-target="#conceptual-and-career-oriented-prompts"><strong>Conceptual and career oriented prompts</strong></a>
+  <ul class="collapse">
+  <li><a href="#explain-data-concepts-for-business-executives" id="toc-explain-data-concepts-for-business-executives" class="nav-link" data-scroll-target="#explain-data-concepts-for-business-executives">Explain data concepts for business executives</a></li>
+  <li><a href="#summarize-articlepaper" id="toc-summarize-articlepaper" class="nav-link" data-scroll-target="#summarize-articlepaper">Summarize article/paper</a></li>
+  <li><a href="#suggest-portfolio-projects-and-ideas" id="toc-suggest-portfolio-projects-and-ideas" class="nav-link" data-scroll-target="#suggest-portfolio-projects-and-ideas">Suggest portfolio projects and ideas</a></li>
+  <li><a href="#write-tutorials" id="toc-write-tutorials" class="nav-link" data-scroll-target="#write-tutorials">Write tutorials</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">AI Prompts for Data Science</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">news</div>
+    <div class="quarto-category">code</div>
+    <div class="quarto-category">analysis</div>
+  </div>
+  </div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">June 15, 2023</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+</header>
 
 <section id="prompts-for-general-coding-workflows" class="level2">
 <h2 class="anchored" data-anchor-id="prompts-for-general-coding-workflows"><strong>Prompts for general coding workflows</strong></h2>
@@ -170,15 +220,15 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="anchored" data-anchor-id="code-debugging-workflows">Code debugging workflows</h3>
 <section id="debugging-python-code" class="level4">
 <h4 class="anchored" data-anchor-id="debugging-python-code">Debugging Python code</h4>
-<pre><code>I want you to be a Python programmer, here is a piece of Python code 
-containing [problem] --- [insert code snippet] --- I am getting the
-following error [insert error]. What is the reason for the bug?</code></pre>
+<pre><code>I want you to be a Python programmer, here is a piece of Python code containing 
+[problem] --- \[insert code snippet] --- I am getting the following error 
+[insert error]. What is the reason for the bug?</code></pre>
 </section>
 <section id="debugging-r-code" class="level4">
 <h4 class="anchored" data-anchor-id="debugging-r-code">Debugging R code</h4>
-<pre><code>
-I want you to be an R programmer, here is a piece of R code containing
-[problem] --- [insert code snippet] --- I am getting the following error [insert error]. What is the reason for the bug?</code></pre>
+<pre><code>I want you to be an R programmer, here is a piece of R code containing
+[problem] --- [insert code snippet] --- I am getting the following error 
+[insert error]. What is the reason for the bug?</code></pre>
 </section>
 <section id="debugging-sql-code" class="level4">
 <h4 class="anchored" data-anchor-id="debugging-sql-code">Debugging SQL code</h4>
@@ -204,8 +254,7 @@ function. Can you please explain what it does, and provide an example?
 </section>
 <section id="sql-code-explanation" class="level4">
 <h4 class="anchored" data-anchor-id="sql-code-explanation">SQL code explanation</h4>
-<pre><code>
-I want you to act as a code explainer in SQL. I don't understand this
+<pre><code>I want you to act as a code explainer in SQL. I don't understand this
 snippet. Can you please explain what it does, and provide an example?
 
 [Insert SQL query]</code></pre>
@@ -323,8 +372,7 @@ version]. Can you rewrite this query using CTE? [Insert query]</code></pre>
 <h5 class="anchored" data-anchor-id="example-data-aggregation-in-sql">Example: Data aggregation in SQL</h5>
 <pre><code>
 I want you to act as a data scientist. [Insert description of tables].
-Can you [count/sum/take average] of [value] which are [insert filters]
-</code></pre>
+Can you [count/sum/take average] of [value] which are [insert filters]</code></pre>
 </section>
 <section id="example-7-day-running-average-in-sql" class="level5">
 <h5 class="anchored" data-anchor-id="example-7-day-running-average-in-sql">Example: 7 day running average in SQL</h5>
@@ -333,9 +381,7 @@ I want you to act as a data scientist.&nbsp; I am running [PostgreSQL
 14/MySQL 8/SQLite 3.4/other versions.]. I have the tables [table_name]
 which are [table description]. The sales table consists of the columns
 [column names]. Can you please write a query that finds the 7-day
-running average of [quantity]?
-
-</code></pre>
+running average of [quantity]?</code></pre>
 </section>
 <section id="example-window-functions-in-sql" class="level5">
 <h5 class="anchored" data-anchor-id="example-window-functions-in-sql">Example: Window functions in SQL</h5>
@@ -344,9 +390,7 @@ I want you to act as a data scientist.&nbsp; I am running [PostgreSQL
 14/MySQL 8/SQLite 3.4/other versions.]. I have the tables 
 [table_name] which are [table description]. The sales table consists
 of the columns [column names]. Can you please write a query that
-finds [required window function]?
-
-</code></pre>
+finds [required window function]?</code></pre>
 </section>
 <section id="example-window-functions-in-sql-1" class="level5">
 <h5 class="anchored" data-anchor-id="example-window-functions-in-sql-1">Example: Window functions in SQL</h5>
@@ -355,9 +399,7 @@ I want you to act as a data scientist.&nbsp; I am running [PostgreSQL
 14/MySQL 8/SQLite 3.4/other versions.]. I have the tables 
 [table_name] which are [table description]. The sales table consists
 of the columns [column names]. Can you please write a query that
-finds [required window function]?
-
-</code></pre>
+finds [required window function]?</code></pre>
 </section>
 </section>
 </section>
@@ -370,8 +412,7 @@ finds [required window function]?
 <pre><code>
 I want you to act as a data generator in Python. Can you generate a
 Markdown file that contains [data requirement]. Save the file to
-[filename]
-</code></pre>
+[filename]</code></pre>
 </section>
 <section id="example-generate-csv" class="level5">
 <h5 class="anchored" data-anchor-id="example-generate-csv">Example: Generate CSV</h5>
@@ -420,16 +461,14 @@ if any]</code></pre>
 I want you to act as a data scientist programming in Python Pandas.
 Given a table [table name] that consists of the columns [column
 names]&nbsp; can you aggregate the [value]&nbsp; by [column] and convert it
-from long to wide format?
-</code></pre>
+from long to wide format?</code></pre>
 </section>
 <section id="example-generate-markdown-1" class="level5">
 <h5 class="anchored" data-anchor-id="example-generate-markdown-1">Example: Generate Markdown</h5>
 <pre><code>
 I want you to act as a data generator in R. Can you generate a
 Markdown file that contains [data requirement]. Save the file to
-[filename]
-</code></pre>
+[filename]</code></pre>
 </section>
 </section>
 </section>
@@ -442,22 +481,19 @@ Markdown file that contains [data requirement]. Save the file to
 <pre><code>
 I want you to act as a data generator in R. Can you generate a
 Markdown file that contains [data requirement]. Save the file to
-[filename]
-</code></pre>
+[filename]</code></pre>
 </section>
 <section id="example-generate-csv-1" class="level5">
 <h5 class="anchored" data-anchor-id="example-generate-csv-1">Example: Generate CSV</h5>
 <pre><code>
 I want you to act as a data generator in R. Can you generate a CSV
-file that contains [data requirement]. Save the file to [filename]
-</code></pre>
+file that contains [data requirement]. Save the file to [filename]</code></pre>
 </section>
 <section id="example-generate-json-1" class="level5">
 <h5 class="anchored" data-anchor-id="example-generate-json-1">Example: Generate JSON</h5>
 <pre><code>
 I want you to act as a data generator in R. Can you generate a JSON
-file that contains [data requirement]. Save the file to [filename]
-</code></pre>
+file that contains [data requirement]. Save the file to [filename]</code></pre>
 </section>
 </section>
 <section id="data-cleaning-workflow-1" class="level4">
@@ -465,8 +501,7 @@ file that contains [data requirement]. Save the file to [filename]
 <pre><code>
 I want you to act as a data scientist programming in R tidyr. You are
 given the [dataframe name] dataframe containing the columns [column
-name]. [Insert requirement]
-</code></pre>
+name]. [Insert requirement]</code></pre>
 </section>
 <section id="data-analysis-workflow-in-tidyr" class="level4">
 <h4 class="anchored" data-anchor-id="data-analysis-workflow-in-tidyr">Data analysis workflow in tidyr</h4>
@@ -475,8 +510,7 @@ name]. [Insert requirement]
 <pre><code>
 I want you to act as a data scientist programming in R tidyr. You 
 are given the [dataframe name] dataframe containing the columns
-[column name]. [Insert requirement]
-</code></pre>
+[column name]. [Insert requirement]</code></pre>
 </section>
 <section id="data-merging" class="level5">
 <h5 class="anchored" data-anchor-id="data-merging">Data Merging</h5>
@@ -484,24 +518,21 @@ are given the [dataframe name] dataframe containing the columns
 I want you to act as a data scientist programming in R tidyr. You are
 given the [dataframe 1 name] dataframe containing the columns
 [column name]. You also have a [dataframe 2 name] dataframe
-containing the columns [column name]. Find the [required output]&nbsp;
-</code></pre>
+containing the columns [column name]. Find the [required output]&nbsp;</code></pre>
 </section>
 <section id="example-data-reshaping-long-to-wide" class="level5">
 <h5 class="anchored" data-anchor-id="example-data-reshaping-long-to-wide">Example: Data Reshaping (Long to Wide)</h5>
 <pre><code>
 I want you to act as a data scientist programming in R tidyr.
 You are given the [dataframe name] dataframe containing the 
-columns [column name].&nbsp; Please convert the data to wide format.
-</code></pre>
+columns [column name].&nbsp; Please convert the data to wide format.</code></pre>
 </section>
 <section id="example-data-reshaping-wide-to-long" class="level5">
 <h5 class="anchored" data-anchor-id="example-data-reshaping-wide-to-long">Example: Data Reshaping (Wide to Long)</h5>
 <pre><code>
 I want you to act as a data scientist programming in R tidyr.
 You are given the [dataframe name] dataframe containing the 
-columns [column name].&nbsp; Please convert the data to long format.
-</code></pre>
+columns [column name].&nbsp; Please convert the data to long format.</code></pre>
 </section>
 </section>
 </section>
@@ -515,8 +546,7 @@ columns [column name].&nbsp; Please convert the data to long format.
 <pre><code>
 I want you to act as a data scientist coding in R. Given a dataframe
 [dataframe name] containing the columns [column names] Use ggplot2
-to plot a [chart type and requirement].
-</code></pre>
+to plot a [chart type and requirement].</code></pre>
 </section>
 <section id="gridplot-visualizations-in-ggplot2" class="level4">
 <h4 class="anchored" data-anchor-id="gridplot-visualizations-in-ggplot2">Gridplot visualizations in ggplot2</h4>
@@ -524,8 +554,7 @@ to plot a [chart type and requirement].
 I want you to act as a data scientist coding in R. Given a dataframe
 [dataframe name] containing the columns [column names]. Use ggplot2
 to plot a pair plot that shows the relationship of one variable
-against another.
-</code></pre>
+against another.</code></pre>
 </section>
 <section id="annotating-and-formatting-plots" class="level4">
 <h4 class="anchored" data-anchor-id="annotating-and-formatting-plots">Annotating and formatting plots</h4>
@@ -533,8 +562,7 @@ against another.
 I want you to act as a data scientist coding in R. Given a dataframe
 [dataframe name] containing the columns [column names], use ggplot2 
 to plot a [chart type] the relationship between [variables]. 
-[Insert annotation and formatting requirements]
-</code></pre>
+[Insert annotation and formatting requirements]</code></pre>
 </section>
 <section id="changing-plot-themes-in-ggplot2" class="level4">
 <h4 class="anchored" data-anchor-id="changing-plot-themes-in-ggplot2">Changing plot themes in ggplot2</h4>
@@ -542,8 +570,7 @@ to plot a [chart type] the relationship between [variables].
 I want you to act as a data scientist coding in R. Given a dataframe
 [dataframe name] containing the columns [column names], use ggplot2
 to to plot a [chart type] the relationship between [variables].
-Change the color theme to match that of [theme]
-</code></pre>
+Change the color theme to match that of [theme]</code></pre>
 </section>
 </section>
 <section id="python-data-visualization-workflows" class="level3">
@@ -553,8 +580,7 @@ Change the color theme to match that of [theme]
 <pre><code>
 I want you to act as a data scientist coding in Python.&nbsp; Given a
 dataframe [dataframe name] containing the columns [column names]
-Use matplotlib&nbsp; to plot a [chart type and requirement].
-</code></pre>
+Use matplotlib&nbsp; to plot a [chart type and requirement].</code></pre>
 </section>
 <section id="crating-pairplots-with-matplotlib" class="level4">
 <h4 class="anchored" data-anchor-id="crating-pairplots-with-matplotlib">Crating pairplots with matplotlib</h4>
@@ -562,8 +588,7 @@ Use matplotlib&nbsp; to plot a [chart type and requirement].
 I want you to act as a data scientist coding in Python. Given a
 dataframe [dataframe name] containing the columns [column names].
 Use matplotlib to plot a pair plot that shows the relationship of
-one variable against another.
-</code></pre>
+one variable against another.</code></pre>
 </section>
 <section id="annotating-and-formatting-plots-in-matplotlib" class="level4">
 <h4 class="anchored" data-anchor-id="annotating-and-formatting-plots-in-matplotlib">Annotating and formatting plots in matplotlib</h4>
@@ -571,8 +596,7 @@ one variable against another.
 I want you to act as a data scientist coding in Python. Given a
 dataframe [dataframe name] containing the columns [column names],
 use matplotlib to to plot a [chart type] the relationship between
-[variables]. [Insert annotation and formatting requirements]
-</code></pre>
+[variables]. [Insert annotation and formatting requirements]</code></pre>
 </section>
 <section id="changing-plot-themes-in-matplotlib" class="level4">
 <h4 class="anchored" data-anchor-id="changing-plot-themes-in-matplotlib">Changing plot themes in matplotlib</h4>
@@ -580,8 +604,7 @@ use matplotlib to to plot a [chart type] the relationship between
 I want you to act as a data scientist coding in Python. Given a
 dataframe [dataframe name] containing the columns [column names],
 use matplotlib to to plot a [chart type] the relationship between
-[variables]. Change the color theme to match that of [theme]
-</code></pre>
+[variables]. Change the color theme to match that of [theme]</code></pre>
 </section>
 </section>
 </section>
@@ -595,8 +618,7 @@ use matplotlib to to plot a [chart type] the relationship between
 I want you to act as a data scientist. Given a dataset of [dataset
 name] that contains the [columns], you are to predict [predicted
 variable]. Suggest data that will be helpful for this problem and
-perform feature engineering for this problem.
-</code></pre>
+perform feature engineering for this problem.</code></pre>
 </section>
 </section>
 <section id="python-machine-learning-workflow" class="level3">
@@ -606,8 +628,7 @@ perform feature engineering for this problem.
 <pre><code>
 I want you to act as a data scientist programming in Python. Given a
 dataset of [dataframe name] that contains the [column name], write
-code to predict [output variable].
-</code></pre>
+code to predict [output variable].</code></pre>
 </section>
 <section id="hyperparameter-tuning-workflow" class="level4">
 <h4 class="anchored" data-anchor-id="hyperparameter-tuning-workflow">Hyperparameter tuning workflow</h4>
@@ -619,7 +640,8 @@ I want you to act as a data scientist programming in Python. Given a
 <h4 class="anchored" data-anchor-id="model-explainability-workflow">Model explainability workflow</h4>
 <pre><code>
 I want you to act as a data scientist programming in Python. Given a
-[type of model] that predicts the [predictor variable], write code that explains an output using Shap values.</code></pre>
+[type of model] that predicts the [predictor variable], write code that 
+explains an output using Shap values.</code></pre>
 </section>
 </section>
 <section id="r-machine-learning-workflow" class="level3">
@@ -641,7 +663,8 @@ a [type of model] model, write code to tune the hyperparameter.</code></pre>
 <h4 class="anchored" data-anchor-id="model-explainability-workflow-1">Model explainability workflow</h4>
 <pre><code>
 I want you to act as a data scientist programming in R. Given a
-[type of model] that predicts the [predictor variable], write code that explains an output using Shap values.</code></pre>
+[type of model] that predicts the [predictor variable], write code that explains
+an output using Shap values.</code></pre>
 </section>
 </section>
 </section>
@@ -686,7 +709,10 @@ timestamp frequency to [desired frequency].</code></pre>
 </section>
 <section id="changing-time-horizons-1" class="level4">
 <h4 class="anchored" data-anchor-id="changing-time-horizons-1">Changing time horizons&nbsp;</h4>
-<pre><code>I want you to act as a data scientist coding in R. Given a time series data in a dataframe [dataframe name] with timestamp Index in [original frequency] frequency with one column [column name], convert the timestamp frequency to [desired frequency]</code></pre>
+<pre><code>I want you to act as a data scientist coding in R. Given a time series data 
+in a dataframe [dataframe name] with timestamp Index in [original frequency]
+frequency with one column [column name], convert the timestamp frequency to
+[desired frequency]</code></pre>
 </section>
 <section id="perform-stationarity-test-1" class="level4">
 <h4 class="anchored" data-anchor-id="perform-stationarity-test-1">Perform stationarity test</h4>
@@ -746,8 +772,7 @@ software developer, five-year-old, business executive, professor].</code></pre>
 </section>
 <section id="suggest-portfolio-projects-and-ideas" class="level3">
 <h3 class="anchored" data-anchor-id="suggest-portfolio-projects-and-ideas">Suggest portfolio projects and ideas</h3>
-<pre><code>
-I want you to act as a data science career coach. I am a [describe
+<pre><code>I want you to act as a data science career coach. I am a [describe
 your background] and I would like to [describe career objective].
 Suggest portfolio projects and ideas [describe objective of portfolio]</code></pre>
 </section>

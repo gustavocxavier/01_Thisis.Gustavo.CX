@@ -19,18 +19,18 @@ image: "image.jpg"
 
 #### Debugging Python code
 
-```         
-I want you to be a Python programmer, here is a piece of Python code 
-containing [problem] --- [insert code snippet] --- I am getting the
-following error [insert error]. What is the reason for the bug?
+```
+I want you to be a Python programmer, here is a piece of Python code containing 
+[problem] --- \[insert code snippet] --- I am getting the following error 
+[insert error]. What is the reason for the bug?
 ```
 
 #### Debugging R code
 
 ```         
-
 I want you to be an R programmer, here is a piece of R code containing
-[problem] --- [insert code snippet] --- I am getting the following error [insert error]. What is the reason for the bug?
+[problem] --- [insert code snippet] --- I am getting the following error 
+[insert error]. What is the reason for the bug?
 ```
 
 #### Debugging SQL code
@@ -63,7 +63,6 @@ function. Can you please explain what it does, and provide an example?
 #### SQL code explanation
 
 ```         
-
 I want you to act as a code explainer in SQL. I don't understand this
 snippet. Can you please explain what it does, and provide an example?
 
@@ -105,7 +104,7 @@ current code, if possible]. Can you suggest ways to make the query
 
 #### Python code simplification
 
-```
+```         
 I want you to act as a programmer in Python. Please simplify this code
 while ensuring that it is [efficient/easy to read/Pythonic]? [Insert
 Code]
@@ -205,7 +204,6 @@ version]. Can you rewrite this query using CTE? [Insert query]
 
 I want you to act as a data scientist. [Insert description of tables].
 Can you [count/sum/take average] of [value] which are [insert filters]
-
 ```
 
 ##### Example: 7 day running average in SQL
@@ -217,8 +215,6 @@ I want you to act as a data scientist.  I am running [PostgreSQL
 which are [table description]. The sales table consists of the columns
 [column names]. Can you please write a query that finds the 7-day
 running average of [quantity]?
-
-
 ```
 
 ##### Example: Window functions in SQL
@@ -230,8 +226,6 @@ I want you to act as a data scientist.  I am running [PostgreSQL
 [table_name] which are [table description]. The sales table consists
 of the columns [column names]. Can you please write a query that
 finds [required window function]?
-
-
 ```
 
 ##### Example: Window functions in SQL
@@ -243,8 +237,6 @@ I want you to act as a data scientist.  I am running [PostgreSQL
 [table_name] which are [table description]. The sales table consists
 of the columns [column names]. Can you please write a query that
 finds [required window function]?
-
-
 ```
 
 ### Python data analysis workflows
@@ -258,7 +250,6 @@ finds [required window function]?
 I want you to act as a data generator in Python. Can you generate a
 Markdown file that contains [data requirement]. Save the file to
 [filename]
-
 ```
 
 ##### Example: Generate CSV
@@ -319,7 +310,6 @@ I want you to act as a data scientist programming in Python Pandas.
 Given a table [table name] that consists of the columns [column
 names]  can you aggregate the [value]  by [column] and convert it
 from long to wide format?
-
 ```
 
 ##### Example: Generate Markdown
@@ -329,7 +319,6 @@ from long to wide format?
 I want you to act as a data generator in R. Can you generate a
 Markdown file that contains [data requirement]. Save the file to
 [filename]
-
 ```
 
 ### R data analysis workflows
@@ -343,7 +332,6 @@ Markdown file that contains [data requirement]. Save the file to
 I want you to act as a data generator in R. Can you generate a
 Markdown file that contains [data requirement]. Save the file to
 [filename]
-
 ```
 
 ##### Example: Generate CSV
@@ -352,7 +340,6 @@ Markdown file that contains [data requirement]. Save the file to
 
 I want you to act as a data generator in R. Can you generate a CSV
 file that contains [data requirement]. Save the file to [filename]
-
 ```
 
 ##### Example: Generate JSON
@@ -361,7 +348,6 @@ file that contains [data requirement]. Save the file to [filename]
 
 I want you to act as a data generator in R. Can you generate a JSON
 file that contains [data requirement]. Save the file to [filename]
-
 ```
 
 #### Data cleaning workflow
@@ -371,7 +357,6 @@ file that contains [data requirement]. Save the file to [filename]
 I want you to act as a data scientist programming in R tidyr. You are
 given the [dataframe name] dataframe containing the columns [column
 name]. [Insert requirement]
-
 ```
 
 #### Data analysis workflow in tidyr
@@ -383,7 +368,6 @@ name]. [Insert requirement]
 I want you to act as a data scientist programming in R tidyr. You 
 are given the [dataframe name] dataframe containing the columns
 [column name]. [Insert requirement]
-
 ```
 
 ##### Data Merging
@@ -394,7 +378,6 @@ I want you to act as a data scientist programming in R tidyr. You are
 given the [dataframe 1 name] dataframe containing the columns
 [column name]. You also have a [dataframe 2 name] dataframe
 containing the columns [column name]. Find the [required output] 
-
 ```
 
 ##### Example: Data Reshaping (Long to Wide)
@@ -404,7 +387,6 @@ containing the columns [column name]. Find the [required output] 
 I want you to act as a data scientist programming in R tidyr.
 You are given the [dataframe name] dataframe containing the 
 columns [column name].  Please convert the data to wide format.
-
 ```
 
 ##### Example: Data Reshaping (Wide to Long)
@@ -414,7 +396,6 @@ columns [column name].  Please convert the data to wide format.
 I want you to act as a data scientist programming in R tidyr.
 You are given the [dataframe name] dataframe containing the 
 columns [column name].  Please convert the data to long format.
-
 ```
 
 ## **Prompts for data visualization workflows**
@@ -428,7 +409,6 @@ columns [column name].  Please convert the data to long format.
 I want you to act as a data scientist coding in R. Given a dataframe
 [dataframe name] containing the columns [column names] Use ggplot2
 to plot a [chart type and requirement].
-
 ```
 
 #### Gridplot visualizations in ggplot2
@@ -439,7 +419,6 @@ I want you to act as a data scientist coding in R. Given a dataframe
 [dataframe name] containing the columns [column names]. Use ggplot2
 to plot a pair plot that shows the relationship of one variable
 against another.
-
 ```
 
 #### Annotating and formatting plots
@@ -450,7 +429,6 @@ I want you to act as a data scientist coding in R. Given a dataframe
 [dataframe name] containing the columns [column names], use ggplot2 
 to plot a [chart type] the relationship between [variables]. 
 [Insert annotation and formatting requirements]
-
 ```
 
 #### Changing plot themes in ggplot2
@@ -461,7 +439,6 @@ I want you to act as a data scientist coding in R. Given a dataframe
 [dataframe name] containing the columns [column names], use ggplot2
 to to plot a [chart type] the relationship between [variables].
 Change the color theme to match that of [theme]
-
 ```
 
 ### Python data visualization workflows
@@ -473,7 +450,6 @@ Change the color theme to match that of [theme]
 I want you to act as a data scientist coding in Python.  Given a
 dataframe [dataframe name] containing the columns [column names]
 Use matplotlib  to plot a [chart type and requirement].
-
 ```
 
 #### Crating pairplots with matplotlib
@@ -484,7 +460,6 @@ I want you to act as a data scientist coding in Python. Given a
 dataframe [dataframe name] containing the columns [column names].
 Use matplotlib to plot a pair plot that shows the relationship of
 one variable against another.
-
 ```
 
 #### Annotating and formatting plots in matplotlib
@@ -495,7 +470,6 @@ I want you to act as a data scientist coding in Python. Given a
 dataframe [dataframe name] containing the columns [column names],
 use matplotlib to to plot a [chart type] the relationship between
 [variables]. [Insert annotation and formatting requirements]
-
 ```
 
 #### Changing plot themes in matplotlib
@@ -506,7 +480,6 @@ I want you to act as a data scientist coding in Python. Given a
 dataframe [dataframe name] containing the columns [column names],
 use matplotlib to to plot a [chart type] the relationship between
 [variables]. Change the color theme to match that of [theme]
-
 ```
 
 ## **Prompts for machine learning workflows**
@@ -521,7 +494,6 @@ I want you to act as a data scientist. Given a dataset of [dataset
 name] that contains the [columns], you are to predict [predicted
 variable]. Suggest data that will be helpful for this problem and
 perform feature engineering for this problem.
-
 ```
 
 ### Python machine learning workflow
@@ -533,7 +505,6 @@ perform feature engineering for this problem.
 I want you to act as a data scientist programming in Python. Given a
 dataset of [dataframe name] that contains the [column name], write
 code to predict [output variable].
-
 ```
 
 #### Hyperparameter tuning workflow
@@ -549,7 +520,8 @@ I want you to act as a data scientist programming in Python. Given a
 ```         
 
 I want you to act as a data scientist programming in Python. Given a
-[type of model] that predicts the [predictor variable], write code that explains an output using Shap values.
+[type of model] that predicts the [predictor variable], write code that 
+explains an output using Shap values.
 ```
 
 ### R machine learning workflow
@@ -576,7 +548,8 @@ a [type of model] model, write code to tune the hyperparameter.
 ```         
 
 I want you to act as a data scientist programming in R. Given a
-[type of model] that predicts the [predictor variable], write code that explains an output using Shap values.
+[type of model] that predicts the [predictor variable], write code that explains
+an output using Shap values.
 ```
 
 ## **Prompts for time series analysis workflows**
@@ -628,7 +601,10 @@ timestamp frequency to [desired frequency].
 #### Changing time horizons 
 
 ```         
-I want you to act as a data scientist coding in R. Given a time series data in a dataframe [dataframe name] with timestamp Index in [original frequency] frequency with one column [column name], convert the timestamp frequency to [desired frequency]
+I want you to act as a data scientist coding in R. Given a time series data 
+in a dataframe [dataframe name] with timestamp Index in [original frequency]
+frequency with one column [column name], convert the timestamp frequency to
+[desired frequency]
 ```
 
 #### Perform stationarity test
@@ -701,7 +677,6 @@ software developer, five-year-old, business executive, professor].
 ### Suggest portfolio projects and ideas
 
 ```         
-
 I want you to act as a data science career coach. I am a [describe
 your background] and I would like to [describe career objective].
 Suggest portfolio projects and ideas [describe objective of portfolio]
