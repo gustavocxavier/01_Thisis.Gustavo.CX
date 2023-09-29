@@ -63,7 +63,7 @@ about:
 
 ```
 
-*"Simple solutions with significant results."*
+*"Simple solutions with significant results. B"*
 
 
 ```{=html}
@@ -74,4 +74,8 @@ about:
 
 I’m passionate about the purpose of helping others by sharing knowledge. I like the idea of challenging myself to find data-driven solutions, either it's a practical problem in a real business or an academic problem.
 -->
+<<<<<<< HEAD
 ```
+=======
+```
+>>>>>>> 0183ebb4e550afb2102abdfbcef0f3b650a27415
