@@ -1,0 +1,25 @@
+[
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/blog/ai-prompts/index.html",
+      "/blog/ai-prompts-for-career-and-business/index.html",
+      "/blog/ai-prompts-for-da/index.html",
+      "/blog/ai-prompts-for-data-vis/index.html",
+      "/blog/ai-prompts-for-general-coding/index.html",
+      "/blog/ai-prompts-for-ml/index.html",
+      "/blog/ai-prompts-for-nlp/index.html",
+      "/blog/ai-prompts-for-ts-analysis/index.html",
+      "/blog/welcome/index.html"
+    ]
+  },
+  {
+    "listing": "/cases.html",
+    "items": [
+      "/cases/dashboard/index.html",
+      "/cases/data-analysis2/index.html",
+      "/cases/talk-appliedml/index.html",
+      "/cases/data-science2/index.html"
+    ]
+  }
+]

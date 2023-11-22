@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Gustavo C. X. | AI, Data Science &amp; Analytics - AI Prompts for general coding workflows</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Gustavo C. X. | AI, Data Science &amp; Analytics</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../portfolio.html">
+ <span class="menu-text">Data Portfolio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../schedule.html">
+ <span class="menu-text">Book a Session</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:gustavocx@outlook.com"><i class="bi bi-envelope" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div class="quarto-toggle-container">
+                  <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+              </div>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#code-debugging-workflows" id="toc-code-debugging-workflows" class="nav-link active" data-scroll-target="#code-debugging-workflows">Code debugging workflows</a>
+  <ul class="collapse">
+  <li><a href="#debugging-python-code" id="toc-debugging-python-code" class="nav-link" data-scroll-target="#debugging-python-code">Debugging Python code</a></li>
+  <li><a href="#debugging-r-code" id="toc-debugging-r-code" class="nav-link" data-scroll-target="#debugging-r-code">Debugging R code</a></li>
+  <li><a href="#debugging-sql-code" id="toc-debugging-sql-code" class="nav-link" data-scroll-target="#debugging-sql-code">Debugging SQL code</a></li>
+  </ul></li>
+  <li><a href="#code-explanation-workflows" id="toc-code-explanation-workflows" class="nav-link" data-scroll-target="#code-explanation-workflows">Code explanation workflows</a>
+  <ul class="collapse">
+  <li><a href="#python-code-explanation" id="toc-python-code-explanation" class="nav-link" data-scroll-target="#python-code-explanation">Python code explanation</a></li>
+  <li><a href="#r-code-explanation" id="toc-r-code-explanation" class="nav-link" data-scroll-target="#r-code-explanation">R code explanation</a></li>
+  <li><a href="#sql-code-explanation" id="toc-sql-code-explanation" class="nav-link" data-scroll-target="#sql-code-explanation">SQL code explanation</a></li>
+  </ul></li>
+  <li><a href="#code-optimization-workflows" id="toc-code-optimization-workflows" class="nav-link" data-scroll-target="#code-optimization-workflows">Code optimization workflows</a>
+  <ul class="collapse">
+  <li><a href="#python-code-optimization" id="toc-python-code-optimization" class="nav-link" data-scroll-target="#python-code-optimization">Python code optimization</a></li>
+  <li><a href="#r-code-optimization" id="toc-r-code-optimization" class="nav-link" data-scroll-target="#r-code-optimization">R code optimization</a></li>
+  <li><a href="#sql-code-optimization" id="toc-sql-code-optimization" class="nav-link" data-scroll-target="#sql-code-optimization">SQL code optimization</a></li>
+  </ul></li>
+  <li><a href="#code-simplification-workflows" id="toc-code-simplification-workflows" class="nav-link" data-scroll-target="#code-simplification-workflows">Code simplification workflows</a>
+  <ul class="collapse">
+  <li><a href="#python-code-simplification" id="toc-python-code-simplification" class="nav-link" data-scroll-target="#python-code-simplification">Python code simplification</a></li>
+  <li><a href="#r-code-simplification" id="toc-r-code-simplification" class="nav-link" data-scroll-target="#r-code-simplification">R code simplification</a></li>
+  <li><a href="#sql-code-simplification" id="toc-sql-code-simplification" class="nav-link" data-scroll-target="#sql-code-simplification">SQL code simplification</a></li>
+  </ul></li>
+  <li><a href="#code-translation-workflows" id="toc-code-translation-workflows" class="nav-link" data-scroll-target="#code-translation-workflows">Code translation workflows</a>
+  <ul class="collapse">
+  <li><a href="#from-r-to-python-code-translation" id="toc-from-r-to-python-code-translation" class="nav-link" data-scroll-target="#from-r-to-python-code-translation">From R to Python code translation</a></li>
+  <li><a href="#from-python-to-r-code-translation" id="toc-from-python-to-r-code-translation" class="nav-link" data-scroll-target="#from-python-to-r-code-translation">From Python to R code translation</a></li>
+  </ul></li>
+  <li><a href="#code-quality-and-testing-workflows" id="toc-code-quality-and-testing-workflows" class="nav-link" data-scroll-target="#code-quality-and-testing-workflows">Code quality and testing workflows</a>
+  <ul class="collapse">
+  <li><a href="#compare-function-speeds-in-python" id="toc-compare-function-speeds-in-python" class="nav-link" data-scroll-target="#compare-function-speeds-in-python">Compare function speeds in python</a></li>
+  <li><a href="#write-unit-tests-in-r" id="toc-write-unit-tests-in-r" class="nav-link" data-scroll-target="#write-unit-tests-in-r">Write unit tests in R</a></li>
+  <li><a href="#write-unit-tests-in-python" id="toc-write-unit-tests-in-python" class="nav-link" data-scroll-target="#write-unit-tests-in-python">Write unit tests in Python</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">AI Prompts for general coding workflows</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">ai prompts</div>
+    <div class="quarto-category">code</div>
+    <div class="quarto-category">data science</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="code-debugging-workflows" class="level2">
+<h2 class="anchored" data-anchor-id="code-debugging-workflows">Code debugging workflows</h2>
+<section id="debugging-python-code" class="level3">
+<h3 class="anchored" data-anchor-id="debugging-python-code">Debugging Python code</h3>
+<pre class="prompt-block"><code>I want you to be a Python programmer, here is a piece of Python code containing 
+[problem] --- \[insert code snippet] --- I am getting the following error 
+[insert error]. What is the reason for the bug?</code></pre>
+</section>
+<section id="debugging-r-code" class="level3">
+<h3 class="anchored" data-anchor-id="debugging-r-code">Debugging R code</h3>
+<pre class="prompt-block"><code>I want you to be an R programmer, here is a piece of R code containing
+[problem] --- [insert code snippet] --- I am getting the following error 
+[insert error]. What is the reason for the bug?</code></pre>
+</section>
+<section id="debugging-sql-code" class="level3">
+<h3 class="anchored" data-anchor-id="debugging-sql-code">Debugging SQL code</h3>
+<pre class="prompt-block"><code>I want you to be a SQL programmer, here is a piece of SQL code
+containing [problem] --- [insert code snippet] --- I am getting the
+following error [insert error]. What is the reason for the bug?</code></pre>
+</section>
+</section>
+<section id="code-explanation-workflows" class="level2">
+<h2 class="anchored" data-anchor-id="code-explanation-workflows">Code explanation workflows</h2>
+<section id="python-code-explanation" class="level3">
+<h3 class="anchored" data-anchor-id="python-code-explanation">Python code explanation</h3>
+<pre class="prompt-block"><code>I want you to act as a code explainer in Python. I don't understand
+this function. Can you please explain what it does, and provide an
+example? [Insert function]</code></pre>
+</section>
+<section id="r-code-explanation" class="level3">
+<h3 class="anchored" data-anchor-id="r-code-explanation">R code explanation</h3>
+<pre class="prompt-block"><code>I want you to act as a code explainer in R. I don't understand this
+function. Can you please explain what it does, and provide an example?
+[Insert function]</code></pre>
+</section>
+<section id="sql-code-explanation" class="level3">
+<h3 class="anchored" data-anchor-id="sql-code-explanation">SQL code explanation</h3>
+<pre class="prompt-block"><code>I want you to act as a code explainer in SQL. I don't understand this
+snippet. Can you please explain what it does, and provide an example?
+
+[Insert SQL query]</code></pre>
+</section>
+</section>
+<section id="code-optimization-workflows" class="level2">
+<h2 class="anchored" data-anchor-id="code-optimization-workflows">Code optimization workflows</h2>
+<section id="python-code-optimization" class="level3">
+<h3 class="anchored" data-anchor-id="python-code-optimization">Python code optimization</h3>
+<pre class="prompt-block"><code>I want you to act as a code optimizer in Python.
+
+[Describe problem with current code, if possible].
+
+Can you make the code [more Pythonic/more efficient/run faster/
+cleaner/more readable]? 
+
+[Insert Code]</code></pre>
+</section>
+<section id="r-code-optimization" class="level3">
+<h3 class="anchored" data-anchor-id="r-code-optimization">R code optimization</h3>
+<pre class="prompt-block"><code>I want you to act as a code optimizer in R. [Describe problem with
+current code, if possible]. Can you make the code 
+[cleaner/more efficient/run faster/more readable]? [Insert Code]</code></pre>
+</section>
+<section id="sql-code-optimization" class="level3">
+<h3 class="anchored" data-anchor-id="sql-code-optimization">SQL code optimization</h3>
+<pre class="prompt-block"><code>I want you to act as a query optimizer in SQL. [Describe problem with
+current code, if possible]. Can you suggest ways to make the query
+[run faster/more readable/simpler]? [Insert Code]</code></pre>
+</section>
+</section>
+<section id="code-simplification-workflows" class="level2">
+<h2 class="anchored" data-anchor-id="code-simplification-workflows">Code simplification workflows</h2>
+<section id="python-code-simplification" class="level3">
+<h3 class="anchored" data-anchor-id="python-code-simplification">Python code simplification</h3>
+<pre class="prompt-block"><code>I want you to act as a programmer in Python. Please simplify this code
+while ensuring that it is [efficient/easy to read/Pythonic]? [Insert
+Code]</code></pre>
+</section>
+<section id="r-code-simplification" class="level3">
+<h3 class="anchored" data-anchor-id="r-code-simplification">R code simplification</h3>
+<pre class="prompt-block"><code>
+I want you to act as a programmer in R. Please simplify this code
+while ensuring that it is [efficient/easy to read]? [Insert Code]</code></pre>
+</section>
+<section id="sql-code-simplification" class="level3">
+<h3 class="anchored" data-anchor-id="sql-code-simplification">SQL code simplification</h3>
+<pre class="prompt-block"><code>
+I want you to act as a SQL programmer. I am running [PostgreSQL
+14/MySQL 8/SQLite 3.4/other versions.]. Can you please simplify this
+query [while ensuring that it is efficient/easy to read/insert any
+additional requirements]?</code></pre>
+</section>
+</section>
+<section id="code-translation-workflows" class="level2">
+<h2 class="anchored" data-anchor-id="code-translation-workflows">Code translation workflows</h2>
+<section id="from-r-to-python-code-translation" class="level3">
+<h3 class="anchored" data-anchor-id="from-r-to-python-code-translation">From R to Python code translation</h3>
+<pre class="prompt-block"><code>
+I want you to act as a programmer in R.&nbsp; Please translate this code
+to Python. [Insert code]</code></pre>
+</section>
+<section id="from-python-to-r-code-translation" class="level3">
+<h3 class="anchored" data-anchor-id="from-python-to-r-code-translation">From Python to R code translation</h3>
+<pre class="prompt-block"><code>
+I want you to act as a programmer in Python. Please translate this
+code to R. [Insert code]</code></pre>
+</section>
+</section>
+<section id="code-quality-and-testing-workflows" class="level2">
+<h2 class="anchored" data-anchor-id="code-quality-and-testing-workflows">Code quality and testing workflows</h2>
+<section id="compare-function-speeds-in-python" class="level3">
+<h3 class="anchored" data-anchor-id="compare-function-speeds-in-python">Compare function speeds in python</h3>
+<pre class="prompt-block"><code>
+I want you to act as a Python programmer.&nbsp; Can you write code that
+compares the speed of two functions [functionname] and [functionname]?
+
+[Insert functions]</code></pre>
+</section>
+<section id="write-unit-tests-in-r" class="level3">
+<h3 class="anchored" data-anchor-id="write-unit-tests-in-r">Write unit tests in R</h3>
+<pre class="prompt-block"><code>
+I want you to act as a R Programmer. Can you please write unit tests
+for the function [functionname]? [Insert requirements for unit tests,
+if any] [Insert code]</code></pre>
+</section>
+<section id="write-unit-tests-in-python" class="level3">
+<h3 class="anchored" data-anchor-id="write-unit-tests-in-python">Write unit tests in Python</h3>
+<pre class="prompt-block"><code>I want you to act as a Python Programmer. Can you please write unit
+tests for the function [functionname]? [Insert requirements for unit
+tests, if any] [Insert code]</code></pre>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'alternate';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
