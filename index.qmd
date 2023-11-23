@@ -63,7 +63,7 @@ about:
 
 ```
 
-*"Simple solutions with significant results. aaa"*
+*"Simple solutions with significant results. AAA"*
 
 
 ```{=html}
