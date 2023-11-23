@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.2.335">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Gustavo C. X. | AI, Data Science &amp; Analytics - AI Prompts for data analysis workflows</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1.6em;
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../favicon.ico" rel="icon">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark.min.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Gustavo C. X. | AI, Data Science &amp; Analytics</span>
+    </a>
+  </div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html">
+ <span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../portfolio.html">
+ <span class="menu-text">Data Portfolio</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../blog.html">
+ <span class="menu-text">Blog</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../about.html">
+ <span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../schedule.html">
+ <span class="menu-text">Book a Session</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="mailto:gustavocx@outlook.com"><i class="bi bi-envelope" role="img">
+</i> 
+ <span class="menu-text"></span></a>
+  </li>  
+</ul>
+              <div class="quarto-toggle-container">
+                  <a href="" class="quarto-color-scheme-toggle nav-link" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
+              </div>
+              <div id="quarto-search" class="" title="Search"></div>
+          </div> <!-- /navcollapse -->
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#sql-data-analysis-workflows" id="toc-sql-data-analysis-workflows" class="nav-link active" data-scroll-target="#sql-data-analysis-workflows">SQL data analysis workflows</a>
+  <ul class="collapse">
+  <li><a href="#data-generation-creating-tables" id="toc-data-generation-creating-tables" class="nav-link" data-scroll-target="#data-generation-creating-tables">Data generation &amp; creating tables</a></li>
+  <li><a href="#common-table-expressions" id="toc-common-table-expressions" class="nav-link" data-scroll-target="#common-table-expressions">Common table expressions</a></li>
+  <li><a href="#write-sql-queries-from-natural-language" id="toc-write-sql-queries-from-natural-language" class="nav-link" data-scroll-target="#write-sql-queries-from-natural-language">Write SQL queries from natural language</a></li>
+  </ul></li>
+  <li><a href="#python-data-analysis-workflows" id="toc-python-data-analysis-workflows" class="nav-link" data-scroll-target="#python-data-analysis-workflows">Python data analysis workflows</a>
+  <ul class="collapse">
+  <li><a href="#data-generation-workflow" id="toc-data-generation-workflow" class="nav-link" data-scroll-target="#data-generation-workflow">Data generation workflow</a></li>
+  <li><a href="#data-cleaning-workflow" id="toc-data-cleaning-workflow" class="nav-link" data-scroll-target="#data-cleaning-workflow">Data cleaning workflow</a></li>
+  <li><a href="#data-analysis-workflow-in-pandas" id="toc-data-analysis-workflow-in-pandas" class="nav-link" data-scroll-target="#data-analysis-workflow-in-pandas">Data analysis workflow in pandas</a></li>
+  </ul></li>
+  <li><a href="#r-data-analysis-workflows" id="toc-r-data-analysis-workflows" class="nav-link" data-scroll-target="#r-data-analysis-workflows">R data analysis workflows</a>
+  <ul class="collapse">
+  <li><a href="#data-generation-workflow-1" id="toc-data-generation-workflow-1" class="nav-link" data-scroll-target="#data-generation-workflow-1">Data generation workflow&nbsp;</a></li>
+  <li><a href="#data-cleaning-workflow-1" id="toc-data-cleaning-workflow-1" class="nav-link" data-scroll-target="#data-cleaning-workflow-1">Data cleaning workflow</a></li>
+  <li><a href="#data-analysis-workflow-in-tidyr" id="toc-data-analysis-workflow-in-tidyr" class="nav-link" data-scroll-target="#data-analysis-workflow-in-tidyr">Data analysis workflow in tidyr</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">AI Prompts for data analysis workflows</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">ai prompts</div>
+    <div class="quarto-category">code</div>
+    <div class="quarto-category">data science</div>
+  </div>
+  </div>
+
+
+
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="sql-data-analysis-workflows" class="level2">
+<h2 class="anchored" data-anchor-id="sql-data-analysis-workflows">SQL data analysis workflows</h2>
+<section id="data-generation-creating-tables" class="level3">
+<h3 class="anchored" data-anchor-id="data-generation-creating-tables">Data generation &amp; creating tables</h3>
+<pre class="prompt-block"><code>
+I want you to act as a data generator. Can you write SQL queries in
+[database version] that create a table [table name] with the columns
+[column name]. Include relevant constraints and index.</code></pre>
+</section>
+<section id="common-table-expressions" class="level3">
+<h3 class="anchored" data-anchor-id="common-table-expressions">Common table expressions</h3>
+<pre class="prompt-block"><code>
+I want you to act as a SQL code programmer. I am running [database
+version]. Can you rewrite this query using CTE? [Insert query]</code></pre>
+</section>
+<section id="write-sql-queries-from-natural-language" class="level3">
+<h3 class="anchored" data-anchor-id="write-sql-queries-from-natural-language">Write SQL queries from natural language</h3>
+<section id="example-data-aggregation-in-sql" class="level4">
+<h4 class="anchored" data-anchor-id="example-data-aggregation-in-sql">Example: Data aggregation in SQL</h4>
+<pre class="prompt-block"><code>
+I want you to act as a data scientist. [Insert description of tables].
+Can you [count/sum/take average] of [value] which are [insert filters]</code></pre>
+</section>
+<section id="example-7-day-running-average-in-sql" class="level4">
+<h4 class="anchored" data-anchor-id="example-7-day-running-average-in-sql">Example: 7 day running average in SQL</h4>
+<pre class="prompt-block"><code>
+I want you to act as a data scientist.&nbsp; I am running [PostgreSQL
+14/MySQL 8/SQLite 3.4/other versions.]. I have the tables [table_name]
+which are [table description]. The sales table consists of the columns
+[column names]. Can you please write a query that finds the 7-day
+running average of [quantity]?</code></pre>
+</section>
+<section id="example-window-functions-in-sql" class="level4">
+<h4 class="anchored" data-anchor-id="example-window-functions-in-sql">Example: Window functions in SQL</h4>
+<pre class="prompt-block"><code>
+I want you to act as a data scientist.&nbsp; I am running [PostgreSQL
+14/MySQL 8/SQLite 3.4/other versions.]. I have the tables 
+[table_name] which are [table description]. The sales table consists
+of the columns [column names]. Can you please write a query that
+finds [required window function]?</code></pre>
+</section>
+<section id="example-window-functions-in-sql-1" class="level4">
+<h4 class="anchored" data-anchor-id="example-window-functions-in-sql-1">Example: Window functions in SQL</h4>
+<pre class="prompt-block"><code>
+I want you to act as a data scientist.&nbsp; I am running [PostgreSQL
+14/MySQL 8/SQLite 3.4/other versions.]. I have the tables 
+[table_name] which are [table description]. The sales table consists
+of the columns [column names]. Can you please write a query that
+finds [required window function]?</code></pre>
+</section>
+</section>
+</section>
+<section id="python-data-analysis-workflows" class="level2">
+<h2 class="anchored" data-anchor-id="python-data-analysis-workflows">Python data analysis workflows</h2>
+<section id="data-generation-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="data-generation-workflow">Data generation workflow</h3>
+<section id="example-generate-markdown" class="level4">
+<h4 class="anchored" data-anchor-id="example-generate-markdown">Example: Generate Markdown</h4>
+<pre class="prompt-block"><code>
+I want you to act as a data generator in Python. Can you generate a
+Markdown file that contains [data requirement]. Save the file to
+[filename]</code></pre>
+</section>
+<section id="example-generate-csv" class="level4">
+<h4 class="anchored" data-anchor-id="example-generate-csv">Example: Generate CSV</h4>
+<pre class="prompt-block"><code>
+I want you to act as a data generator in Python. Can you generate a
+CSV file that contains [data requirement]. Save the file to
+[filename]</code></pre>
+</section>
+<section id="example-generate-json" class="level4">
+<h4 class="anchored" data-anchor-id="example-generate-json">Example: Generate JSON</h4>
+<pre class="prompt-block"><code>
+I want you to act as a data generator in Python. Can you generate a
+JSON file that contains [data requirement]. Save the file to
+[filename]</code></pre>
+</section>
+</section>
+<section id="data-cleaning-workflow" class="level3">
+<h3 class="anchored" data-anchor-id="data-cleaning-workflow">Data cleaning workflow</h3>
+<pre class="prompt-block"><code>
+I want you to act as a data scientist programming in Python Pandas.
+Given a CSV file that contains data of [dataframe name]&nbsp; with the
+columns [colum names]&nbsp; for [dataset context], write code to clean
+the data? [Insert requirements for data]</code></pre>
+</section>
+<section id="data-analysis-workflow-in-pandas" class="level3">
+<h3 class="anchored" data-anchor-id="data-analysis-workflow-in-pandas">Data analysis workflow in pandas</h3>
+<section id="example-data-aggregation" class="level4">
+<h4 class="anchored" data-anchor-id="example-data-aggregation">Example: Data Aggregation</h4>
+<pre class="prompt-block"><code>
+I want you to act as a data scientist programming in Python Pandas.
+Given a table [table name] that consists of the columns [column
+names]&nbsp; can you please write a query that finds [requirement]?</code></pre>
+</section>
+<section id="example-data-merging" class="level4">
+<h4 class="anchored" data-anchor-id="example-data-merging">Example: Data Merging</h4>
+<pre class="prompt-block"><code>
+I want you to act as a data scientist programming in Python Pandas.
+Given a table [table 1 name]&nbsp; that consists of the columns [column
+names]&nbsp; and another table [table 2 name]&nbsp; with the columns [column
+names], please merge the two tables. [Insert additional requirement,
+if any]</code></pre>
+</section>
+<section id="example-data-reshaping" class="level4">
+<h4 class="anchored" data-anchor-id="example-data-reshaping">Example: Data Reshaping</h4>
+<pre class="prompt-block"><code>
+I want you to act as a data scientist programming in Python Pandas.
+Given a table [table name] that consists of the columns [column
+names]&nbsp; can you aggregate the [value]&nbsp; by [column] and convert it
+from long to wide format?</code></pre>
+</section>
+<section id="example-generate-markdown-1" class="level4">
+<h4 class="anchored" data-anchor-id="example-generate-markdown-1">Example: Generate Markdown</h4>
+<pre class="prompt-block"><code>
+I want you to act as a data generator in R. Can you generate a
+Markdown file that contains [data requirement]. Save the file to
+[filename]</code></pre>
+</section>
+</section>
+</section>
+<section id="r-data-analysis-workflows" class="level2">
+<h2 class="anchored" data-anchor-id="r-data-analysis-workflows">R data analysis workflows</h2>
+<section id="data-generation-workflow-1" class="level3">
+<h3 class="anchored" data-anchor-id="data-generation-workflow-1">Data generation workflow&nbsp;</h3>
+<section id="example-generate-markdown-2" class="level4">
+<h4 class="anchored" data-anchor-id="example-generate-markdown-2">Example: Generate Markdown</h4>
+<pre class="prompt-block"><code>
+I want you to act as a data generator in R. Can you generate a
+Markdown file that contains [data requirement]. Save the file to
+[filename]</code></pre>
+</section>
+<section id="example-generate-csv-1" class="level4">
+<h4 class="anchored" data-anchor-id="example-generate-csv-1">Example: Generate CSV</h4>
+<pre class="prompt-block"><code>
+I want you to act as a data generator in R. Can you generate a CSV
+file that contains [data requirement]. Save the file to [filename]</code></pre>
+</section>
+<section id="example-generate-json-1" class="level4">
+<h4 class="anchored" data-anchor-id="example-generate-json-1">Example: Generate JSON</h4>
+<pre class="prompt-block"><code>
+I want you to act as a data generator in R. Can you generate a JSON
+file that contains [data requirement]. Save the file to [filename]</code></pre>
+</section>
+</section>
+<section id="data-cleaning-workflow-1" class="level3">
+<h3 class="anchored" data-anchor-id="data-cleaning-workflow-1">Data cleaning workflow</h3>
+<pre class="prompt-block"><code>
+I want you to act as a data scientist programming in R tidyr. You are
+given the [dataframe name] dataframe containing the columns [column
+name]. [Insert requirement]</code></pre>
+</section>
+<section id="data-analysis-workflow-in-tidyr" class="level3">
+<h3 class="anchored" data-anchor-id="data-analysis-workflow-in-tidyr">Data analysis workflow in tidyr</h3>
+<section id="data-aggregation" class="level4">
+<h4 class="anchored" data-anchor-id="data-aggregation">Data Aggregation</h4>
+<pre class="prompt-block"><code>
+I want you to act as a data scientist programming in R tidyr. You 
+are given the [dataframe name] dataframe containing the columns
+[column name]. [Insert requirement]</code></pre>
+</section>
+<section id="data-merging" class="level4">
+<h4 class="anchored" data-anchor-id="data-merging">Data Merging</h4>
+<pre class="prompt-block"><code>
+I want you to act as a data scientist programming in R tidyr. You are
+given the [dataframe 1 name] dataframe containing the columns
+[column name]. You also have a [dataframe 2 name] dataframe
+containing the columns [column name]. Find the [required output]&nbsp;</code></pre>
+</section>
+<section id="example-data-reshaping-long-to-wide" class="level4">
+<h4 class="anchored" data-anchor-id="example-data-reshaping-long-to-wide">Example: Data Reshaping (Long to Wide)</h4>
+<pre class="prompt-block"><code>
+I want you to act as a data scientist programming in R tidyr.
+You are given the [dataframe name] dataframe containing the 
+columns [column name].&nbsp; Please convert the data to wide format.</code></pre>
+</section>
+<section id="example-data-reshaping-wide-to-long" class="level4">
+<h4 class="anchored" data-anchor-id="example-data-reshaping-wide-to-long">Example: Data Reshaping (Wide to Long)</h4>
+<pre class="prompt-block"><code>
+I want you to act as a data scientist programming in R tidyr.
+You are given the [dataframe name] dataframe containing the 
+columns [column name].&nbsp; Please convert the data to long format.</code></pre>
+
+
+</section>
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const disableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'prefetch';
+    }
+  }
+  const enableStylesheet = (stylesheets) => {
+    for (let i=0; i < stylesheets.length; i++) {
+      const stylesheet = stylesheets[i];
+      stylesheet.rel = 'stylesheet';
+    }
+  }
+  const manageTransitions = (selector, allowTransitions) => {
+    const els = window.document.querySelectorAll(selector);
+    for (let i=0; i < els.length; i++) {
+      const el = els[i];
+      if (allowTransitions) {
+        el.classList.remove('notransition');
+      } else {
+        el.classList.add('notransition');
+      }
+    }
+  }
+  const toggleColorMode = (alternate) => {
+    // Switch the stylesheets
+    const alternateStylesheets = window.document.querySelectorAll('link.quarto-color-scheme.quarto-color-alternate');
+    manageTransitions('#quarto-margin-sidebar .nav-link', false);
+    if (alternate) {
+      enableStylesheet(alternateStylesheets);
+      for (const sheetNode of alternateStylesheets) {
+        if (sheetNode.id === "quarto-bootstrap") {
+          toggleBodyColorMode(sheetNode);
+        }
+      }
+    } else {
+      disableStylesheet(alternateStylesheets);
+      toggleBodyColorPrimary();
+    }
+    manageTransitions('#quarto-margin-sidebar .nav-link', true);
+    // Switch the toggles
+    const toggles = window.document.querySelectorAll('.quarto-color-scheme-toggle');
+    for (let i=0; i < toggles.length; i++) {
+      const toggle = toggles[i];
+      if (toggle) {
+        if (alternate) {
+          toggle.classList.add("alternate");     
+        } else {
+          toggle.classList.remove("alternate");
+        }
+      }
+    }
+    // Hack to workaround the fact that safari doesn't
+    // properly recolor the scrollbar when toggling (#1455)
+    if (navigator.userAgent.indexOf('Safari') > 0 && navigator.userAgent.indexOf('Chrome') == -1) {
+      manageTransitions("body", false);
+      window.scrollTo(0, 1);
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        manageTransitions("body", true);
+      }, 40);  
+    }
+  }
+  const isFileUrl = () => { 
+    return window.location.protocol === 'file:';
+  }
+  const hasAlternateSentinel = () => {  
+    let styleSentinel = getColorSchemeSentinel();
+    if (styleSentinel !== null) {
+      return styleSentinel === "alternate";
+    } else {
+      return false;
+    }
+  }
+  const setStyleSentinel = (alternate) => {
+    const value = alternate ? "alternate" : "default";
+    if (!isFileUrl()) {
+      window.localStorage.setItem("quarto-color-scheme", value);
+    } else {
+      localAlternateSentinel = value;
+    }
+  }
+  const getColorSchemeSentinel = () => {
+    if (!isFileUrl()) {
+      const storageValue = window.localStorage.getItem("quarto-color-scheme");
+      return storageValue != null ? storageValue : localAlternateSentinel;
+    } else {
+      return localAlternateSentinel;
+    }
+  }
+  let localAlternateSentinel = 'alternate';
+  // Dark / light mode switch
+  window.quartoToggleColorScheme = () => {
+    // Read the current dark / light value 
+    let toAlternate = !hasAlternateSentinel();
+    toggleColorMode(toAlternate);
+    setStyleSentinel(toAlternate);
+  };
+  // Ensure there is a toggle, if there isn't float one in the top right
+  if (window.document.querySelector('.quarto-color-scheme-toggle') === null) {
+    const a = window.document.createElement('a');
+    a.classList.add('top-right');
+    a.classList.add('quarto-color-scheme-toggle');
+    a.href = "";
+    a.onclick = function() { try { window.quartoToggleColorScheme(); } catch {} return false; };
+    const i = window.document.createElement("i");
+    i.classList.add('bi');
+    a.appendChild(i);
+    window.document.body.appendChild(a);
+  }
+  // Switch to dark mode if need be
+  if (hasAlternateSentinel()) {
+    toggleColorMode(true);
+  } else {
+    toggleColorMode(false);
+  }
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+
+
+
+</body></html>
