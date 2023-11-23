@@ -1,10 +1,8 @@
 {
-  "hash": "6c37659c458ed02e48abe7eaa810c87c",
+  "hash": "07ab42a66058397e85ef86fa67e5d9e0",
   "result": {
-    "markdown": "---\ntitle: \"AI, Data Science & Analytics\"\nimage: images/gustavocx.png\nabout:\n  template: jolla\n  image-width: 15em\n  image-shape: round\n  links:\n    - href: https://thisis.gustavo.cx/portfolio\n      icon: bi-arrow-right-square-fill\n      text: LEARN MORE\n    # - icon: twitter\n    #   text: Twitter\n    #   href: https://twitter.com/ThisisGustavoCX\n    # - icon: linkedin\n    #   text: LinkedIn\n    #   href: www.linkedin.com/in/gustavocxavier\n    # - icon: github\n    #   text: Github\n    #   href: https://github.com/gustavocxavier/\n    # - icon: envelope\n    #   text: Contact me\n    #   href: mailto:gustavocx@outlook.com\n---\n\n\n\n\n*\"Simple solutions with significant results.\"*\n\n\n\n```{=html}\n<!-- \n\n<iframe width=\"780\" height=\"500\" src=\"https://calendly.com/gustavocx/30m\" title=\"Book a session\"></iframe>\n\n\nI’m passionate about the purpose of helping others by sharing knowledge. I like the idea of challenging myself to find data-driven solutions, either it's a practical problem in a real business or an academic problem.\n-->\n```",
-    "supporting": [
-      "index_files"
-    ],
+    "markdown": "---\ntitle: \"AI, Data Science & Analytics\"\nimage: images/gustavocx.png\nabout:\n  template: jolla\n  image-width: 15em\n  image-shape: round\n  links:\n    - href: https://thisis.gustavo.cx/portfolio\n      icon: bi-arrow-right-square-fill\n      text: LEARN MORE\n    # - icon: twitter\n    #   text: Twitter\n    #   href: https://twitter.com/ThisisGustavoCX\n    # - icon: linkedin\n    #   text: LinkedIn\n    #   href: www.linkedin.com/in/gustavocxavier\n    # - icon: github\n    #   text: Github\n    #   href: https://github.com/gustavocxavier/\n    # - icon: envelope\n    #   text: Contact me\n    #   href: mailto:gustavocx@outlook.com\n---\n\n\n\n\n*\"Simple solutions with significant results. 5\"*\n\n\n\n```{=html}\n<!-- \n\n<iframe width=\"780\" height=\"500\" src=\"https://calendly.com/gustavocx/30m\" title=\"Book a session\"></iframe>\n\n\nI’m passionate about the purpose of helping others by sharing knowledge. I like the idea of challenging myself to find data-driven solutions, either it's a practical problem in a real business or an academic problem.\n-->\n```\n",
+    "supporting": [],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

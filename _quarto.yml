@@ -38,8 +38,11 @@ format:
       # dark: [cosmo, styles_dark.scss]
       light: flatly
 
+# execute:
+#   freeze: auto
+
 execute:
-  freeze: auto
+  freeze: true  # never re-execute computational content during project render
 
 editor: source
 
