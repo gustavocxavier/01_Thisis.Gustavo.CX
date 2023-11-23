@@ -39,7 +39,8 @@ format:
       light: flatly
 
 execute:
-  freeze: auto
+  freeze: false
+#  freeze: auto
 
 # execute:
 #   freeze: true  # never re-execute computational content during project render
