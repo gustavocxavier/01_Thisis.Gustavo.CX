@@ -63,7 +63,7 @@ about:
 
 ```
 
-*"Simple solutions with significant results. CCC"*
+*"Simple solutions with significant results."*
 
 
 ```{=html}
