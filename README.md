@@ -1,4 +1,5 @@
 # My Personal Website
 
-http://Thisis.Gustavo.CX
+http://www.gustavo.cx
 
+http://gustavo.cx
