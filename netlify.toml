@@ -23,6 +23,9 @@
 #  to = "/en"
 #  status = 200
 
+# 302: temporary redirect code. Use this status code instead of 307, which is currently unsupported.
+# Tells the client that the current address change is temporary.
+# The URL in the browser address bar will display the new address.
 [[redirects]]
   from = "/si"
   to = "https://gustavocx.notion.site/SI-2023-2-7465df6afbff44d89702d9e9bacd32a2"
@@ -32,7 +35,7 @@
 [[redirects]]
   from = "/financeira1"
   to = "https://gustavocx.notion.site/AF1-2023-2-5dc16d422f7e45e290a658cf8ea1b85a"
-  status = 200
+  status = 302
   force = true    
 
 [[redirects]]
