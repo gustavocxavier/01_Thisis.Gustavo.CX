@@ -1,0 +1,41 @@
+# https://docs.netlify.com/routing/redirects/redirect-options/
+
+# Code 200: Redirects with this status code will change the server response without changing the URL in the browser address bar.
+# This is used for rewrites and proxying.
+# [[redirects]]
+#  from = "/"
+#  to = "/ondata/index"
+#  status = 200
+#  force = true
+  
+# [[redirects]]
+#  from = "/ondata/*"
+#  to = "https://gustavocxondata.netlify.app/:splat"
+
+#[[redirects]]
+#  from = "/"
+#  to = "/br"
+#  status = 200
+#  conditions = {Language = ["pt-br"], Country = ["BR"]}
+#
+# [[redirects]]
+#  from = "/"
+#  to = "/en"
+#  status = 200
+
+[[redirects]]
+  from = "/si"
+  to = "https://gustavocx.notion.site/SI-2023-2-7465df6afbff44d89702d9e9bacd32a2"
+  status = 200
+  force = true    
+
+[[redirects]]
+  from = "/financeira1"
+  to = "https://gustavocx.notion.site/AF1-2023-2-5dc16d422f7e45e290a658cf8ea1b85a"
+  status = 200
+  force = true    
+
+[[redirects]]
+  from = "/schedule"
+  to = "https://en.gustavo.cx/schedule"
+  force = true   
