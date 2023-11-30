@@ -26,7 +26,7 @@
 [[redirects]]
   from = "/si"
   to = "https://gustavocx.notion.site/SI-2023-2-7465df6afbff44d89702d9e9bacd32a2"
-  status = 200
+  status = 302
   force = true    
 
 [[redirects]]
