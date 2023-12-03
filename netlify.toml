@@ -34,7 +34,8 @@
 
 [[redirects]]
   from = "/financeira1"
-  to = "https://gustavocx.notion.site/AF1-2023-2-5dc16d422f7e45e290a658cf8ea1b85a"
+  # to = "https://gustavocx.notion.site/AF1-2023-2-5dc16d422f7e45e290a658cf8ea1b85a"
+  to = "https://gustavocx.notion.site/AF1-2023-2-b78126ef448845aab86a33607d86d07c"
   status = 302
   force = true    
 
