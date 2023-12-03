@@ -28,7 +28,7 @@
 # The URL in the browser address bar will display the new address.
 [[redirects]]
   from = "/si"
-  to = "https://gustavocx.notion.site/SI-2023-2-7465df6afbff44d89702d9e9bacd32a2"
+  to = "https://gustavocx.notion.site/SI-2023-2-5845745847ad4d70b4bdeaa6a6c2cb36"
   status = 302
   force = true    
 
